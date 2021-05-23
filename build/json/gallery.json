@@ -1,0 +1,44 @@
+{
+  "gallery": [
+    {
+      "id": "1",
+      "img": "build/images/gallery/lima.jpg",
+      "title": " Ciudad de Lima"
+    },
+    {
+      "id": "2",
+      "img": "build/images/gallery/adretail-oficina.jpg",
+      "title": "Oficina de Tendenze Perú"
+    },
+    {
+      "id": "3",
+      "img": "build/images/gallery/vision.jpg",
+      "title": "Visión y Datos estadisticos"
+    },
+    {
+      "id": "4",
+      "img": "build/images/gallery/cafe.jpg",
+      "title": "Café"
+    },
+    {
+      "id": "5",
+      "img": "build/images/gallery/time-to-lunch.jpg",
+      "title": "Time to Lunch"
+    },
+    {
+      "id": "6",
+      "img": "build/images/gallery/reunion.jpg",
+      "title": "Planificación"
+    },
+    {
+      "id": "7",
+      "img": "build/images/gallery/eslogan.jpg",
+      "title": "Nuestro Pensamiento"
+    },
+    {
+      "id": "8",
+      "img": "build/images/gallery/creativa.jpg",
+      "title": "Publicidad con creatividad"
+    }
+  ]
+}

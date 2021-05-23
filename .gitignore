@@ -1,0 +1,9 @@
+assets  
+node_modules/
+package.json
+tailwind.config.js
+webpack.mix.js
+yarn.lock
+dev/
+mix-manifest.json
+videos/video
