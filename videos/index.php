@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
-  <link rel="stylesheet" href="../build/css/font-awesome.min.css"/> 
-  <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">   
- <link rel="stylesheet" href="css/video.css"> 
+  <link rel="stylesheet" href="/build/css/font-awesome.min.css"/> 
+  <link rel="shortcut icon" href="/build/images/favicon.ico" type="image/x-icon">   
+ <link rel="stylesheet" href="/videos/css/video.css"> 
   <title>Videos - Grupo Tendenze Comunicaciones</title>
   <link rel="canonical" href="<?=theCurrentUrl()?>"> 
   <meta name="title" content="Videos - Grupo tendenze comunicaciones"> 
@@ -130,6 +130,6 @@
     </div>
   </div>
   <br> 
-  <script async src="js/video.js"></script> 
+  <script async src="/videos/js/video.js"></script> 
 </body>
 </html>
