@@ -51,6 +51,14 @@
 <link rel="apple-touch-icon" href="build/images/icono.png">
 <link rel="apple-touch-startup-image" href="build/images/icono.png">
 <link rel="manifest" href="manifest.json"> 
+
+
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="-1" />
+<meta http-equiv="expires" content="Sun May 23 2021 02:00:50 GMT-0500" />
+<meta http-equiv="pragma" content="no-cache" />
+
 <!-- Google Tag Manager -->
 <script>(function (w, d, s, l, i) {
   w[l] = w[l] || []; w[l].push({
