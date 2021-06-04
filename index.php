@@ -41,23 +41,23 @@
   <meta name="google-site-verification" content="WjoRRgtwp-V5es5QJFHbaoWJJPv029kpZmPKWyhSvgs" />
 
 
-<!-- pwa --> 
-<meta name="theme-color" content="#FAE800" class="next-head"> 
-<meta name="MobileOptimized" content="width">
-<meta name="HandheldFriendly" content="true">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="shortcut icon" type="image/png" href="./build/images/icono.png">
-<link rel="apple-touch-icon" href="build/images/icono.png">
-<link rel="apple-touch-startup-image" href="build/images/icono.png">
-<link rel="manifest" href="manifest.json"> 
+  <!-- pwa --> 
+  <meta name="theme-color" content="#FAE800" class="next-head"> 
+  <meta name="MobileOptimized" content="width">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="shortcut icon" type="image/png" href="./build/images/icono.png">
+  <link rel="apple-touch-icon" href="build/images/icono.png">
+  <link rel="apple-touch-startup-image" href="build/images/icono.png">
+  <link rel="manifest" href="manifest.json"> 
 
 
-<meta http-equiv="cache-control" content="max-age=0" />
-<meta http-equiv="cache-control" content="no-cache" />
-<meta http-equiv="expires" content="-1" />
-<meta http-equiv="expires" content="Sun May 23 2021 02:00:50 GMT-0500" />
-<meta http-equiv="pragma" content="no-cache" />
+  <meta http-equiv="cache-control" content="max-age=0" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="expires" content="-1" />
+  <meta http-equiv="expires" content="Sun May 23 2021 02:00:50 GMT-0500" />
+  <meta http-equiv="pragma" content="no-cache" />
 
 <!-- Google Tag Manager -->
 <script>(function (w, d, s, l, i) {
