@@ -34,9 +34,11 @@ AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css a
     mod_gzip_item_include file /build/fonts/.eot$ 
     mod_gzip_item_include file /build/fonts/.otf$ 
     mod_gzip_item_include file /build/fonts/.svg$ 
+    mod_gzip_item_include file /build/images/.gif$ 
     mod_gzip_item_include file /build/json/.json$ 
     mod_gzip_item_include file /build/css/.css$ 
     mod_gzip_item_include file /build/css/**/*.css$ 
+    mod_gzip_item_include file /build/images/**/*.gif$ 
     mod_gzip_item_include file /build/js/.js$  
     mod_gzip_item_include file /build/js/**/*.js$  
     mod_gzip_item_include file /build/svg/*.svg$
@@ -56,6 +58,8 @@ AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css a
     mod_gzip_item_include file /build/images/**/*.svg$ 
     mod_gzip_item_include file /build/images/**/*.webp$ 
     mod_gzip_item_include file /build/images/**/*.png$  
+    mod_gzip_item_include file /build/images/**/*.gif$  
+    mod_gzip_item_include file /build/images/**/*.mp4$  
     mod_gzip_item_include file /videos/img/**/*.jpg$ 
     mod_gzip_item_include file /videos/css/**/*.css$ 
     mod_gzip_item_include file /videos/svg/**/*.svg$ 
