@@ -204,7 +204,7 @@
       </aside>
     </div>
   </footer>
-<script src="/build/js/app.js"></script>
+<script src="/build/js/app.js?v=1"></script>
 
 </body>
 </html>
