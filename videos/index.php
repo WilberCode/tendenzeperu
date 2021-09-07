@@ -69,7 +69,7 @@
             <div class="videos-card "  > <div class="videos-card-image" data-video="nmviajes/video_nmviajes6" > <img src="img/Turismo-nm-viajes-Home-Office.jpg" alt="video"></div> <h1 class="font-medium " >Turismo nm viajes <br> Home Office</h1> </div>
             <div class="videos-card "  > <div class="videos-card-image" data-video="nmviajes/video_nmviajes7" > <img src="img/Turismo-nm-viajes-Cyber.jpg" alt="video"></div> <h1 class="font-medium " >Turismo nm viajes  <br> Cyber </h1> </div>
             <div class="videos-card "  > <div class="videos-card-image" data-video="nmviajes/video_nmviajes8" > <img src="img/Turismo-nm-viajes-Asesor-Virtual.jpg" alt="video"></div> <h1 class="font-medium " >Turismo nm viajes  <br> Asesor Virtual </h1> </div>
-            
+            <div class="videos-card "  > <div class="videos-card-image" data-video="nmviajes/video_nmviajes9" > <img src="img/Turismo-nm-viajes-Cyber2.jpg" alt="video"></div> <h1 class="font-medium " >Turismo nm viajes <br> Cyber</h1> </div>
             
             <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon1" > <img src="img/Pigeon-Fiestas-Patrias.jpg" alt="video"></div> <h1 class="font-medium " >Pigeon <br> Fiestas Patrias</h1></div>
             <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon2" > <img src="img/Pigeon-Lactancia.jpg" alt="video"></div> <h1 class="font-medium " >Pigeon <br> Lactancia</h1></div>             
@@ -77,7 +77,13 @@
             <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon4" > <img src="img/Retail-Pigeon-Bebe-Feliz.jpg" alt="video"></div> <h1 class="font-medium " >Retail Pigeon <br> Bebé Feliz</h1> </div>
             <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon5" > <img src="img/Retail-Pigeon-Eres-su-Mundo.jpg" alt="video"></div> <h1 class="font-medium " >Retail Pigeon <br> Eres su Mundo </h1></div>
             <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon6" > <img src="img/Retail-Pigeon-Semana-Lactancia.jpg" alt="video"></div> <h1 class="font-medium " >Pigeon<br> Semana Lactancia </h1></div>  
-            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon7" > <img src="img/Retail-Pigeon-Celebramos-a-todos-los-bebes.jpg" alt="video"></div> <h1 class="font-medium " >Pigeon<br> Celebramos a todos los bebés </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon7" > <img src="img/Retail-Pigeon-Celebramos-a-todos-los-bebes.jpg" alt="video"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon8" > <img src="img/Pigeon-borrar-las-apps-del-banco.jpg" alt="video"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon9" > <img src="img/Pigeon-benificios-de-la-lactancia-materna.jpg" alt="video"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon10" > <img src="img/Pigeon-donde-puedo-comprar-productos-pigeon.jpg" alt="video"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon11" > <img src="img/Pigeon-celebramos-contigo.jpg" alt="video"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon12" > <img src="img/Pigeon-chupones.jpg" alt="video"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon13" > <img src="img/Pigeon-consuelos.jpg" alt="video"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
 
             <div class="videos-card "  > <div class="videos-card-image" data-video="BioOil/video_biooil1" ><img src="img/Belleza-Bio-Oil-Gel.jpg" alt="video"></div> <h1 class="font-medium " >Belleza Bio Oil <br> Skincare & Gel </h1> </div>
             <div class="videos-card "  > <div class="videos-card-image" data-video="BioOil/video_biooil2" > <img src="img/Belleza-Bio-Oil-Vive-Intensamente.jpg" alt="video"></div> <h1 class="font-medium " >Belleza Bio Oil <br> Vive Intensamente  </h1> </div>
@@ -86,6 +92,10 @@
             <div class="videos-card "  > <div class="videos-card-image" data-video="BioOil/video_biooil5" > <img src="img/Belleza-Bio-Oil-Piel-Ideall.jpg" alt="video"></div> <h1 class="font-medium " >Belleza Bio Oil <br>  Piel Ideal </h1></div>  
             <div class="videos-card "  > <div class="videos-card-image" data-video="BioOil/video_biooil6" > <img src="img/Cyber-Week-Mama-y-Belleza.jpg" alt="video"></div> <h1 class="font-medium " >Cyber Week  <br> Mamá y Belleza </h1></div>  
             <div class="videos-card "  > <div class="videos-card-image" data-video="BioOil/video_biooil7" > <img src="img/bbtogo-tienda-online.jpg" alt="video"></div> <h1 class="font-medium " >BBTOGO <br> tienda online</h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="BioOil/video_biooil8" > <img src="img/Belleza-Bio-Oil-cuida-tu-piel-2.jpg" alt="video"></div> <h1 class="font-medium " >Bio Oil <br> Skincare</h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="BioOil/video_biooil9" > <img src="img/Belleza-Bio-Oil-recargar-energias.jpg" alt="video"></div> <h1 class="font-medium " >Bio Oil <br> Skincare</h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="BioOil/video_biooil10" > <img src="img/Belleza-Bio-Oil-vida-saludable.jpg" alt="video"></div> <h1 class="font-medium " >Bio Oil <br> Skincare</h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="BioOil/video_biooil11" > <img src="img/Belleza-Bio-Oil-125ml.jpg" alt="video"></div> <h1 class="font-medium " >Bio Oil <br> Skincare</h1></div>  
 
             <div class="videos-card "  > <div class="videos-card-image" data-video="FeriasDigitales/video_ferias1" ><img src="img/Ferias-Digitales-Fiestas-Patrias.jpg" alt="video"></div> <h1 class="font-medium " >Ferias Digitales <br> Fiestas Patrias</h1> </div>
             <div class="videos-card "  > <div class="videos-card-image" data-video="FeriasDigitales/video_ferias2" > <img src="img/Ferias-Digitales-Varios.jpg" alt="video"></div> <h1 class="font-medium " >Ferias Digitales <br> Varios  </h1> </div>
@@ -117,7 +127,11 @@
             <div class="videos-card "  > <div class="videos-card-image" data-video="Larcomar/Campanas/video_campana8" > <img src="img/Larcomar-Campana-Navidad-En-Larcomar.jpg" alt="video"></div> <h1 class="font-medium " >Larcomar <br>Campaña Navidad </h1></div>
             <div class="videos-card "  > <div class="videos-card-image" data-video="Larcomar/Campanas/video_campana9" > <img src="img/Larcomar-Campana-Sigue-disfrutando-el-verano-a-tu-manera-larcomarverano-larcomarlifestyle.jpg" alt="video"></div> <h1 class="font-medium " >Larcomar <br> Campaña Verano </h1></div>
             <div class="videos-card "  > <div class="videos-card-image" data-video="Larcomar/Campanas/video_campana10" > <img src="img/Larcomar-Campana-Trabajar-ir-de-compras-salir-con-tu-mejor-amiga-el-estilo-lo-pones-tu-y.jpg" alt="video"></div> <h1 class="font-medium " >Larcomar <br> Campaña Otoño</h1></div>
-           
+            
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Lansinoh/video_lansinoh1" > <img src="img/Lansinoh-madre-y-hijo.jpg" alt="video"></div> <h1 class="font-medium " >Lansinoh <br> Lactancia Materna</h1></div>
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Lansinoh/video_lansinoh2" > <img src="img/Lansinoh-crema.jpg" alt="video"></div> <h1 class="font-medium " >Lansinoh <br> Lactancia Materna</h1></div>
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Lansinoh/video_lansinoh3" > <img src="img/Lansinoh-lactar-bebe.jpg" alt="video"></div> <h1 class="font-medium " >Lansinoh <br> Lactancia Materna</h1></div>
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Lansinoh/video_lansinoh4" > <img src="img/Lansinoh-Toda mama-tiene-sus-favoritos.jpg" alt="video"></div> <h1 class="font-medium " >Lansinoh <br> Lactancia Materna</h1></div>
 
            </div>
     </div>
