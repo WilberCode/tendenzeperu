@@ -6,9 +6,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
-  <link rel="stylesheet" href="/build/css/font-awesome.min.css"/>
-  <link rel="stylesheet" href="/build/css/bastemp.min.css"/> 
-  <link rel="stylesheet" href="/build/css/app.css"/> 
+  <link rel="stylesheet" href="/build/css/font-awesome.min.css?v=1"/>
+  <link rel="stylesheet" href="/build/css/bastemp.min.css?v=1"/> 
+  <link rel="stylesheet" href="/build/css/app.css?v=1"/> 
   <link rel="shortcut icon" href="/build/images/favicon.ico" type="image/x-icon"> 
   <!-- <script src="https://www.youtube.com/iframe_api"></script> --> 
   <title>Grupo Tendenze Comunicaciones</title>

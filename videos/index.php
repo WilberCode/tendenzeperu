@@ -81,10 +81,7 @@
 
            
             <div class="videos-card "  > <div class="videos-card-image" data-video="nmviajes/video_nmviajes9" > <img src="img/Turismo-nm-viajes-Cyber2.jpg" alt="video"></div> <h1 class="font-medium " >Turismo nm viajes <br> Cyber</h1> </div>
-
-           
-             
-           
+ 
             <div class="videos-card "  > <div class="videos-card-image" data-video="nmviajes/video_nmviajes1" ><img src="img/Turismo-nm-viajes-Redescubre-Peru.jpg" alt="video"></div> <h1 class="font-medium " >Turismo nm viajes <br> Redescubre Perú</h1> </div>
             <div class="videos-card "  > <div class="videos-card-image" data-video="nmviajes/video_nmviajes2" > <img src="img/Turismo-nm-viajes-Sur-de-Lima.jpg" alt="video"></div> <h1 class="font-medium " >Turismo nm viajes <br> Sur de Lima</h1> </div>
             <div class="videos-card "  > <div class="videos-card-image" data-video="nmviajes/video_nmviajes3" > <img src="img/Turismo-nm-viajes-Arequipa.jpg" alt="video"></div> <h1 class="font-medium " >Turismo nm viajes <br> Arequipa</h1></div>
