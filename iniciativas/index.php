@@ -50,7 +50,7 @@
   <link rel="apple-touch-icon" href="build/images/icono.png">
   <link rel="apple-touch-startup-image" href="build/images/icono.png">
   <link rel="manifest" href="manifest.json"> 
-  <link rel="stylesheet" href="./style-dist.css">
+  <link rel="stylesheet" href="./style-dist.css?v=1">
 
   <meta http-equiv="cache-control" content="max-age=0" />
   <meta http-equiv="cache-control" content="no-cache" />
