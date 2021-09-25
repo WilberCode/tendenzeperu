@@ -16,7 +16,7 @@
   <meta name="title" content="Grupo tendenze comunicaciones"> 
   <meta name="description" content="Trabajamos campañas integrales o parciales. Omnicanal o solo digital. Programación Web, Estrategia publicitaria, Offline y online: radios, OOH, cines, buscadores, Marketing contenidos, SEO, SEM, Diseño gráfico, Videos, Animaciones.">
 
-<!-- Open Graph -->
+<!-- Open Graph --> 
   <meta property="og:title" content="Grupo tendenze comunicaciones">
   <meta property="og:locale" content="es_ES">
   <meta property="og:type" content="website">
