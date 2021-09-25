@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
   <link rel="stylesheet" href="/build/css/font-awesome.min.css?v=1"/>
   <link rel="stylesheet" href="/build/css/bastemp.min.css?v=3"/> 
-  <link rel="stylesheet" href="/build/css/app.css?v=7"/> 
+  <link rel="stylesheet" href="/build/css/app.css?v=8"/> 
   <link rel="shortcut icon" href="/build/images/favicon.ico" type="image/x-icon"> 
   <!-- <script src="https://www.youtube.com/iframe_api"></script> --> 
   <title>Iniciativas - Grupo Tendenze Comunicaciones</title>
@@ -21,11 +21,11 @@
   <meta property="og:locale" content="es_ES">
   <meta property="og:type" content="website">
   <meta property="og:url" content="<?=theDomainUrl()?>"> 
-  <meta property="og:image" content="https://tendenzeperu.com/images/tendenze-adretail-image.png">
+  <meta property="og:image" content="https://tendenzeperu.com/iniciativas/feriasdigitales.jpg">
   <meta property="og:site_name" content="Grupo tendenze comunicaciones">
   <meta property="og:description"    
     content="Trabajamos campañas integrales o parciales. Omnicanal o solo digital. Programación Web, Estrategia publicitaria, Offline y online: radios, OOH, cines, buscadores, Marketing contenidos, SEO, SEM, Diseño gráfico, Videos, Animaciones.">
-  <!-- <meta property="og:image:secure_url" content="https://tendenzeperu.com/images/tendenze-adretail-image.png"> -->
+  <!-- <meta property="og:image:secure_url" content="https://tendenzeperu.com/iniciativas/feriasdigitales.jpg"> -->
   <!-- <meta property="og:image:width" content="800"> 
   <meta property="og:image:height" content="562">  -->  
 
@@ -34,22 +34,13 @@
   <meta name="twitter:title" content="Ferias Digitales - Grupo Tendenze Comunicaciones">
   <meta name="twitter:description"content="Ferias Digitales: Una gran oportunidad para microempresarios peruanos">
   <meta name="twitter:site" content="@tendenzeperu">
-  <meta name="twitter:image" content="https://tendenzeperu.com/images/tendenze-adretail-image.png">
+  <meta name="twitter:image" content="https://tendenzeperu.com/iniciativas/feriasdigitales.jpg">
   <meta name="twitter:creator" content="@tendenzeperu">
   <meta name="keywords"  content="Estrategia publicitaria y creativa omnicanal, medios, planificación y negociacion de medios, Offline y online: radios, OOH, cines, buscadores, redes sociales, red de contenidos activaciones, ferias, digital, Plan de marketing digital, Campañas branding, performance, Inbound MKT, Diagnóstico y estrategia SEO, SEM, redes sociales, E-mail marketing, Campañas search display, Programática, Mobile, Analítica, Optimización de KPIs, Servicios digitales, Diseño y programación web, Newsletters, digital, Diseño gráfico, Vídeos, Animaciones, Photo shooting,Eventos y Activaciones">
   <meta name="google-site-verification" content="WjoRRgtwp-V5es5QJFHbaoWJJPv029kpZmPKWyhSvgs" />
 
 
-  <!-- pwa --> 
-  <meta name="theme-color" content="#FAE800" class="next-head"> 
-  <meta name="MobileOptimized" content="width">
-  <meta name="HandheldFriendly" content="true">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <link rel="shortcut icon" type="image/png" href="./build/images/icono.png">
-  <link rel="apple-touch-icon" href="build/images/icono.png">
-  <link rel="apple-touch-startup-image" href="build/images/icono.png">
-  <link rel="manifest" href="manifest.json"> 
+  <!-- pwa -->  
   <link rel="stylesheet" href="./style-dist.css?v=1">
 
   <meta http-equiv="cache-control" content="max-age=0" />
@@ -78,19 +69,7 @@
   gtag('config', 'UA-156909426-1');   
 </script>
 
- <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "url": "https://tendenzeperu.com",
-    "name": "Grupo Tendenze Comunicaciones",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+ (51) 998 193 771",
-      "contactType": "Directora Creativa"
-    }
-  } 
-  </script>
+ 
 
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
