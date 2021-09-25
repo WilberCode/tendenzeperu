@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
   <link rel="stylesheet" href="/build/css/font-awesome.min.css?v=1"/>
-  <link rel="stylesheet" href="/build/css/bastemp.min.css?v=1"/> 
-  <link rel="stylesheet" href="/build/css/app.css?v=1"/> 
+  <link rel="stylesheet" href="/build/css/bastemp.min.css?v=3"/> 
+  <link rel="stylesheet" href="/build/css/app.css?v=4"/> 
   <link rel="shortcut icon" href="/build/images/favicon.ico" type="image/x-icon"> 
   <!-- <script src="https://www.youtube.com/iframe_api"></script> --> 
   <title>Grupo Tendenze Comunicaciones</title>
@@ -100,30 +100,10 @@
 
 </head>
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZPR3GG" height="0" width="0"  style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <header id="header" class="section_middle_center w_100">
-    <div class="w_95_desktop w_80 section_middle_justify">
-      <div class="logo section_middle_left w_38_desktop w_100">
-        <a href="/" class="anchor" target="_self" >
-          <img src="build/images/grupo-tendenze-comunicaciones.svg" alt="grupo tendenze comunicaciones" title="grupo tendenze comunicaciones" class="logoGTC" />
-        </a>
-        <img src="build/images/logo-tendenze.svg" alt="Logo Tendenze & Adretail" class="marcas"  title="Logo Tendenze & Adretail"/>
-      </div>
-      <nav class="section_middle_right w_62_desktop" itemscope itemtype="http://schema.org/SiteNavigationElement" >
-        <button id="hb" class="hamburger section_middle_center"><i class="fas fa-bars"></i></button>
-        <ul class="w_100 section_middle_right menu">
-          <li><a class="anchor" href="#que-hacemos" itemprop="url"  itemprop="name" >Qué hacemos</a></li>
-          <li><a class="anchor" href="#como-hacemos" itemprop="url"  itemprop="name" >Cómo lo hacemos</a></li>
-          <li><a class="anchor" href="#experiencia" itemprop="url"  itemprop="name" >Experiencia</a></li>
-          <li><a class="anchor" href="#galeria" itemprop="url"  itemprop="name" >Galería</a></li>
-             <li><a class="anchor" href="<?=theCurrentUrl()?>/videos" itemprop="url"  itemprop="name" >Videos</a></li>
-          <li><a class="anchor" href="#contacto" itemprop="url"  itemprop="name" >Contacto</a></li> 
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <!-- [ GLOBAL HEADER ] -->
+  <?php include './includes/header.php';?>
+  <!-- [ /GLOBAL HEADER ] -->
+
   <div id="sliderPrincipal" class="section_middle_center sliderPrincipal" title="Oficina Tendenze Peru">
     <img src="build/images/mensaje-slider.svg" alt="slogan tendenze" title="Nuestra Idea " class="mensajeSlider" />
     <aside class="rssTendenze section_middle_center">
@@ -187,24 +167,11 @@
   <div class="w_80 w_90_desktop clientes section_middle_center "></div>
   <div id="galeria" class="w_80 w_100_desktop gallery section_middle_justify"></div>
   
-  <footer class="blackBackgroundColor section_middle_center w_100" id="contacto">
-    <div class="section_middle_justify w_80 w_85_desktop">
-      <div class="w_100 w_40_desktop section_middle_justify"  >
-        <div class="w_100 w_50_desktop whiteColor">
-          <p>Av. Pasaje Mártir Olaya 129 Int. 1905,</p>
-          <p>Miraflores</p>
-          <p>+ (51) 998 315 039</p>
-        </div>
-        <a href="mailto:contacto@tendenzeperu.com" class="buble">Contacto</a>
-      </div>
-      <aside class="w_100 w_25_desktop">
-        <a href=""><i class="fab fa-instagram whiteColor"></i></a>
-        <a href=""><i class="fab fa-linkedin-in whiteColor"></i></a>
-        <a href="https://api.whatsapp.com/send?phone=+51998315039&text=Hola%20Tendenze%20Perú.%20Necesito%20m%C3%A1s%20informaci%C3%B3n" target="_blank"><i class="fab fa-whatsapp whiteColor"></i></a>
-      </aside>
-    </div>
-  </footer>
-<script src="/build/js/app.js?v=3"></script>
+  
+  <!-- [ GLOBAL FOOTER ] -->
+  <?php include './includes/footer.php';?>
+  <!-- [ /GLOBAL FOOTER ] -->
+  <script src="<?=theDomainUrl();?>/build/js/app.js?v=6"></script>
 
 </body>
 </html>
