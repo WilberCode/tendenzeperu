@@ -21,11 +21,11 @@
   <meta property="og:locale" content="es_ES">
   <meta property="og:type" content="website">
   <meta property="og:url" content="<?=theDomainUrl()?>"> 
-  <meta property="og:image" content="https://tendenzeperu.com/images/tendenze-adretail-image.png">
+  <meta property="og:image" content="<?=theDomainUrl()?>/build/images/oficina-tendenze-adretail.jpg">
   <meta property="og:site_name" content="Grupo tendenze comunicaciones">
   <meta property="og:description"    
     content="Trabajamos campañas integrales o parciales. Omnicanal o solo digital. Programación Web, Estrategia publicitaria, Offline y online: radios, OOH, cines, buscadores, Marketing contenidos, SEO, SEM, Diseño gráfico, Videos, Animaciones.">
-  <!-- <meta property="og:image:secure_url" content="https://tendenzeperu.com/images/tendenze-adretail-image.png"> -->
+  <!-- <meta property="og:image:secure_url" content=""/build/images/oficina-tendenze-adretail.jpg"> -->
   <!-- <meta property="og:image:width" content="800"> 
   <meta property="og:image:height" content="562">  -->  
 
@@ -35,7 +35,7 @@
     content="Trabajamos campañas integrales o parciales. Omnicanal o solo digital. Programación Web, Estrategia publicitaria, Offline y online: radios, OOH, cines, buscadores, Marketing contenidos, SEO, SEM, Diseño gráfico, Videos, Animaciones.">
   <meta name="twitter:title" content="Grupo tendenze comunicaciones">
   <meta name="twitter:site" content="@tendenzeperu">
-  <meta name="twitter:image" content="https://tendenzeperu.com/images/tendenze-adretail-image.png">
+  <meta name="twitter:image" content="<?=theDomainUrl()?>/build/images/oficina-tendenze-adretail.jpg">
   <meta name="twitter:creator" content="@tendenzeperu">
   <meta name="keywords"  content="Estrategia publicitaria y creativa omnicanal, medios, planificación y negociacion de medios, Offline y online: radios, OOH, cines, buscadores, redes sociales, red de contenidos activaciones, ferias, digital, Plan de marketing digital, Campañas branding, performance, Inbound MKT, Diagnóstico y estrategia SEO, SEM, redes sociales, E-mail marketing, Campañas search display, Programática, Mobile, Analítica, Optimización de KPIs, Servicios digitales, Diseño y programación web, Newsletters, digital, Diseño gráfico, Vídeos, Animaciones, Photo shooting,Eventos y Activaciones">
   <meta name="google-site-verification" content="WjoRRgtwp-V5es5QJFHbaoWJJPv029kpZmPKWyhSvgs" />
@@ -60,23 +60,31 @@
   <meta http-equiv="pragma" content="no-cache" />
 
 <!-- Google Tag Manager -->
-<script>(function (w, d, s, l, i) {
-  w[l] = w[l] || []; w[l].push({
-    'gtm.start':
-      new Date().getTime(), event: 'gtm.js'
-  }); var f = d.getElementsByTagName(s)[0],
-    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-      'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-PZPR3GG');</script>
+<script>
+  window.onload = function(){  
+    (function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+      'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PZPR3GG');
+    
+  }
+  </script>
 <!-- End Google Tag Manager -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156909426-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-  gtag('config', 'UA-156909426-1');   
+    window.onload = function(){  
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-156909426-1');   
+}
 </script>
 
  <script type="application/ld+json">
