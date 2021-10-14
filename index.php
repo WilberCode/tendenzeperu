@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
   <link rel="stylesheet" href="/build/css/font-awesome.min.css?v=1"/>
   <link rel="stylesheet" href="/build/css/bastemp.min.css?v=4"/> 
-  <link rel="stylesheet" href="/build/css/app.css?v=8"/> 
+  <link rel="stylesheet" href="/build/css/app.css?v=9"/> 
   <link rel="shortcut icon" href="/build/images/favicon.ico" type="image/x-icon"> 
   <!-- <script src="https://www.youtube.com/iframe_api"></script> --> 
   <title>Grupo Tendenze Comunicaciones</title>
@@ -21,11 +21,11 @@
   <meta property="og:locale" content="es_ES">
   <meta property="og:type" content="website">
   <meta property="og:url" content="<?=theDomainUrl()?>"> 
-  <meta property="og:image" content="<?=theDomainUrl()?>/build/images/oficina-tendenze-adretail.jpg">
+  <meta property="og:image" content="<?=theDomainUrl()?>/build/images/oficina-tendenze-peru-adretail.jpg">
   <meta property="og:site_name" content="Grupo tendenze comunicaciones">
   <meta property="og:description"    
     content="Trabajamos campañas integrales o parciales. Omnicanal o solo digital. Programación Web, Estrategia publicitaria, Offline y online: radios, OOH, cines, buscadores, Marketing contenidos, SEO, SEM, Diseño gráfico, Videos, Animaciones.">
-  <!-- <meta property="og:image:secure_url" content=""/build/images/oficina-tendenze-adretail.jpg"> -->
+  <!-- <meta property="og:image:secure_url" content=""/build/images/oficina-tendenze-peru-adretail.jpg"> -->
   <!-- <meta property="og:image:width" content="800"> 
   <meta property="og:image:height" content="562">  -->  
 
@@ -35,7 +35,7 @@
     content="Trabajamos campañas integrales o parciales. Omnicanal o solo digital. Programación Web, Estrategia publicitaria, Offline y online: radios, OOH, cines, buscadores, Marketing contenidos, SEO, SEM, Diseño gráfico, Videos, Animaciones.">
   <meta name="twitter:title" content="Grupo tendenze comunicaciones">
   <meta name="twitter:site" content="@tendenzeperu">
-  <meta name="twitter:image" content="<?=theDomainUrl()?>/build/images/oficina-tendenze-adretail.jpg">
+  <meta name="twitter:image" content="<?=theDomainUrl()?>/build/images/oficina-tendenze-peru-adretail.jpg">
   <meta name="twitter:creator" content="@tendenzeperu">
   <meta name="keywords"  content="Estrategia publicitaria y creativa omnicanal, medios, planificación y negociacion de medios, Offline y online: radios, OOH, cines, buscadores, redes sociales, red de contenidos activaciones, ferias, digital, Plan de marketing digital, Campañas branding, performance, Inbound MKT, Diagnóstico y estrategia SEO, SEM, redes sociales, E-mail marketing, Campañas search display, Programática, Mobile, Analítica, Optimización de KPIs, Servicios digitales, Diseño y programación web, Newsletters, digital, Diseño gráfico, Vídeos, Animaciones, Photo shooting,Eventos y Activaciones">
   <meta name="google-site-verification" content="WjoRRgtwp-V5es5QJFHbaoWJJPv029kpZmPKWyhSvgs" />

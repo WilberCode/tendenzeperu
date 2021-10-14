@@ -19,7 +19,7 @@
   <meta property="og:locale" content="es_ES">
   <meta property="og:type" content="website">
   <meta property="og:url" content="<?=theDomainUrl()?>/videos"> 
-  <meta property="og:image" content="https://tendenzeperu.com/images/tendenze-adretail-image.png">
+  <meta property="og:image" content="<?=theDomainUrl()?>/videos/img/banner-videos.jpg">
   <meta property="og:site_name" content="Videos">
   <meta property="og:description" content="Creamos contenidos que conectan. Historias en videos cortos para redes sociales en base a edición de imágenes, videos, textos, locución o música de archivo. ">
  
@@ -29,7 +29,7 @@
   <meta name="twitter:description"content="Creamos contenidos que conectan. Historias en videos cortos para redes sociales en base a edición de imágenes, videos, textos, locución o música de archivo. ">
   <meta name="twitter:title" content="Videos - Grupo tendenze comunicaciones">
   <meta name="twitter:site" content="@tendenzeperu">
-  <meta name="twitter:image" content="https://tendenzeperu.com/images/tendenze-adretail-image.png">
+  <meta name="twitter:image" content="<?=theDomainUrl()?>/videos/img/banner-videos.jpg">
   <meta name="twitter:creator" content="@tendenzeperu">
   <meta name="google-site-verification" content="WjoRRgtwp-V5es5QJFHbaoWJJPv029kpZmPKWyhSvgs" />
 
