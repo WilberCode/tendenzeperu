@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
   <link rel="stylesheet" href="/build/css/font-awesome.min.css"/> 
   <link rel="shortcut icon" href="/build/images/favicon.ico" type="image/x-icon">   
- <link rel="stylesheet" href="/videos/css/video.css"> 
+ <link rel="stylesheet" href="/videos/css/video.css?v=1"> 
   <title>Videos - Grupo Tendenze Comunicaciones</title>
   <link rel="canonical" href="<?=theCurrentUrl()?>"> 
   <meta name="title" content="Videos - Grupo tendenze comunicaciones"> 
