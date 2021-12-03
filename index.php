@@ -110,14 +110,14 @@
 
   <div id="sliderPrincipal" class="section_middle_center sliderPrincipal" title="Oficina Tendenze Peru">
     <img src="build/images/mensaje-slider.svg" alt="slogan tendenze" title="Nuestra Idea " class="mensajeSlider" />
-    <aside class="rssTendenze section_middle_center">
+   <!--  <aside class="rssTendenze section_middle_center">
       <div class="wrappRss section_middle_center">
         <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
         <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
         <a href="https://api.whatsapp.com/send?phone=+51998315039&text=Hola%20Tendenze%20Perú.%20Necesito%20m%C3%A1s%20informaci%C3%B3n" target="_blank" ><i class="fab fa-whatsapp"></i></a>
         <a href="#"><i class="far fa-comment-dots"></i></a>
       </div>
-    </aside>
+    </aside> -->
   </div>
   <div class="section_middle_center w_100 yellowBackgroundColor">
     <div id="que-hacemos" class="w_75 section_middle_justify experiencia">
