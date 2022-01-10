@@ -96,6 +96,19 @@
     }
   } 
   </script>
+  
+  <style>
+      
+      @media (min-width: 600px){
+          
+           .wrappIdea .promo video { 
+                padding-left: 8px;
+           }
+      }
+    
+     
+       
+  </style>
 
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
@@ -140,8 +153,11 @@
         <span class="w_100">“</span> Construímos empatía, afinidad. No&nbsp;vendemos. <span class="w_100">”</span>
       </h2>
     </div>
-    <div class="w_100 w_60_desktop section_middle_center promo">
-      <img src="build/images/trabajos.gif" alt="Trabajos" title="Trabajos"/>   
+    <div class="w_100 w_60_desktop section_middle_center promo" style="position:relative;">
+       <!--<img src="build/images/trabajos.gif" alt="Trabajos" title="Trabajos"/> --> 
+        <video autoplay controls  >
+            <source src="https://tendenzeperu.com/videos/video/Tendenze/publicidad2.mp4" type="video/mp4">
+         </video> 
         <!-- <video  autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"  id="front-video"  > 
           <source  src="build/images/trabajos.webm" type="video/webm">
           <source  src="build/images/trabajos.mp4" type="video/mp4">
@@ -176,6 +192,6 @@
   <?php include './includes/footer.php';?>
   <!-- [ /GLOBAL FOOTER ] -->
   <script src="<?=theDomainUrl();?>/build/js/app.js?v=6"></script>
-
+ 
 </body>
 </html>
