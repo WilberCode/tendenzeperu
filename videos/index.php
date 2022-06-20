@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
   <link rel="stylesheet" href="/build/css/font-awesome.min.css"/> 
   <link rel="shortcut icon" href="/build/images/favicon.ico" type="image/x-icon">   
- <link rel="stylesheet" href="/videos/css/video.css?v=1"> 
+ <link rel="stylesheet" href="/videos/css/video.css?v=<?=theVersion();?>"> 
   <title>Videos - Grupo Tendenze Comunicaciones</title>
   <link rel="canonical" href="<?=theCurrentUrl()?>"> 
   <meta name="title" content="Videos - Grupo tendenze comunicaciones"> 
@@ -152,6 +152,6 @@
     </div>
   </div>
   <br> 
-  <script async src="/videos/js/video.js"></script> 
+  <script async src="/videos/js/video.js?vs=<?=theVersion();?>"></script> 
 </body>
 </html>
