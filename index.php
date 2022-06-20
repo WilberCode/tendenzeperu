@@ -191,7 +191,7 @@
   <!-- [ GLOBAL FOOTER ] -->
   <?php include './includes/footer.php';?>
   <!-- [ /GLOBAL FOOTER ] -->
-  <script src="<?=theDomainUrl();?>/build/js/app.js?v=6"></script>
+  <script src="<?=theDomainUrl();?>/build/js/app.js?v=<?=theVersion();?>"></script>
  
 </body>
 </html>
