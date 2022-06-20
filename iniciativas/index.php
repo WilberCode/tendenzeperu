@@ -6,9 +6,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
-  <link rel="stylesheet" href="/build/css/font-awesome.min.css?v=1"/>
-  <link rel="stylesheet" href="/build/css/bastemp.min.css?v=3"/> 
-  <link rel="stylesheet" href="/build/css/app.css?v=8"/> 
+  <link rel="stylesheet" href="/build/css/font-awesome.min.css?v=<?=theVersion();?>"/>
+  <link rel="stylesheet" href="/build/css/bastemp.min.css?v=<?=theVersion();?>"/> 
+  <link rel="stylesheet" href="/build/css/app.css?v=<?=theVersion();?>"/> 
   <link rel="shortcut icon" href="/build/images/favicon.ico" type="image/x-icon"> 
   <!-- <script src="https://www.youtube.com/iframe_api"></script> --> 
   <title>Iniciativas - Grupo Tendenze Comunicaciones</title>
@@ -41,7 +41,7 @@
 
 
   <!-- pwa -->  
-  <link rel="stylesheet" href="./style-dist.css?v=1">
+  <link rel="stylesheet" href="./style-dist.css?v=<?=theVersion();?>">
 
   <meta http-equiv="cache-control" content="max-age=0" />
   <meta http-equiv="cache-control" content="no-cache" />
@@ -116,6 +116,6 @@ Es importante resaltar que, además de tener un espacio virtual de ventas y exhi
   <?php include '../includes/footer.php';?>
   <!-- [ /GLOBAL FOOTER ] -->
 
-  <script src="../build/js/app.js?v=7"></script>
+  <script src="../build/js/app.js?v=<?=theVersion();?>"></script>
 </body>
 </html>
