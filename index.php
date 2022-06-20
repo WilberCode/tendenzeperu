@@ -1,6 +1,6 @@
 <?php include './includes/config.php';?>
 
-<!DOCTYPE html>
+<!DOCTYPE html>  
 <html lang="es">
 <head>
   <meta charset="UTF-8">
