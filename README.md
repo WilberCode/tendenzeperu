@@ -1,2 +1,2 @@
 # GRUPO TENDENZE COMUNICACIONES
-### Página web oficial
+### Página web oficial: https://tendenzeperu.com/
