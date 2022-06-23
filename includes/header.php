@@ -14,10 +14,12 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
   <header id="header" class="section_middle_center w_100">
     <div class="w_95_desktop w_80 section_middle_justify">
       <div class="logo section_middle_left w_38_desktop w_100">
-        <a href="/" class="anchor" target="_self" >
-          <img src="<?=theDomainUrl()?>/build/images/grupo-tendenze-comunicaciones.svg" alt="grupo tendenze comunicaciones" title="grupo tendenze comunicaciones" class="logoGTC" />
+        <a href="/" class="anchor" target="_self" rel="nofollow" >
+          <img src="<?=theDomainUrl()?>/build/images/grupo-tendenze-comunicaciones.svg" alt="Logo Grupo Tendenze Comunicaciones" title="Logo Grupo Tendenze Comunicaciones" class="logoGTC" />
         </a>
-        <img src="<?=theDomainUrl()?>/build/images/logo-tendenze.svg" alt="Logo Tendenze & Adretail" class="marcas"  title="Logo Tendenze & Adretail"/>
+        <a href="/" target="_self" > 
+          <img src="<?=theDomainUrl()?>/build/images/logo-tendenze-peru.svg" alt="Logo Grupo Tendenze Comunicaciones"  title="Logo Grupo Tendenze Comunicaciones" class="marcas" />
+        </a>
       </div>
       <nav class="section_middle_right w_62_desktop" itemscope itemtype="http://schema.org/SiteNavigationElement" >
         <button id="hb" class="hamburger section_middle_center"><i class="fas fa-bars"></i></button>

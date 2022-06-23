@@ -46,7 +46,7 @@
     <div  class="videos-container m-auto ">
       <div  class=" pl-4 sm:pl-20 lg:pl-[7.5rem] pr-4 sm:pr-14 md:pr-16 lg:pr-20 flex justify-between h-[60px] md:h-[100px]  items-center space-x-4 ">
         <a href="<?=theDomainUrl()?>">
-          <img src="../videos/svg/logotendenzeperu.svg" class="w-[150px] sm:w-[200px] md:w-[280px] lg:w-[360px] " alt="Tendenze Perú"> 
+          <img src="../videos/svg/logotendenzeperu.svg" class="w-[150px] sm:w-[200px] md:w-[280px] lg:w-[360px] " alt="Grupo tendenze comunicaciones"> 
         </a>
         <div class="inline-flex items-center" >
           <a href="<?=theDomainUrl()?>" class="font-medium tracking-wide  text-[10px] sm:text-[16px]   md:text-[19px]  " >www.tendenzeperu.com</a>
