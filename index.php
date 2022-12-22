@@ -14,7 +14,7 @@
   <title>Grupo Tendenze Comunicaciones</title>
   <link rel="canonical" href="<?=theDomainUrl()?>"> 
   <meta name="title" content="Grupo tendenze comunicaciones"> 
-  <meta name="description" content="Trabajamos campañas integrales o parciales. Omnicanal o solo digital. Programación Web, Estrategia publicitaria, Offline y online: radios, OOH, cines, buscadores, Marketing contenidos, SEO, SEM, Diseño gráfico, Videos, Animaciones.">
+  <meta name="description" content="Trabajamos campañas integrales o parciales. Omnicanal o solo digital. Hacemos Estrategia publicitaria, planificación de Medios, Marketing Digital y Diseño gráfico.">
 
 <!-- Open Graph --> 
   <meta property="og:title" content="Grupo tendenze comunicaciones">
@@ -24,7 +24,7 @@
   <meta property="og:image" content="<?=theDomainUrl()?>/build/images/oficina-tendenze-peru-adretail.jpg">
   <meta property="og:site_name" content="Grupo tendenze comunicaciones">
   <meta property="og:description"    
-    content="Trabajamos campañas integrales o parciales. Omnicanal o solo digital. Programación Web, Estrategia publicitaria, Offline y online: radios, OOH, cines, buscadores, Marketing contenidos, SEO, SEM, Diseño gráfico, Videos, Animaciones.">
+    content="Trabajamos campañas integrales o parciales. Omnicanal o solo digital. Hacemos Estrategia publicitaria, planificación de Medios, Marketing Digital y Diseño gráfico.">
   <!-- <meta property="og:image:secure_url" content=""/build/images/oficina-tendenze-peru-adretail.jpg"> -->
   <!-- <meta property="og:image:width" content="800"> 
   <meta property="og:image:height" content="562">  -->  
@@ -32,12 +32,12 @@
   <!-- twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:description"
-    content="Trabajamos campañas integrales o parciales. Omnicanal o solo digital. Programación Web, Estrategia publicitaria, Offline y online: radios, OOH, cines, buscadores, Marketing contenidos, SEO, SEM, Diseño gráfico, Videos, Animaciones.">
+    content="Trabajamos campañas integrales o parciales. Omnicanal o solo digital. Hacemos Estrategia publicitaria, planificación de Medios, Marketing Digital y Diseño gráfico.">
   <meta name="twitter:title" content="Grupo tendenze comunicaciones">
   <meta name="twitter:site" content="@tendenzeperu">
   <meta name="twitter:image" content="<?=theDomainUrl()?>/build/images/oficina-tendenze-peru-adretail.jpg">
   <meta name="twitter:creator" content="@tendenzeperu">
-  <meta name="keywords"  content="Estrategia publicitaria y creativa omnicanal, medios, planificación y negociacion de medios, Offline y online: radios, OOH, cines, buscadores, redes sociales, red de contenidos activaciones, ferias, digital, Plan de marketing digital, Campañas branding, performance, Inbound MKT, Diagnóstico y estrategia SEO, SEM, redes sociales, E-mail marketing, Campañas search display, Programática, Mobile, Analítica, Optimización de KPIs, Servicios digitales, Diseño y programación web, Newsletters, digital, Diseño gráfico, Vídeos, Animaciones, Photo shooting,Eventos y Activaciones">
+  <meta name="keywords"  content="tendenze peru, campañas, campaña publicitaria, estrategia publicitaria, medios, planificación de medios digitales, marketing digital, agencia de marketing digital, agencia digital, plan de marketing digital, marketing de contenidos, servicios digitales, seo, sem, diseño, newsletters, programacion, diseño gráfico, diseño publicitario, edicion de videos">
   <meta name="google-site-verification" content="WjoRRgtwp-V5es5QJFHbaoWJJPv029kpZmPKWyhSvgs" />
 
 
