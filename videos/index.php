@@ -89,12 +89,7 @@
   <div  class="videos-container px-4 xl:px-0 mt-6 sm:mt-[3.73rem] mb-20"> 
     <div class="videos">
       <div class="videos-grid grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-6 sm:gap-y-14 md:gap-y-18 lg:gap-y-20 gap-x-4 md:gap-x-13 ">
-            
-            <div class="videos-card "  > <div class="videos-card-image" data-video="Lansinoh/video_lansinoh1" > <img src="img/Lansinoh-madre-y-hijo.jpg" alt="video"></div> <h1 class="font-medium " >Lansinoh <br> Lactancia Materna</h1></div>
-            <div class="videos-card "  > <div class="videos-card-image" data-video="Lansinoh/video_lansinoh2" > <img src="img/Lansinoh-crema.jpg" alt="video"></div> <h1 class="font-medium " >Lansinoh <br> Lactancia Materna</h1></div>
-            <div class="videos-card "  > <div class="videos-card-image" data-video="Lansinoh/video_lansinoh3" > <img src="img/Lansinoh-lactar-bebe.jpg" alt="video"></div> <h1 class="font-medium " >Lansinoh <br> Lactancia Materna</h1></div>
-            <div class="videos-card "  > <div class="videos-card-image" data-video="Lansinoh/video_lansinoh4" > <img src="img/Lansinoh-Toda mama-tiene-sus-favoritos.jpg" alt="video"></div> <h1 class="font-medium " >Lansinoh <br> Lactancia Materna</h1></div>
-            
+             
             <div class="videos-card "  > <div class="videos-card-image" data-video="BioOil/video_biooil8" > <img src="img/Belleza-Bio-Oil-cuida-tu-piel-2.jpg" alt="video"></div> <h1 class="font-medium " >Bio Oil <br> Skincare</h1></div>  
             <div class="videos-card "  > <div class="videos-card-image" data-video="BioOil/video_biooil9" > <img src="img/Belleza-Bio-Oil-recargar-energias.jpg" alt="video"></div> <h1 class="font-medium " >Bio Oil <br> Skincare</h1></div>  
             <div class="videos-card "  > <div class="videos-card-image" data-video="BioOil/video_biooil10" > <img src="img/Belleza-Bio-Oil-vida-saludable.jpg" alt="video"></div> <h1 class="font-medium " >Bio Oil <br> Skincare</h1></div>  
@@ -150,6 +145,13 @@
             
             <div class="videos-card "  > <div class="videos-card-image" data-video="MeatFest/video_meatfest1" > <img src="img/Meat-Fest-Negocio-Carnes.jpg" alt="video"></div> <h1 class="font-medium " >Meat Fest <br> Negocio Carnes  </h1></div>
             <div class="videos-card "  > <div class="videos-card-image" data-video="MeatFest/video_meatfest2" > <img src="img/Meat-Fest-Negocio-Carnes-2.jpg" alt="video"></div> <h1 class="font-medium " >Meat Fest <br> Negocio Carnes  </h1></div>
+
+
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Lansinoh/video_lansinoh1" > <img src="img/Lansinoh-madre-y-hijo.jpg" alt="video"></div> <h1 class="font-medium " >Lansinoh <br> Lactancia Materna</h1></div>
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Lansinoh/video_lansinoh2" > <img src="img/Lansinoh-crema.jpg" alt="video"></div> <h1 class="font-medium " >Lansinoh <br> Lactancia Materna</h1></div>
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Lansinoh/video_lansinoh3" > <img src="img/Lansinoh-lactar-bebe.jpg" alt="video"></div> <h1 class="font-medium " >Lansinoh <br> Lactancia Materna</h1></div>
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Lansinoh/video_lansinoh4" > <img src="img/Lansinoh-Toda mama-tiene-sus-favoritos.jpg" alt="video"></div> <h1 class="font-medium " >Lansinoh <br> Lactancia Materna</h1></div>
+            
 
 
             <div class="videos-card "  > <div class="videos-card-image" data-video="Larcomar/Campanas/video_campana1" > <img src="img/Larcomar-Campana-Invierno.jpg" alt="video"></div> <h1 class="font-medium " >Larcomar <br> Campaña Invierno </h1></div>
