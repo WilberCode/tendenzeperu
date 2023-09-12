@@ -1,6 +1,6 @@
 module.exports = {
   mode:'jit',
-  purge: [ './videos/index.php'],
+  purge: [ './videos/index.php','./promociones/index.php'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: { 
@@ -71,12 +71,13 @@ module.exports = {
         info:"#3d9cd2",
         error:"#e2401c", */
         primary: {  
-            500: '#eb3d82', 
+            500: '#ffe900',  
         }, 
         
       },
       fontFamily: { 
-        prelo: 'Prelo'
+        prelo: 'Prelo',
+        times: 'times'
       }
     }, 
    
