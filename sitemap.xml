@@ -1,9 +1,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+  <loc>https://tendenzeperu.com/promociones</loc>
+  <lastmod>2023-09-15</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.1</priority>
+</url>
+<url>
   <loc>https://tendenzeperu.com/iniciativas</loc>
   <lastmod>2021-09-25</lastmod>
   <changefreq>always</changefreq>
-  <priority>0.1</priority>
+  <priority>0.2</priority>
 </url>  
 <url>
   <loc>https://tendenzeperu.com/videos</loc>
@@ -34,13 +40,7 @@
   <lastmod>2019-12-08</lastmod>
   <changefreq>always</changefreq>
   <priority>0.5</priority>
-</url>
-<url>
-  <loc>https://tendenzeperu.com/#galeria</loc>
-  <lastmod>2019-10-28</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.5</priority>
-</url>
+</url> 
 <url>
   <loc>https://tendenzeperu.com/#contacto</loc>
   <lastmod>2019-12-20</lastmod>

@@ -13,8 +13,8 @@
   <title>Promociones - Grupo Tendenze Comunicaciones</title>
   <link rel="canonical" href="<?=theCurrentUrl()?>"> 
   <meta name="title" content="Promociones - Grupo tendenze comunicaciones"> 
-  <meta name="description" content="Creamos contenidos que conectan. Historias en Promociones cortos para redes sociales en base a edición de imágenes, Promociones, textos, locución o música de archivo.">
-  <meta name="keywords"  content="Promociones,Turismo, Viajes, Fiestas Patrias, Home Office, Cyber Week, Virtual,Pigeon, Belleza Bio Oil, Ferias Digitales,Inmobiliaria Albamar,Larcomar,Campaña Navidad">
+  <meta name="description" content="Nuestro propósito de marca es ayudar a que tu negocio crezca.">
+  <meta name="keywords"  content="promociones, marca, proposito de marca, negocio, crecimiento, conectar, consultoria de marca, investigacion de mercado, competencia, consumidor, relaciones autenticas, emprendimiento, logotipo, diseno de logotipo, manual de uso, web corporativa, diseno web, seo organico, google analytics, campanas adwords, diagnostico seo, seo on page, gestion sem, palabras claves, busquedas de categoria, visitas a la web, optimizacion, avance, compromiso">
 
 <!-- Open Graph -->
   <meta property="og:title" content="Promociones - Grupo tendenze comunicaciones">
@@ -23,17 +23,16 @@
   <meta property="og:url" content="<?=theDomainUrl()?>/promociones"> 
   <meta property="og:image" content="<?=theDomainUrl()?>/promociones/img/lookingfor.jpg">
   <meta property="og:site_name" content="Promociones">
-  <meta property="og:description" content="Creamos contenidos que conectan. Historias en Promociones cortos para redes sociales en base a edición de imágenes, Promociones, textos, locución o música de archivo. ">
+  <meta property="og:description" content="Nuestro propósito de marca es ayudar a que tu negocio crezca. ">
  
 
   <!-- twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:description"content="Creamos contenidos que conectan. Historias en Promociones cortos para redes sociales en base a edición de imágenes, Promociones, textos, locución o música de archivo. ">
+  <meta name="twitter:description"content="Nuestro propósito de marca es ayudar a que tu negocio crezca. ">
   <meta name="twitter:title" content="Promociones - Grupo tendenze comunicaciones">
   <meta name="twitter:site" content="@tendenzeperu">
-  <meta name="twitter:image" content="<?=theDomainUrl()?>/promociones/img/banner-Promociones.jpg">
-  <meta name="twitter:creator" content="@tendenzeperu">
-  <meta name="google-site-verification" content="WjoRRgtwp-V5es5QJFHbaoWJJPv029kpZmPKWyhSvgs" />
+  <meta name="twitter:image" content="<?=theDomainUrl()?>/promociones/promociones/img/lookingfor.jpg">
+  <meta name="twitter:creator" content="@tendenzeperu"> 
 
  
   <meta http-equiv="cache-control" content="max-age=0" />
@@ -51,7 +50,7 @@
     }); var f = d.getElementsByTagName(s)[0],
       j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-PZPR3GG------');
+    })(window, document, 'script', 'dataLayer', 'GTM-PZPR3GG');
   },3000);  
   </script>
 <!-- End Google Tag Manager -->
@@ -59,14 +58,14 @@
  
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LKGQELEQS2-------"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LKGQELEQS2"></script>
 <script>
      setTimeout(function(){ 
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-LKGQELEQS2-------');
+        gtag('config', 'G-LKGQELEQS2');
      },3000);  
 </script>
 
@@ -102,7 +101,7 @@
       <div class="promociones-container  mx-auto  pt-[65px] ">
          <div  class="block md:flex justify-center md:space-x-[68px] " >
           <div  class="w-full md:max-w-[470px]    ">
-                <img class="  mx-auto "  src="img/marca-favorita.jpg" alt="This is the You've been lookingfor">  
+                <img class="  mx-auto "  src="img/marca-favorita.jpg" alt="¿Te has preguntado por qué sigues a tu marca favorita y no la cambias?">  
           </div>
           <div  class="flex-grow max-w-[675px] text-center " >  
             <h1  class=" marca-favorita font-normal text-[32px] sm:text-[40px] lg:text-[65px] leading-none md:leading-none mt-[30px] sm:mt-[20px] font-times  " > <mark> <span>¿Te has preguntado por</span> </mark>
@@ -162,7 +161,7 @@ para fortalecer tu negocio o emprendimiento.</h3>
           </div>
           <div  class=" w-full max-w-[385px] mx-auto flex flex-col" >
               <figure  class="relative" >
-                  <img src="/promociones/img/web-corporativa.jpg" alt="Nuevos Negocios">
+                  <img src="/promociones/img/web-corporativa.jpg" alt="Web Corporativa Funcional">
                   <h2  class="absolute  left-[10%]  top-[43%] sm:top-[46%] text-[50px] leading-[56.56px]  sm:text-[40px] md:text-[45px] xl:text-[60px]  sm:leading-[45px] xl:leading-[56.56px] text-black font-bold" >
                     Web <br>
                     Corporativa <br>
@@ -196,7 +195,7 @@ para fortalecer tu negocio o emprendimiento.</h3>
         </div>
         <div  class=" w-full max-w-[385px] mx-auto flex flex-col" >
             <figure  class="relative" >
-                <img src="/promociones/img/web-campana.jpg" alt="Nuevos Negocios">
+                <img src="/promociones/img/web-campana.jpg" alt="Web + Campaña Ad Words ">
                 <h2  class="absolute  left-[10%]  top-[43%] sm:top-[46%] text-[50px] leading-[56.56px]  sm:text-[40px] md:text-[45px] xl:text-[60px]  sm:leading-[45px] xl:leading-[56.56px] text-black font-bold" >
                 Web + <br>
                 Campaña <br>
