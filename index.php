@@ -211,7 +211,7 @@
       background-color: rgba(0, 0, 0, 0.8);
       z-index: 100; 
       text-align: center;
-      display: block;
+      display: none;
     }
     .popup-img{
       width: 100%;
