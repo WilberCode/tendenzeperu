@@ -16,9 +16,10 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
       <div class="logo section_middle_left w_38_desktop w_100">
         <a href="/" class="anchor" target="_self" rel="nofollow" >
           <img src="<?=theDomainUrl()?>/build/images/grupo-tendenze-comunicaciones.svg" alt="Logo Grupo Tendenze Comunicaciones" title="Logo Grupo Tendenze Comunicaciones" class="logoGTC" />
+         
         </a>
         <a href="/" target="_self" > 
-          <img src="<?=theDomainUrl()?>/build/images/logo-tendenze-peru.svg" alt="Logo Grupo Tendenze Comunicaciones"  title="Logo Grupo Tendenze Comunicaciones" class="marcas" />
+          <img src="<?=theDomainUrl()?>/build/images/logo-tendenze-peru.svg" alt="Logo Grupo Tendenze Comunicaciones"  title="Logo Grupo Tendenze Comunicaciones" class="marcas header-logo" />
         </a>
       </div>
       <nav class="section_middle_right w_62_desktop" itemscope itemtype="http://schema.org/SiteNavigationElement" >
@@ -39,8 +40,34 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
 
 
 
-          <li><a class="anchor" href="#contacto" itemprop="url"  itemprop="name" >Contacto</a></li> 
+         <!--  <li><a class="anchor" href="#contacto" itemprop="url"  itemprop="name" >Contacto</a></li>  -->
+          <li><a class="anchor descarga" href="https://tendenzeperu.com/archivo/GrupoTendenze-0324-VF.pdf" itemprop="url"  itemprop="name" target="_blank" download >Descárganos</a></li>
+        
+       
         </ul>
       </nav>
     </div>
+    <style>
+            @media (max-width: 1020px) {
+              .descarga{
+                border: 2px solid #fae800;
+                padding: 0 25px;
+                position: relative;
+                display: inline-flex;
+                margin-top: 10px;
+              }  
+              .descarga:before {
+                content: '';
+                position: absolute;
+                background: url(/build/images/trianglebuble.svg) no-repeat;
+                z-index: 2;
+                width: 40px;
+                height: 21px;
+                right: 10px;
+                bottom: -21px;
+            
+           }
+         
+            }
+          </style> 
   </header>
