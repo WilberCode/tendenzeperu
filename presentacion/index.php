@@ -84,7 +84,19 @@
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
   
-
+     <style>
+      main > iframe {
+        width: 100%;
+        height: 100vh;
+        border: none;
+      }
+  /*     @media (screen-width: 1024px) {
+        main > iframe {
+          height: 100vh;
+        }
+        
+      } */
+     </style>
 </head>
 <body>
   <!-- [ GLOBAL HEADER ] -->
@@ -92,7 +104,7 @@
   <!-- [ /GLOBAL HEADER ] --> 
  
   <main >
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTVojNzQxdel3btGkv2l_Zg9b4QCOn8CDz-kIbOvhjmjFEPZ_rVFeC_mKaAX0EY5w/embed?start=false&loop=false&delayms=60000" frameborder="0" width="100%" height="1109" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTVojNzQxdel3btGkv2l_Zg9b4QCOn8CDz-kIbOvhjmjFEPZ_rVFeC_mKaAX0EY5w/embed?start=false&loop=false&delayms=60000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   </main>
   
   <!-- [ GLOBAL FOOTER ] -->
