@@ -41,7 +41,7 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
 
 
          <!--  <li><a class="anchor" href="#contacto" itemprop="url"  itemprop="name" >Contacto</a></li>  -->
-          <li><a class="anchor descarga" href="https://tendenzeperu.com/archivo/GrupoTendenze-0324-VF.pdf" itemprop="url"  itemprop="name" target="_blank" download >Descárganos</a></li>
+          <li><a class="anchor descarga" style="font-size:15px" href="/presentacion/" itemprop="url"  itemprop="name"  >Ver presentación</a></li>
         
        
         </ul>
