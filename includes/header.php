@@ -8,6 +8,21 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
 
 ?> 
 
+<style>
+  .descarga{
+    font-size:15px; 
+  }
+
+  @media (max-width:750px) {
+    .descarga{
+      font-size:17px;  
+      padding: 7px 34px !important; 
+      background: white;
+    }
+    
+  }
+
+</style>
  <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZPR3GG" height="0" width="0"  style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
@@ -41,7 +56,7 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
 
 
          <!--  <li><a class="anchor" href="#contacto" itemprop="url"  itemprop="name" >Contacto</a></li>  -->
-          <li><a class="anchor descarga" style="font-size:15px" href="/presentacion/" itemprop="url"  itemprop="name"  >Ver presentación</a></li>
+          <li><a class="anchor descarga"   href="/presentacion/" itemprop="url"  itemprop="name"  >Ver presentación</a></li>
         
        
         </ul>
