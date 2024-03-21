@@ -90,12 +90,17 @@
         height: 100vh;
         border: none;
       }
-  /*     @media (screen-width: 1024px) {
+    
+      @media (max-width: 480px) {
+        main {
+          margin-top: 100px;
+
+        }
         main > iframe {
-          height: 100vh;
+          height: 50vh;
         }
         
-      } */
+      }
      </style>
 </head>
 <body>
