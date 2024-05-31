@@ -69,7 +69,7 @@
     }); var f = d.getElementsByTagName(s)[0],
       j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-PZPR3GG');
+    })(window, document, 'script', 'dataLayer', 'GTM-PZPR3GG----');
   },3000);  
   </script>
 <!-- End Google Tag Manager -->
@@ -77,14 +77,14 @@
  
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LKGQELEQS2"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LKGQELEQS2----"></script>
 <script>
      setTimeout(function(){ 
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-LKGQELEQS2');
+        gtag('config', 'G-LKGQELEQS2----');
      },3000);  
 </script>
 
@@ -103,16 +103,11 @@
   } 
   </script>
   
-  <style>
-      
-      @media (min-width: 600px){
-          
-           .wrappIdea .promo video { 
+  <style> 
+      @media (min-width: 600px){            .wrappIdea .promo video { 
                 padding-left: 8px;
            }
-      }
-    
-     
+      } 
        
   </style>
 
@@ -148,9 +143,40 @@
   </div>
   <div class="w_100 section_middle_center">
     <div class="sliderInformacion w_80">
-      <div class="dots"></div>
-      <div class="wrappSliderAbout section_top_left">
+      <?php  
+        $archivo_json = './build/json/about.json'; 
+        $json = file_get_contents($archivo_json); 
+        $slides = json_decode($json, true); 
+      ?>
+      <div class="dots"> 
+        <?php 
+        $show = '';
+        $counter = 1;
+        foreach($slides['aboutData'] as $slide){   ?>
+          <button data-posicion="<?=$counter++?>" class="dot" ></button> 
+          <?php  $show .= '<div class="itemSlider section_middle_left" id="item0">
+                    <h2>'.$slide['title'].'&nbsp;<span>'.$slide['focusTitle'].'</span></h2>
+                    <p>'.$slide['description'].'</p>
+                  </div>';
+        }  ?>
       </div>
+      <div class="wrappSliderAbout section_top_left"> 
+          <?=$show?>
+      </div>
+      <style>
+        .sliderInformacion .dot{
+          cursor: pointer;
+        }
+        .itemSlider:not(:first-child) {
+          animation-name: fade;
+          animation-duration: 1.5s;
+          display: none;
+        }
+        @keyframes fade {
+          from {opacity: .4; } 
+          to {opacity: 1 }
+        }
+      </style>
     </div>
   </div>
   <div class="w_100 section_middle_justify wrappIdea yellowBackgroundColor">
@@ -191,68 +217,12 @@
     <h2 class="timesFont w_100  ">Experiencia con más de 30 marcas</h2> 
   </div>
   <div class="w_80 w_90_desktop clientes section_middle_center "></div>
-  <div id="galeria" class="w_80 w_100_desktop gallery section_middle_justify"></div>
-  
-  <div class="popup">
-    <a   href="https://api.whatsapp.com/send?phone=+51998315039&text=Hola%20%F0%9F%91%8B%F0%9F%8F%BB%20Quisiera%20conversar%20sobre..." >
-      <img class="popup-img" src="build/images/tendenzev2.jpg" alt="Tendenze"> 
-    </a>
-    <div class="popup-wrap" ></div>
-  </div>
+  <div id="galeria" class="w_80 w_100_desktop gallery section_middle_justify"></div> 
  
-  <style>
-    .popup{
-      position: absolute;
-      top: 86px;
-      left: 0;
-      right: 0;
-      /* bottom: 0; */
-      height: 100vh; 
-      background-color: rgba(0, 0, 0, 0.8);
-      z-index: 100; 
-      text-align: center;
-      display: none;
-    }
-    .popup-img{
-      width: 100%;
-      max-width: 500px;
-      object-fit: contain;
-      margin-top: 5%; 
-      position: relative;
-      z-index: 1;
-    }
-    .popup-wrap{
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0; 
-      text-align: center;
-      display: block;
-    }
-
-  </style>
   <!-- [ GLOBAL FOOTER ] -->
   <?php include './includes/footer.php';?>
   <!-- [ /GLOBAL FOOTER ] -->
-  <script>
-    window.addEventListener('load', function() { 
-       var popup = document.querySelector('.popup');
-       var popup_wrap = document.querySelector('.popup-wrap');
-     
-        // y tambien que se pueda cerrar el popup si se da click fuera de  clase .popup
-        document.addEventListener('click', function(e) {
-          if (e.target !== popup) {
-            popup.style.display = 'none';
-          }
-        });
-        popup_wrap.addEventListener('click', function(e) {
-          popup.style.display = 'none';
-        });
-
-
-   });
-  </script>
+ 
   <script src="<?=theDomainUrl();?>/build/js/app.js?v=<?=theVersion();?>"></script>
  
 </body>
