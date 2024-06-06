@@ -60,7 +60,7 @@
   <meta http-equiv="pragma" content="no-cache" />
 
   <!-- Google Analytics -->
-  <?php // include './includes/analytics.php';?>
+  <?php include './includes/analytics.php';?>
 
 
  <script type="application/ld+json">
@@ -75,23 +75,12 @@
       "contactType": "Directora Creativa"
     }
   } 
-<<<<<<< HEAD
   </script>
   
   <style> 
-      @media (min-width: 600px){            .wrappIdea .promo video { 
-                padding-left: 8px;
-           }
-      } 
-       
+      @media (min-width: 600px){   .wrappIdea .promo video {    padding-left: 8px;   }   }  
   </style>
 
-=======
-  </script> 
-  <style> 
-      @media (min-width: 600px){   .wrappIdea .promo video { padding-left: 8px;  } }  
-  </style> 
->>>>>>> dev
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" /> 
