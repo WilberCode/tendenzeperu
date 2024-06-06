@@ -60,7 +60,7 @@
   <meta http-equiv="pragma" content="no-cache" />
 
   <!-- Google Analytics -->
-  <?php // include './includes/analytics.php';?>
+  <?php include './includes/analytics.php';?>
 
 
  <script type="application/ld+json">
@@ -78,11 +78,7 @@
   </script>
   
   <style> 
-      @media (min-width: 600px){            .wrappIdea .promo video { 
-                padding-left: 8px;
-           }
-      } 
-       
+      @media (min-width: 600px){   .wrappIdea .promo video {    padding-left: 8px;   }   }  
   </style>
 
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
