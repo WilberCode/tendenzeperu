@@ -59,51 +59,7 @@ let _callGallery = () => {
         gallery[0].appendChild(tagWrapp)
       });
     });
-}
-
-let dimensionSLiderAbout = 80;
-
-let _getDataAbout = () => {
-  fetch('build/json/about.json')
-    .then(response => response.json())
-    .then(data => {
-      let sliderInformacion = document.getElementsByClassName('wrappSliderAbout');
-      let arrayData = data.aboutData;
-      let sizeWrappSlider = arrayData.length * dimensionSLiderAbout;
-      sliderInformacion[0].style.width = sizeWrappSlider + 'vw';
-
-      let dots = document.getElementsByClassName('dots'); 
-
-      arrayData.map((val, index) => {
-
-        let tagWrapp = document.createElement('div');
-        let title = document.createElement('h2');
-        let description = document.createElement('p');
-        title.innerHTML = val.title + ' <span>'+val.focusTitle+'</span>';
-        description.innerHTML = val.description;
-        tagWrapp.classList.add('itemSlider');
-        tagWrapp.setAttribute('id', 'item'+val.id)
-        tagWrapp.classList.add('section_middle_left');
-        if(val.reverse == 'true'){
-          tagWrapp.classList.add('reverseItemSlider');
-        }
-
-        let dot = document.createElement('button');
-        dot.setAttribute('data-posicion', val.id)
-       // dot.setAttribute('onclick', '_goToSlide(this)');
-   
-        if(val.id == 0){
-          dot.classList.add('active');
-          dot.setAttribute('disabled', true);
-        }
-        dots[0].appendChild(dot);
-        tagWrapp.appendChild(title);
-        tagWrapp.appendChild(description);
-        sliderInformacion[0].appendChild(tagWrapp);
-      });
-    });
-}
-
+} 
 /*Fixed header */
 let sticky = 0;
 
@@ -140,36 +96,6 @@ let _parallaxCategorias = () => {
       categoriasWrapp[0].style.backgroundPosition = 'center ' + - parseInt(posElementWrapp.top / 2 ) + 'px';
     }
 }
-
-function  _cleanItemSlide(){
-  var dots = document.querySelectorAll('.dots > button');
-  for (let i = 0; i < dots.length; i++) {
-    dots[i].removeAttribute('disabled');
-    dots[i].classList.remove('active');
-  } 
-}
-
-
-function _goToSlide(element){ 
-  _cleanItemSlide();
-  element.setAttribute('disabled', true);
-  element.classList.add('active');
-  let posicion = element.dataset.posicion;
-  let move = dimensionSLiderAbout * posicion;
-
-  let contenedorSlider = document.getElementsByClassName('wrappSliderAbout');
-  contenedorSlider[0].style.transform = 'translateX(-' + move + 'vw)';
- 
-} 
-
-if(document.querySelector('.dots')){
-  const _dots = document.querySelector('.dots');
-  _dots.addEventListener('click',(e)=>{
-    if(e.target.className != 'dots'){ 
-         _goToSlide(e.target)
-     } 
-  })
-} 
  
  
  
@@ -177,8 +103,7 @@ if(document.querySelector('.dots')){
 /*Ready functions */
 _callGallery();
 _callServices();
-_callClients(); 
-_getDataAbout();   
+_callClients();  
  
 let _clickAnchorLink = () =>{
   document.querySelectorAll('.anchor[href^="#"]').forEach(anchor => {
@@ -223,19 +148,57 @@ let _openSubMenu = () => {
    }
 }
  
+let _sliderAbout = () =>{
+
+  let slideIndex = 1;  
+  showSlides(slideIndex)
+  function showSlides(n) { 
+    let i;
+    let slides = document.querySelectorAll(".itemSlider");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";    
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";   
+    dots[slideIndex-1].className += " active"; 
+  } 
+    function autoSlide() { 
+        slideIndex++;
+        showSlides(slideIndex);
+    }
+   
+    setInterval(autoSlide, 8000); // Change slide every 4 seconds
+
+    if(document.querySelector('.dots')){
+      const _dots = document.querySelector('.dots');
+      _dots.addEventListener('click',(e)=>{
+        if(e.target.className != 'dots'){   
+            showSlides(slideIndex = Number(e.target.dataset.posicion) )
+
+         } 
+      }) 
+    } 
+}
  
 window.onload = () => {  
   _clickAnchorLink();
   _openHideMenu(); 
   _parallaxSlider();
   _openSubMenu();
-  // _sliderAbout();
+  _sliderAbout();
 
   window.onscroll = () => {
     _parallaxSlider();
     _fixedHeader();
     _parallaxCategorias();
   }
+ 
+
  
 
 }

@@ -1,11 +1,3 @@
 {
-    "/videos/js/video.js": "/videos/js/video.js",
-    "/build/js/app.js": "/build/js/app.js",
-    "/build/js/sw.js": "/build/js/sw.js",
-    "/videos/css/video.css": "/videos/css/video.css",
-    "/promociones/css/promociones.css": "/promociones/css/promociones.css",
-    "/build/svg/comillas.svg": "/build/svg/comillas.svg",
-    "/build/svg/logo-tendenze-peru.svg": "/build/svg/logo-tendenze-peru.svg",
-    "/build/svg/logotendenzeperu.svg": "/build/svg/logotendenzeperu.svg",
-    "/build/svg/play.svg": "/build/svg/play.svg"
+    "/build/js/app.js": "/build/js/app.js"
 }

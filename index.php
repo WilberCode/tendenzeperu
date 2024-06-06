@@ -59,34 +59,8 @@
   <meta http-equiv="expires" content="Sun May 23 2021 02:00:50 GMT-0500" />
   <meta http-equiv="pragma" content="no-cache" />
 
-<!-- Google Tag Manager -->
-<script> 
-  setTimeout(function(){ 
-    (function (w, d, s, l, i) {
-    w[l] = w[l] || []; w[l].push({
-      'gtm.start':
-        new Date().getTime(), event: 'gtm.js'
-    }); var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-PZPR3GG');
-  },3000);  
-  </script>
-<!-- End Google Tag Manager -->
-
- 
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LKGQELEQS2"></script>
-<script>
-     setTimeout(function(){ 
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-LKGQELEQS2');
-     },3000);  
-</script>
+  <!-- Google Analytics -->
+  <?php // include './includes/analytics.php';?>
 
 
  <script type="application/ld+json">
@@ -101,6 +75,7 @@
       "contactType": "Directora Creativa"
     }
   } 
+<<<<<<< HEAD
   </script>
   
   <style> 
@@ -111,11 +86,15 @@
        
   </style>
 
+=======
+  </script> 
+  <style> 
+      @media (min-width: 600px){   .wrappIdea .promo video { padding-left: 8px;  } }  
+  </style> 
+>>>>>>> dev
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" />
-  
-
+  <meta http-equiv="Expires" content="0" /> 
 </head>
 <body>
   <!-- [ GLOBAL HEADER ] -->
@@ -133,19 +112,91 @@
       </div>
     </aside> -->
   </div>
-  <div class="section_middle_center w_100 yellowBackgroundColor">
+ <!--  <div class="section_middle_center w_100 yellowBackgroundColor">
     <div id="que-hacemos" class="w_75 section_middle_justify experiencia">
       <img src="build/images/18-anios-experiencia.svg" alt="18 años de experiencia" />
       <img src="build/images/10-categorias-trabajadas.svg" alt="10 categorías trabajadas" />
       <img src="build/images/40-clientes-con-objetivos-cumplidos.svg" alt="40 clientes con objetivos cumplidos" />
       <img src="build/images/1000-campanas-realizadas.svg" alt="1000 campañas realizadas" />
     </div>
+  </div> -->
+  <div class="section_middle_center w_100 yellowBackgroundColor">
+    <style>
+      .experiencia h3 {
+        font-weight: 800; 
+        font-size: 27px;
+        text-align: center; 
+        font-family:"Prelo Bold";
+        color: #1A1A1A;
+        line-height: 28px;
+
+      }
+     .experiencia h3 strong { 
+        font-weight: bolder;
+        display: block; 
+        font-family:"Prelo Black";
+        font-size: 6.8rem; 
+        margin-bottom: 22px;  
+      }  
+      @media (max-width: 600px){
+       .experiencia h3 strong {
+          font-size: 5.8rem; 
+        }
+      }
+      @media (max-width: 1421px){
+        .lg_w_90{
+          width: 90%;
+        }
+      }
+      .experiencia-item{
+        width: 90%;
+         max-width: 263px;
+         margin: auto;
+      }
+    </style>
+    <div id="que-hacemos" class="lg_w_90 w_75 section_middle_justify experiencia"> 
+       <div class="experiencia-item"><h3><strong> <span>+</span>18</strong>  años de <br> experiencia</h3></div>
+       <div class="experiencia-item"><h3><strong> <span>+</span>10 </strong>categorías <br> trabajadas  </h3></div>
+       <div class="experiencia-item"><h3><strong> <span>+</span>40 </strong>clientes cumpliendo <br> objetivos </h3></div>
+       <div class="experiencia-item"><h3><strong> <span>+</span>1,000 </strong>campañas <br> realizadas  </h3></div> 
+    </div>
   </div>
   <div class="w_100 section_middle_center">
     <div class="sliderInformacion w_80">
-      <div class="dots"></div>
-      <div class="wrappSliderAbout section_top_left">
+      <?php  
+        $archivo_json = './build/json/about.json'; 
+        $json = file_get_contents($archivo_json); 
+        $slides = json_decode($json, true); 
+      ?>
+      <div class="dots"> 
+        <?php 
+        $show = '';
+        $counter = 1;
+        foreach($slides['aboutData'] as $slide){   ?>
+          <button data-posicion="<?=$counter++?>" class="dot" ></button> 
+          <?php  $show .= '<div class="itemSlider section_middle_left" id="item0">
+                    <h2>'.$slide['title'].'&nbsp;<span>'.$slide['focusTitle'].'</span></h2>
+                    <p>'.$slide['description'].'</p>
+                  </div>';
+        }  ?>
       </div>
+      <div class="wrappSliderAbout section_top_left"> 
+          <?=$show?>
+      </div>
+      <style>
+        .sliderInformacion .dot{
+          cursor: pointer;
+        }
+        .itemSlider:not(:first-child) {
+          animation-name: fade;
+          animation-duration: 1.5s;
+          display: none;
+        }
+        @keyframes fade {
+          from {opacity: .4; } 
+          to {opacity: 1 }
+        }
+      </style>
     </div>
   </div>
   <div class="w_100 section_middle_justify wrappIdea yellowBackgroundColor">
