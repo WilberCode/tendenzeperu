@@ -1,7 +1,8 @@
-RewriteOptions inherit
+ RewriteOptions inherit
 
 # BEGIN  
-    <IfModule mod_rewrite.c> 
+    <IfModule mod_rewrite.c>
+    ErrorDocument 404 /404/index.php
     RewriteEngine On
     RewriteBase / 
     RewriteCond %{HTTP_HOST} ^www\.tendenzeperu\.com$
