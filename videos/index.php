@@ -90,18 +90,25 @@
     <div class="videos">
       <div class="videos-grid grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-6 sm:gap-y-14 md:gap-y-18 lg:gap-y-20 gap-x-4 md:gap-x-13 ">
              
+           
+            
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon14" > <img src="img/Pigeon-nuevo-chupete-14.jpg" alt="Pigeon nuevo chupete"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon15" > <img src="img/Pigeon-mama-feliz-15.jpg" alt="Pigeon mamá felíz"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon16" > <img src="img/Pigeon-quiero-ser-tu-amigo-16.jpg" alt="Pigeon quiero ser tu amigo"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon17" > <img src="img/Pigeon-manchas-que-no-salen-17.jpg" alt="Pigeon manchas que no salen"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon18" > <img src="img/Pigeon-cuando-nace-un-bebe-18.jpg" alt="Pigeon cuando nace un bebe"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon19" > <img src="img/Pigeon-cuanta-leche-necesita-19.jpg" alt="Pigeon cuanta leche necesita"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon8" > <img src="img/Pigeon-borrar-las-apps-del-banco.jpg" alt="Pigeon borrar las apps del banco"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon9" > <img src="img/Pigeon-benificios-de-la-lactancia-materna.jpg" alt="Pigeon benificios de la lactancia materna"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon10" > <img src="img/Pigeon-donde-puedo-comprar-productos-pigeon.jpg" alt="Pigeon donde puedo comprar productos pigeon"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon11" > <img src="img/Pigeon-celebramos-contigo.jpg" alt="Pigeon celebramos contigo"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon12" > <img src="img/Pigeon-chupones.jpg" alt="Pigeon chupones"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon13" > <img src="img/Pigeon-consuelos.jpg" alt="Pigeon consuelos"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
+
             <div class="videos-card "  > <div class="videos-card-image" data-video="BioOil/video_biooil8" > <img src="img/Belleza-Bio-Oil-cuida-tu-piel-2.jpg" alt="video"></div> <h1 class="font-medium " >Bio Oil <br> Skincare</h1></div>  
             <div class="videos-card "  > <div class="videos-card-image" data-video="BioOil/video_biooil9" > <img src="img/Belleza-Bio-Oil-recargar-energias.jpg" alt="video"></div> <h1 class="font-medium " >Bio Oil <br> Skincare</h1></div>  
             <div class="videos-card "  > <div class="videos-card-image" data-video="BioOil/video_biooil10" > <img src="img/Belleza-Bio-Oil-vida-saludable.jpg" alt="video"></div> <h1 class="font-medium " >Bio Oil <br> Skincare</h1></div>  
             <div class="videos-card "  > <div class="videos-card-image" data-video="BioOil/video_biooil11" > <img src="img/Belleza-Bio-Oil-125ml.jpg" alt="video"></div> <h1 class="font-medium " >Bio Oil <br> Skincare</h1></div>  
-            
-            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon8" > <img src="img/Pigeon-borrar-las-apps-del-banco.jpg" alt="video"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
-            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon9" > <img src="img/Pigeon-benificios-de-la-lactancia-materna.jpg" alt="video"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
-            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon10" > <img src="img/Pigeon-donde-puedo-comprar-productos-pigeon.jpg" alt="video"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
-            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon11" > <img src="img/Pigeon-celebramos-contigo.jpg" alt="video"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
-            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon12" > <img src="img/Pigeon-chupones.jpg" alt="video"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
-            <div class="videos-card "  > <div class="videos-card-image" data-video="Pigeon/video_pigeon13" > <img src="img/Pigeon-consuelos.jpg" alt="video"></div> <h1 class="font-medium " >Pigeon<br> Para mamá y bebé </h1></div>  
-
            
             <div class="videos-card "  > <div class="videos-card-image" data-video="nmviajes/video_nmviajes9" > <img src="img/Turismo-nm-viajes-Cyber2.jpg" alt="video"></div> <h1 class="font-medium " >Turismo nm viajes <br> Cyber</h1> </div>
  
