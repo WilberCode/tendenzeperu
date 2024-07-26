@@ -9,6 +9,7 @@ mix.js('dev/js/app.js', 'build/js')
 /* mix.sass('assets/scss/promociones.scss', 'promociones/css')   */  
 /* mix.js('dev/js/sw.js', 'build/js')    */
 /*  .sass('assets/scss/video.scss', 'videos/css') */
+ .sass('dev/sass/app.scss', 'build/css/app.css')
     .options({
         postCss: [ tailwindcss('./tailwind.config.js') ],
         processCssUrls: false

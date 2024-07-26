@@ -79,38 +79,7 @@
   
   <style> 
       @media (min-width: 600px){   .wrappIdea .promo video {    padding-left: 8px;   }   }  
-  </style>
-
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" /> 
-</head>
-<body>
-  <!-- [ GLOBAL HEADER ] -->
-  <?php include './includes/header.php';?>
-  <!-- [ /GLOBAL HEADER ] -->
-
-  <div id="sliderPrincipal" class="section_middle_center sliderPrincipal" title="Oficina Tendenze Peru">
-    <img src="build/images/mensaje-slider.svg" alt="slogan tendenze" title="Nuestra Idea " class="mensajeSlider" />
-   <!--  <aside class="rssTendenze section_middle_center">
-      <div class="wrappRss section_middle_center">
-        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://api.whatsapp.com/send?phone=+51998315039&text=Hola%20Tendenze%20Perú.%20Necesito%20m%C3%A1s%20informaci%C3%B3n" target="_blank" ><i class="fab fa-whatsapp"></i></a>
-        <a href="#"><i class="far fa-comment-dots"></i></a>
-      </div>
-    </aside> -->
-  </div>
- <!--  <div class="section_middle_center w_100 yellowBackgroundColor">
-    <div id="que-hacemos" class="w_75 section_middle_justify experiencia">
-      <img src="build/images/18-anios-experiencia.svg" alt="18 años de experiencia" />
-      <img src="build/images/10-categorias-trabajadas.svg" alt="10 categorías trabajadas" />
-      <img src="build/images/40-clientes-con-objetivos-cumplidos.svg" alt="40 clientes con objetivos cumplidos" />
-      <img src="build/images/1000-campanas-realizadas.svg" alt="1000 campañas realizadas" />
-    </div>
-  </div> -->
-  <div class="section_middle_center w_100 yellowBackgroundColor">
-    <style>
+      
       .experiencia h3 {
         font-weight: 800; 
         font-size: 27px;
@@ -142,7 +111,47 @@
          max-width: 263px;
          margin: auto;
       }
-    </style>
+  </style>
+
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" /> 
+</head>
+<body>
+  <!-- [ GLOBAL HEADER ] -->
+  <?php include './includes/header.php';?>
+  <!-- [ /GLOBAL HEADER ] -->
+
+  <!-- <div id="sliderPrincipal" class="section_middle_center sliderPrincipal" title="Oficina Tendenze Peru">
+    <img src="build/images/mensaje-slider.svg" alt="slogan tendenze" title="Nuestra Idea " class="mensajeSlider" /> -->
+   <!--  <aside class="rssTendenze section_middle_center">
+      <div class="wrappRss section_middle_center">
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=+51998315039&text=Hola%20Tendenze%20Perú.%20Necesito%20m%C3%A1s%20informaci%C3%B3n" target="_blank" ><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="far fa-comment-dots"></i></a>
+      </div>
+    </aside> -->
+<!--   </div> -->
+  <section  class="banner sliders " >
+    <div  class="">
+      <img src="build/images/banner1.jpg" alt=""  class="w_100 itemSlider" >
+      <img src="build/images/banner2.jpg" alt=""  class="w_100 itemSlider" > 
+    </div>
+    <div  class="dots"> 
+      <button data-posicion="1" class="dot" ></button> 
+      <button data-posicion="2" class="dot" ></button> 
+    </div>
+   </section>
+ <!--  <div class="section_middle_center w_100 yellowBackgroundColor">
+    <div id="que-hacemos" class="w_75 section_middle_justify experiencia">
+      <img src="build/images/18-anios-experiencia.svg" alt="18 años de experiencia" />
+      <img src="build/images/10-categorias-trabajadas.svg" alt="10 categorías trabajadas" />
+      <img src="build/images/40-clientes-con-objetivos-cumplidos.svg" alt="40 clientes con objetivos cumplidos" />
+      <img src="build/images/1000-campanas-realizadas.svg" alt="1000 campañas realizadas" />
+    </div>
+  </div> -->
+  <div class="section_middle_center w_100 yellowBackgroundColor"> 
     <div id="que-hacemos" class="lg_w_90 w_75 section_middle_justify experiencia"> 
        <div class="experiencia-item"><h3><strong> <span>+</span>18</strong>  años de <br> experiencia</h3></div>
        <div class="experiencia-item"><h3><strong> <span>+</span>10 </strong>categorías <br> trabajadas  </h3></div>
@@ -151,7 +160,7 @@
     </div>
   </div>
   <div class="w_100 section_middle_center">
-    <div class="sliderInformacion w_80">
+    <div class="sliderInformacion sliders w_80">
       <?php  
         $archivo_json = './build/json/about.json'; 
         $json = file_get_contents($archivo_json); 
@@ -171,21 +180,7 @@
       </div>
       <div class="wrappSliderAbout section_top_left"> 
           <?=$show?>
-      </div>
-      <style>
-        .sliderInformacion .dot{
-          cursor: pointer;
-        }
-        .itemSlider:not(:first-child) {
-          animation-name: fade;
-          animation-duration: 1.5s;
-          display: none;
-        }
-        @keyframes fade {
-          from {opacity: .4; } 
-          to {opacity: 1 }
-        }
-      </style>
+      </div> 
     </div>
   </div>
   <div class="w_100 section_middle_justify wrappIdea yellowBackgroundColor">
