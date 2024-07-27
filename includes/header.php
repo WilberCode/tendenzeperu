@@ -27,17 +27,11 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZPR3GG" height="0" width="0"  style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <header id="header" class="section_middle_center w_100">
-    <div class="w_95_desktop w_80 section_middle_justify">
-      <div class="logo section_middle_left w_38_desktop w_100">
-        <a href="/" class="anchor" target="_self" rel="nofollow" >
-          <img src="<?=theDomainUrl()?>/build/images/grupo-tendenze-comunicaciones.svg" alt="Logo Grupo Tendenze Comunicaciones" title="Logo Grupo Tendenze Comunicaciones" class="logoGTC" />
-         
-        </a>
-        <a href="/" target="_self" > 
-          <img src="<?=theDomainUrl()?>/build/images/logo-tendenze-peru.svg" alt="Logo Grupo Tendenze Comunicaciones"  title="Logo Grupo Tendenze Comunicaciones" class="marcas header-logo" />
-        </a>
-      </div>
-      <nav class="section_middle_right w_62_desktop" itemscope itemtype="http://schema.org/SiteNavigationElement" >
+    <div class="w_95_desktop w_80 section_middle_justify"> 
+      <a class="header-logo" href="/" target="_self" > 
+        <img src="<?=theDomainUrl()?>/build/images/tendenze.svg" alt="Logo Grupo Tendenze Comunicaciones"  title="Logo Grupo Tendenze Comunicaciones"   />
+      </a> 
+      <nav class="section_middle_right w_100" itemscope itemtype="http://schema.org/SiteNavigationElement" >
         <button id="hb" class="hamburger section_middle_center"><i class="fas fa-bars"></i></button>
         <ul class="w_100 section_middle_right menu">
           <li><a class="anchor" href="<?=theDomainUrl()?>/#que-hacemos" itemprop="url"  itemprop="name" >Qué hacemos</a></li>

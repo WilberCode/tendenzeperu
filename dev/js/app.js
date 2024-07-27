@@ -148,14 +148,14 @@ let _openSubMenu = () => {
    }
 }
  
-let _sliderAbout = () =>{
-
+const _slider = (wrapper) =>{
   let slideIndex = 1;  
   showSlides(slideIndex)
   function showSlides(n) { 
     let i;
-    let slides = document.querySelectorAll(".itemSlider");
-    let dots = document.getElementsByClassName("dot");
+    let slides = document.querySelectorAll(wrapper+' .itemSlider');
+    let dots = document.querySelectorAll(wrapper+" .dot");/* 
+    let dots = document.getElementsByClassName("dot"); */
     if (n > slides.length) {slideIndex = 1}    
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
@@ -174,8 +174,8 @@ let _sliderAbout = () =>{
    
     setInterval(autoSlide, 8000); // Change slide every 4 seconds
 
-    if(document.querySelector('.dots')){
-      const _dots = document.querySelector('.dots');
+    if(document.querySelector(wrapper+' .dots')){
+      const _dots = document.querySelector(wrapper+' .dots');
       _dots.addEventListener('click',(e)=>{
         if(e.target.className != 'dots'){   
             showSlides(slideIndex = Number(e.target.dataset.posicion) )
@@ -183,14 +183,18 @@ let _sliderAbout = () =>{
          } 
       }) 
     } 
-}
+} 
+
+ 
  
 window.onload = () => {  
   _clickAnchorLink();
   _openHideMenu(); 
   _parallaxSlider();
   _openSubMenu();
-  _sliderAbout();
+  /* _sliderAbout(); */
+  _slider('.banner');
+  _slider('.sliderInformacion');
 
   window.onscroll = () => {
     _parallaxSlider();
