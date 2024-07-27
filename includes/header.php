@@ -32,8 +32,20 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
         <img src="<?=theDomainUrl()?>/build/images/tendenze.svg" alt="Logo Grupo Tendenze Comunicaciones"  title="Logo Grupo Tendenze Comunicaciones"   />
       </a> 
       <nav class="section_middle_right w_100" itemscope itemtype="http://schema.org/SiteNavigationElement" >
-        <button id="hb" class="hamburger section_middle_center"><i class="fas fa-bars"></i></button>
-        <ul class="w_100 section_middle_right menu">
+        <!-- <button id="hb" class="hamburger section_middle_center"><i class="fas fa-bars"></i></button> -->
+        <div class="nav-toggle-wrap flex lg:hidden items-center">
+              <button  id="nav-toggle" class="nav-toggle">  
+                  <div  class="nav-toggle-icons" >
+                    <span ></span> 
+                    <span ></span> 
+                    <span ></span> 
+                    <span ></span> 
+                    <span ></span> 
+                    <span ></span>  
+                  </div>
+              </button>
+           </div> 
+        <ul class="w_100 section_middle_right menu" id="menu">
           <li><a class="anchor" href="<?=theDomainUrl()?>/#que-hacemos" itemprop="url"  itemprop="name" >Qué hacemos</a></li>
           <li><a class="anchor" href="<?=theDomainUrl()?>/#como-hacemos" itemprop="url"  itemprop="name" >Cómo lo hacemos</a></li>
           <li><a class="anchor" href="<?=theDomainUrl()?>/#experiencia" itemprop="url"  itemprop="name" >Experiencia</a></li>

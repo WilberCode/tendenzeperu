@@ -126,13 +126,17 @@ let _clickAnchorLink = () =>{
 }
 
 let _openHideMenu = () => {
-  let hb = document.getElementById('hb');
+ 
+  const Id = document.getElementById.bind(document)    
+  let navToggle = Id('nav-toggle')  
   let ulMenu = document.querySelector('nav > ul');
-  hb.onclick = function(e){
-    e.preventDefault();
-    hb.classList.toggle('activeHamburguer');
-    ulMenu.classList.toggle('activeMenu');
+  navToggle.onclick = function(e){
+    e.preventDefault(); 
+    navToggle.classList.toggle('nav-toggle-active') 
+   ulMenu.classList.toggle('activeMenu'); 
   }
+
+
 }
 let _openSubMenu = () => { 
   let toggle_submenu = document.querySelector('.item-has-submenu > a');
@@ -150,12 +154,13 @@ let _openSubMenu = () => {
  
 const _slider = (wrapper) =>{
   let slideIndex = 1;  
+  let autoSlideInterval;
+
   showSlides(slideIndex)
   function showSlides(n) { 
     let i;
     let slides = document.querySelectorAll(wrapper+' .itemSlider');
-    let dots = document.querySelectorAll(wrapper+" .dot");/* 
-    let dots = document.getElementsByClassName("dot"); */
+    let dots = document.querySelectorAll(wrapper+" .dot");  
     if (n > slides.length) {slideIndex = 1}    
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
@@ -167,19 +172,29 @@ const _slider = (wrapper) =>{
     slides[slideIndex-1].style.display = "block";   
     dots[slideIndex-1].className += " active"; 
   } 
-    function autoSlide() { 
-        slideIndex++;
-        showSlides(slideIndex);
+     
+   function autoSlide() { 
+    slideIndex++;
+    showSlides(slideIndex);
     }
-   
-    setInterval(autoSlide, 8000); // Change slide every 4 seconds
+
+    function startAutoSlide() {
+        autoSlideInterval = setInterval(autoSlide, 8000); // Change slide every 8 seconds
+    }
+
+    function stopAutoSlide() {
+        clearInterval(autoSlideInterval);
+    }
+
+    startAutoSlide();
 
     if(document.querySelector(wrapper+' .dots')){
       const _dots = document.querySelector(wrapper+' .dots');
       _dots.addEventListener('click',(e)=>{
         if(e.target.className != 'dots'){   
+            stopAutoSlide(); 
             showSlides(slideIndex = Number(e.target.dataset.posicion) )
-
+            startAutoSlide(); // Restart auto slide after manual change  
          } 
       }) 
     } 
@@ -191,10 +206,11 @@ window.onload = () => {
   _clickAnchorLink();
   _openHideMenu(); 
   _parallaxSlider();
-  _openSubMenu();
-  /* _sliderAbout(); */
+  _openSubMenu(); 
   _slider('.banner');
   _slider('.sliderInformacion');
+
+  
 
   window.onscroll = () => {
     _parallaxSlider();
