@@ -192,7 +192,7 @@
     <div class="w_100 w_60_desktop section_middle_center promo" style="position:relative;">
        <!--<img src="build/images/trabajos.gif" alt="Trabajos" title="Trabajos"/> --> 
         <video autoplay controls  >
-            <source src="/build/images/fiestas-patrias-web.mp4" type="video/mp4">
+            <source src="https://tendenzeperu.com/build/images/fiestas-patrias-web.mp4" type="video/mp4">
          </video> 
         <!-- <video  autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"  id="front-video"  > 
           <source  src="build/images/trabajos.webm" type="video/webm">
