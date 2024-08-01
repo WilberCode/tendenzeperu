@@ -135,7 +135,7 @@
 <!--   </div> -->
   <section  class="banner sliders " >
     <div  class="">
-      <img src="build/images/banner1.jpg" alt=""  class="w_100 itemSlider" >
+      <img src="build/images/bannerMETRO.jpg" alt=""  class="w_100 itemSlider" >
       <img src="build/images/banner2.jpg" alt=""  class="w_100 itemSlider" > 
     </div>
     <div  class="dots"> 
@@ -153,7 +153,7 @@
   </div> -->
   <div class="section_middle_center w_100 yellowBackgroundColor"> 
     <div id="que-hacemos" class="lg_w_90 w_75 section_middle_justify experiencia"> 
-       <div class="experiencia-item"><h3><strong> <span>+</span>18</strong>  años de <br> experiencia</h3></div>
+      <!--  <div class="experiencia-item"><h3><strong> <span>+</span>18</strong>  años de <br> experiencia</h3></div> -->
        <div class="experiencia-item"><h3><strong> <span>+</span>10 </strong>categorías <br> trabajadas  </h3></div>
        <div class="experiencia-item"><h3><strong> <span>+</span>40 </strong>clientes cumpliendo <br> objetivos </h3></div>
        <div class="experiencia-item"><h3><strong> <span>+</span>1,000 </strong>campañas <br> realizadas  </h3></div> 
@@ -172,8 +172,15 @@
         $counter = 1;
         foreach($slides['aboutData'] as $slide){   ?>
           <button data-posicion="<?=$counter++?>" class="dot" ></button> 
+          <?php $title;
+                if(!empty($slide['title'])){
+                  $title = '<h2>'.$slide['title'].'&nbsp;<span>'.$slide['focusTitle'].'</span></h2>';
+                }else{
+                  $title = '';
+                }
+            ?>
           <?php  $show .= '<div class="itemSlider section_middle_left" id="item0">
-                    <h2>'.$slide['title'].'&nbsp;<span>'.$slide['focusTitle'].'</span></h2>
+                    '.$title.'
                     <p>'.$slide['description'].'</p>
                   </div>';
         }  ?>
