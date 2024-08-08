@@ -180,9 +180,9 @@
                 }
             ?>
           <?php  $show .= '<div class="itemSlider section_middle_left" id="item0">
-                    '.$title.'
-                    <p>'.$slide['description'].'</p>
-                  </div>';
+                            '.$title.'
+                            <p>'.$slide['description'].'</p>
+                          </div>';
         }  ?>
       </div>
       <div class="wrappSliderAbout section_top_left"> 
@@ -199,7 +199,7 @@
     <div class="w_100 w_60_desktop section_middle_center promo" style="position:relative;">
        <!--<img src="build/images/trabajos.gif" alt="Trabajos" title="Trabajos"/> --> 
         <video autoplay controls  >
-            <source src="https://tendenzeperu.com/build/images/fiestas-patrias-web.mp4" type="video/mp4">
+            <source src="https://tendenzeperu.com/build/images/trabajos.mp4" type="video/mp4">
          </video> 
         <!-- <video  autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"  id="front-video"  > 
           <source  src="build/images/trabajos.webm" type="video/webm">
