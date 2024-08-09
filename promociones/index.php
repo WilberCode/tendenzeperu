@@ -155,7 +155,7 @@ para fortalecer tu negocio o emprendimiento.</h3>
               <a class="btn  !text-primary-500 !bg-black ml-[51px]  " href="https://api.whatsapp.com/send?phone=+51998315039&text=Solicito%20Informaci%C3%B3n." target="_blank"  >contáctanos</a>  
             
               <div  class="mt-[23px]" >
-                  <a  href="https://api.whatsapp.com/send?phone=+51998315039&text=Solicito%20Informaci%C3%B3n." target="_blank"  class="rounded-[21.60px] text-center border-solid border-2  border-[#231f00]   inline-block pt-[4px] pb-[4px] px-[27px]   font-normal italic tracking-[0.20px]" > <span  class="   text-[24.09px] leading-[35.32px]  ">USA TU CUPÓN</span><br> <span class="text-[15.17px] leading-[22.25px] block mt-[-5px] ">válido para el 2023</span> </a> 
+                  <a  href="https://api.whatsapp.com/send?phone=+51998315039&text=Solicito%20Informaci%C3%B3n." target="_blank"  class="rounded-[21.60px] text-center border-solid border-2  border-[#231f00]   inline-block pt-[4px] pb-[4px] px-[27px]   font-normal italic tracking-[0.20px]" > <span  class="   text-[24.09px] leading-[35.32px]  ">USA TU CUPÓN</span><br> <span class="text-[15.17px] leading-[22.25px] block mt-[-5px] ">válido para el <?=date('Y')?></span> </a> 
               </div>
             </div>
           </div>
@@ -189,7 +189,7 @@ para fortalecer tu negocio o emprendimiento.</h3>
                 <a class="btn  !text-primary-500 !bg-black ml-[51px]  " href="https://api.whatsapp.com/send?phone=+51998315039&text=Solicito%20Informaci%C3%B3n." target="_blank"  >contáctanos</a>  
               
                 <div  class="mt-[23px]" >
-                    <a  href="https://api.whatsapp.com/send?phone=+51998315039&text=Solicito%20Informaci%C3%B3n." target="_blank"  class="rounded-[21.60px] text-center border-solid border-2  border-[#231f00]   inline-block pt-[4px] pb-[4px] px-[27px]   font-normal italic tracking-[0.20px]" > <span  class="   text-[24.09px] leading-[35.32px]  ">USA TU CUPÓN</span><br> <span class="text-[15.17px] leading-[22.25px] block mt-[-5px] ">válido para el 2023</span> </a> 
+                    <a  href="https://api.whatsapp.com/send?phone=+51998315039&text=Solicito%20Informaci%C3%B3n." target="_blank"  class="rounded-[21.60px] text-center border-solid border-2  border-[#231f00]   inline-block pt-[4px] pb-[4px] px-[27px]   font-normal italic tracking-[0.20px]" > <span  class="   text-[24.09px] leading-[35.32px]  ">USA TU CUPÓN</span><br> <span class="text-[15.17px] leading-[22.25px] block mt-[-5px] ">válido para el <?=date('Y')?></span> </a> 
                 </div>
             </div>
         </div>
@@ -221,7 +221,7 @@ para fortalecer tu negocio o emprendimiento.</h3>
              <a class="btn  !text-primary-500 !bg-black ml-[51px]  " href="https://api.whatsapp.com/send?phone=+51998315039&text=Solicito%20Informaci%C3%B3n." target="_blank"  >contáctanos</a>  
            
              <div  class="mt-[23px]" >
-                <a  href="https://api.whatsapp.com/send?phone=+51998315039&text=Solicito%20Informaci%C3%B3n." target="_blank"  class="rounded-[21.60px] text-center border-solid border-2  border-[#231f00]   inline-block pt-[4px] pb-[4px] px-[27px]   font-normal italic tracking-[0.20px]" > <span  class="   text-[24.09px] leading-[35.32px]  ">USA TU CUPÓN</span><br> <span class="text-[15.17px] leading-[22.25px] block mt-[-5px] ">válido para el 2023</span> </a> 
+                <a  href="https://api.whatsapp.com/send?phone=+51998315039&text=Solicito%20Informaci%C3%B3n." target="_blank"  class="rounded-[21.60px] text-center border-solid border-2  border-[#231f00]   inline-block pt-[4px] pb-[4px] px-[27px]   font-normal italic tracking-[0.20px]" > <span  class="   text-[24.09px] leading-[35.32px]  ">USA TU CUPÓN</span><br> <span class="text-[15.17px] leading-[22.25px] block mt-[-5px] ">válido para el <?=date('Y')?></span> </a> 
              </div>
           </div>
         </div>
