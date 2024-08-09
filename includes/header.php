@@ -33,7 +33,7 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
       </a> 
       <nav class="section_middle_right w_100" itemscope itemtype="http://schema.org/SiteNavigationElement" >
         <!-- <button id="hb" class="hamburger section_middle_center"><i class="fas fa-bars"></i></button> -->
-        <div class="nav-toggle-wrap flex lg:hidden items-center">
+        <div class="nav-toggle-wrap    ">
               <button  id="nav-toggle" class="nav-toggle">  
                   <div  class="nav-toggle-icons" >
                     <span ></span> 
