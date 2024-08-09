@@ -171,7 +171,7 @@
         $show = '';
         $counter = 1;
         foreach($slides['aboutData'] as $slide){   ?>
-          <button data-posicion="<?=$counter++?>" class="dot" ></button> 
+       <!--    <button data-posicion="<?=$counter++?>" class="dot" ></button>  -->
           <?php $title;
                 if(!empty($slide['title'])){
                   $title = '<h2>'.$slide['title'].'&nbsp;<span>'.$slide['focusTitle'].'</span></h2>';
@@ -185,8 +185,8 @@
                           </div>';
         }  ?>
       </div>
-      <div class="wrappSliderAbout section_top_left"> 
-          <?=$show?>
+      <div class="wrappSliderAbout section_top_left" style="padding-top:2vw; padding-bottom:0; margin-bottom:0;"> 
+          <?=$show?> 
       </div> 
     </div>
   </div>
