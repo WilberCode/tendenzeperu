@@ -109,7 +109,7 @@
   <!-- [ /GLOBAL HEADER ] --> 
  
   <main >
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTVojNzQxdel3btGkv2l_Zg9b4QCOn8CDz-kIbOvhjmjFEPZ_rVFeC_mKaAX0EY5w/embed?start=false&loop=false&delayms=60000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <iframe src="https://docs.google.com/presentation/d/17aGeya5vMjXLagszpCGy_AP03ndGZOgN/pub?start=false&loop=false&delayms=15000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   </main>
   
   <!-- [ GLOBAL FOOTER ] -->
