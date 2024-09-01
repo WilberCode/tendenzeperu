@@ -93,7 +93,7 @@
     },
     {
       "id": "24",
-      "img": "build/images/clientes/albamar.png",
+      "img": "build/images/clientes/albamar.png?v=1",
       "title": "Albamar",
       "width": 170,
       "tipo": "cuadrado"
