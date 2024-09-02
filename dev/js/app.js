@@ -24,7 +24,7 @@ let _callServices = () => {
 }
 
 let _callClients = () => {
-  fetch('build/json/clients.json')
+  fetch('build/json/clients.json?v=2')
     .then(response => response.json())
     .then(data => {
       let clientes = document.getElementsByClassName('clientes');
