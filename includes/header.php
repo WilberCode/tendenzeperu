@@ -9,10 +9,7 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
 ?> 
 
 <style>
-  .descarga{
-    font-size:15px; 
-  }
-
+  
   @media (max-width:750px) {
     .descarga{
       font-size:17px;  
@@ -26,14 +23,14 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
  <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZPR3GG" height="0" width="0"  style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <header id="header" class="section_middle_center w_100">
-    <div class="w_95_desktop w_80 section_middle_justify"> 
-      <a class="header-logo" href="/" target="_self" > 
-        <img src="<?=theDomainUrl()?>/build/images/tendenze.svg" alt="Logo Grupo Tendenze Comunicaciones"  title="Logo Grupo Tendenze Comunicaciones"   />
+  <header id="header" class="flex items-center lg:items-end w-full">
+    <div class="flex w-full px-[10px] max-w-[1274px] mx-auto h-full"> 
+      <a class="relative z-10 w-full max-w-[164px]" href="/" target="_self" > 
+        <img  class="absolute w-full max-w-[100px]  sm:max-w-[164px]  top-0"  src="<?=theDomainUrl()?>/build/images/logo.svg" alt="Logo Grupo Tendenze Comunicaciones"  title="Logo Grupo Tendenze Comunicaciones"   />
       </a> 
-      <nav class="section_middle_right w_100" itemscope itemtype="http://schema.org/SiteNavigationElement" >
+      <nav class=" w_100 h-full flex  justify-end items-center lg:items-end py-[25px] " itemscope itemtype="http://schema.org/SiteNavigationElement" >
         <!-- <button id="hb" class="hamburger section_middle_center"><i class="fas fa-bars"></i></button> -->
-        <div class="nav-toggle-wrap    ">
+        <div class="nav-toggle-wrap  mr-8 ">
               <button  id="nav-toggle" class="nav-toggle">  
                   <div  class="nav-toggle-icons" >
                     <span ></span> 
@@ -46,8 +43,7 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
               </button>
            </div> 
         <ul class="w_100 section_middle_right menu" id="menu">
-          <li><a class="anchor" href="<?=theDomainUrl()?>/#que-hacemos" itemprop="url"  itemprop="name" >Qué hacemos</a></li>
-          <li><a class="anchor" href="<?=theDomainUrl()?>/#como-hacemos" itemprop="url"  itemprop="name" >Cómo lo hacemos</a></li>
+          <li><a class="anchor" href="<?=theDomainUrl()?>/#que-hacemos" itemprop="url"  itemprop="name" >Qué hacemos</a></li> 
           <li><a class="anchor" href="<?=theDomainUrl()?>/#experiencia" itemprop="url"  itemprop="name" >Experiencia</a></li>
           <li><a class="anchor" href="<?=theDomainUrl()?>/promociones" itemprop="url"  itemprop="name" >Promociones</a></li>
           <li><a class="anchor" href="<?=theDomainUrl()?>/videos" itemprop="url"  itemprop="name" >Videos</a></li>
@@ -62,7 +58,7 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
 
 
          <!--  <li><a class="anchor" href="#contacto" itemprop="url"  itemprop="name" >Contacto</a></li>  -->
-          <li><a class="anchor descarga"   href="/presentacion/" itemprop="url"  itemprop="name"  >Ver presentación</a></li>
+          <li><a class="anchor descarga"   href="/presentacion/" itemprop="url"  itemprop="name"  >Presentación</a></li>
         
        
         </ul>

@@ -23,7 +23,7 @@ let _callServices = () => {
   });
 }
 
-let _callClients = () => {
+/* let _callClients = () => {
   fetch('build/json/clients.json?v=2')
     .then(response => response.json())
     .then(data => {
@@ -39,7 +39,7 @@ let _callClients = () => {
         clientes[0].appendChild(imgWrapp).src = val.img
       });
     });
-}
+} */
 
 let _callGallery = () => {
   fetch('build/json/gallery.json')
@@ -103,7 +103,7 @@ let _parallaxCategorias = () => {
 /*Ready functions */
 _callGallery();
 _callServices();
-_callClients();  
+/* _callClients();   */
  
 let _clickAnchorLink = () =>{
   document.querySelectorAll('.anchor[href^="#"]').forEach(anchor => {
