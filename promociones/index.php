@@ -70,7 +70,7 @@
 </script>
 
 </head>
-<body class="mt-40">
+<body class="">
   <!-- [ GLOBAL HEADER ] -->
   <?php include '../includes/header.php';?>
   <!-- [ /GLOBAL HEADER ] -->

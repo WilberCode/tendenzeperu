@@ -101,19 +101,19 @@ let _parallaxCategorias = () => {
  
 
 /*Ready functions */
-_callGallery();
-_callServices();
+/* _callGallery();
+_callServices(); */
 /* _callClients();   */
  
 let _clickAnchorLink = () =>{
   document.querySelectorAll('.anchor[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e){
+    anchor.addEventListener('click', function(e){ 
       e.preventDefault();
       let header = document.getElementById('header').offsetHeight;
       let attribute = document.querySelector(this.getAttribute('href'));
       let position = parseInt(attribute.offsetTop) - (parseInt(header) + 20);
 
-      document.getElementById('hb').classList.remove('activeHamburguer');
+      document.getElementById('nav-toggle').classList.remove('nav-toggle-active');
       document.querySelector('nav > ul').classList.remove('activeMenu');
 
       window.scrollTo({
@@ -205,17 +205,26 @@ const _slider = (wrapper) =>{
 window.onload = () => {  
   _clickAnchorLink();
   _openHideMenu(); 
-  _parallaxSlider();
+/*   _parallaxSlider(); */
   _openSubMenu(); 
-  _slider('.banner');
-  _slider('.sliderInformacion');
+/*   _slider('.banner');
+  _slider('.sliderInformacion'); */
+  document.querySelectorAll('ul>li>a').forEach(anchor => {
+    anchor.addEventListener('click', function(e){
+      document.getElementById('nav-toggle').classList.remove('nav-toggle-active');
+      document.querySelector('nav > ul').classList.remove('activeMenu');
+   
+      
+    });
+  });
 
+ 
   
 
   window.onscroll = () => {
-    _parallaxSlider();
+ /*    _parallaxSlider(); */
     _fixedHeader();
-    _parallaxCategorias();
+   /*  _parallaxCategorias(); */
   }
  
 

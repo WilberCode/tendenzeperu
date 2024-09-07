@@ -5,7 +5,7 @@
       "img": "build/images/clientes/decameronhotel.png",
       "title": "Decameron Hotel",
       "width": 200,
-      "tipo": "cuadrado"
+      "tipo": "horizontal"
     },
     {
       "id": "1",
@@ -54,7 +54,7 @@
     {
       "id": "5",
       "img": "build/images/clientes/biooil.png",
-      "title": "Bio Oil",
+      "title": "Bio oil",
       "width": 200,
       "tipo": "horizontal"
     }, 
@@ -70,7 +70,7 @@
       "img": "build/images/clientes/albamar-v2.png",
       "title": "Albamar",
       "width": 170,
-      "tipo": "cuadrado"
+      "tipo": "horizontal"
     },
     {
       "id": "3",
@@ -105,7 +105,7 @@
       "img": "build/images/clientes/nmlimahotel.png",
       "title": "Nm lima hotel",
       "width": 150,
-      "tipo": "cuadrado"
+      "tipo": "horizontal"
     },
 
     {
@@ -193,7 +193,7 @@
       "img": "build/images/clientes/max.png",
       "title": "Max",
       "width": 200,
-      "tipo": "horizontal"
+      "tipo": "cuadrado"
     },
 
     {
@@ -208,7 +208,7 @@
       "img": "build/images/clientes/palmas.png",
       "title": "palmas",
       "width": 150,
-      "tipo": "cuadrado"
+      "tipo": "horizontal"
     }
  
 
