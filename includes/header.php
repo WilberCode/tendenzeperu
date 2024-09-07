@@ -12,7 +12,7 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
   <!-- End Google Tag Manager (noscript) -->
   <header id="header" class="flex items-center lg:items-end w-full">
     <div class="flex w-full px-[10px] max-w-[1274px] mx-auto h-full"> 
-      <a class="relative z-10 w-full max-w-[164px] maxsm:ml-5" href="/" target="_self" > 
+      <a class="relative z-10 w-full  maxsm:ml-5 logo-wrap" href="/" target="_self" > 
         <img  class="absolute w-full max-w-[100px]  sm:max-w-[164px]  top-0"  src="<?=theDomainUrl()?>/build/images/logo.svg" alt="Logo Grupo Tendenze Comunicaciones"  title="Logo Grupo Tendenze Comunicaciones"   />
       </a> 
       <nav class=" w_100 h-full flex  justify-end items-center lg:items-end py-[25px] " itemscope itemtype="http://schema.org/SiteNavigationElement" >

@@ -68,10 +68,34 @@ let _fixedHeader = () => {
   sticky = parseInt(header.offsetTop) + 300;
 
   if (window.pageYOffset > sticky) {
-    header.classList.add("fixedHeader");
+    header.classList.add("fixedHeader"); 
+      if (window.innerWidth <= 768) { // Umbral para móviles (puedes ajustar el valor)
+        document.documentElement.style.setProperty('--header-height',`70px`);
+        document.documentElement.style.setProperty('--logo-width',`70px`);
+      } else {
+        document.documentElement.style.setProperty('--header-height',`90px`);
+        document.documentElement.style.setProperty('--logo-width',`100px`);
+      } 
+  
+    
   } else {
-    header.classList.remove("fixedHeader");
+    header.classList.remove("fixedHeader"); 
+    if (window.innerWidth <= 768) { // Umbral para móviles (puedes ajustar el valor)
+      document.documentElement.style.setProperty('--header-height',`70px`);
+    document.documentElement.style.setProperty('--logo-width',`80px`);
+    } else {
+      document.documentElement.style.setProperty('--header-height',`120px`);
+    document.documentElement.style.setProperty('--logo-width',`164px`);
+    } 
   }
+ 
+
+  // Llamar la función al cargar la página
+
+
+  // Escuchar el cambio de tamaño de la ventana
+/*   window.addEventListener('resize', updateHeaderHeight); */
+// Función para actualizar la altura del header
 }
 
 let _parallaxSlider = () => {
