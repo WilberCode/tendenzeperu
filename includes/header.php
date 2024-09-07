@@ -8,8 +8,8 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
 
 ?>  
  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZPR3GG" height="0" width="0"  style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+<!--   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZPR3GG" height="0" width="0"  style="display:none;visibility:hidden"></iframe></noscript>
+ -->  <!-- End Google Tag Manager (noscript) -->
   <header id="header" class="flex items-center lg:items-end w-full">
     <div class="flex w-full px-[10px] max-w-[1274px] mx-auto h-full"> 
       <a class="relative z-10 w-full  maxsm:ml-5 logo-wrap" href="/" target="_self" > 
