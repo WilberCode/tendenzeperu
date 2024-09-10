@@ -300,13 +300,57 @@ const _videoTendenze = ()=>{
   window.addEventListener('scroll', playVideoOnScroll);
   window.addEventListener('resize', playVideoOnScroll);
 }
+
+_videoEdificiosSoport = ()=>{
+  var videos = document.querySelectorAll(".video");
+
+  function checkIfInView(video) {
+    var rect = video.getBoundingClientRect();
+    var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+    var inView = !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+
+    if (inView) {
+      let dataSrc = video.dataset.src;
+
+      // Cargar el video solo si no está cargado
+      if (video.src === '') {
+        video.src = dataSrc;
+      }
+
+      // Reproducir el video si está en la vista
+      video.play();
+    } else {
+      video.pause();
+    }
+  }
+
+  // Verifica si el video está en la vista al cargar la página
+  document.addEventListener('DOMContentLoaded', function() {
+    videos.forEach(function(video) {
+      checkIfInView(video);
+    });
+  });
+
+  // Verifica si el video está en la vista al hacer scroll o redimensionar
+  window.addEventListener("scroll", function() {
+    videos.forEach(function(video) {
+      checkIfInView(video);
+    });
+  });
+
+  window.addEventListener("resize", function() {
+    videos.forEach(function(video) {
+      checkIfInView(video);
+    });
+  });
  
- 
+}
 window.onload = () => {  
   _clickAnchorLink();
   _openHideMenu(); 
 /*   _parallaxSlider(); */
   _openSubMenu(); 
+  _videoEdificiosSoport();
 /*   _videoEdificios(); */
 /*   _videoTendenze(); */
 /*   _slider('.banner');
