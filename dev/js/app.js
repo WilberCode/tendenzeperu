@@ -224,6 +224,76 @@ const _slider = (wrapper) =>{
     } 
 } 
 
+const _videoEdificios = ()=>{
+  const video = document.getElementById('edificios'); 
+  let videoHasEnded = false; // Variable para rastrear si el video ya terminó
+
+  // Función para reproducir y pausar el video según el scroll
+  const playVideoOnScroll = () => {
+  const videoPosition = video.getBoundingClientRect().top;
+  const windowHeight = window.innerHeight;
+
+  // Solo reproducir si el video no ha terminado
+  if (videoPosition < windowHeight && videoPosition > 0 && !videoHasEnded) {
+    video.play();
+  } else {
+    video.pause();
+  }
+  };
+
+  // Evento para pausar el video cuando termina
+  video.addEventListener('ended', () => {
+  videoHasEnded = true; // Marcamos que el video ya ha terminado
+  video.pause(); // Pausar el video al final (el último cuadro se mantiene visible)
+  });
+
+  // Eventos para detectar scroll y resize
+  window.addEventListener('scroll', playVideoOnScroll);
+  window.addEventListener('resize', playVideoOnScroll);
+}
+
+const _videoTendenze = ()=>{
+  const video = document.getElementById('publicidad'); 
+  let videoHasEnded = false; // Variable para rastrear si el video ya terminó
+  let audioActivated = false; // Variable para evitar activar el audio más de una vez
+
+  // Función para reproducir y pausar el video según el scroll
+  const playVideoOnScroll = () => {
+    const videoPosition = video.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+
+    // Solo reproducir si el video no ha terminado
+    if (videoPosition < windowHeight && videoPosition > 0 && !videoHasEnded) {
+      video.play();
+
+      // Activar el audio después de 1 segundo si aún no está activado
+      if (!audioActivated) {
+        setTimeout(() => {
+          video.muted = false; // Activar el audio
+
+          // Forzar la reproducción de nuevo para evitar que se pause
+          video.play().catch((error) => {
+            console.log("El video no pudo continuar la reproducción:", error);
+          });
+
+          audioActivated = true; // Marcar que ya se activó el audio
+        }, 1000); // Espera 1 segundo
+      }
+    } else {
+      video.pause();
+    }
+  };
+
+  // Evento para pausar el video cuando termina
+  video.addEventListener('ended', () => {
+    videoHasEnded = true; // Marcamos que el video ya ha terminado
+    video.pause(); // Pausar el video al final (el último cuadro se mantiene visible)
+  });
+
+  // Eventos para detectar scroll y resize
+  window.addEventListener('scroll', playVideoOnScroll);
+  window.addEventListener('resize', playVideoOnScroll);
+}
  
  
 window.onload = () => {  
@@ -231,6 +301,8 @@ window.onload = () => {
   _openHideMenu(); 
 /*   _parallaxSlider(); */
   _openSubMenu(); 
+  _videoEdificios();
+  _videoTendenze();
 /*   _slider('.banner');
   _slider('.sliderInformacion'); */
   document.querySelectorAll('ul>li>a').forEach(anchor => {

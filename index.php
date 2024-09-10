@@ -118,7 +118,7 @@
             </div>
         </div>
     </section>
-    <section>
+<!--     <section>
         <div class="container relative mt-[2px] "  id="experiencia">
             <img class="w-full maxlg:h-[600px] xl:h-[700px] xl:object-cover maxlg:object-cover maxlg:object-center  " src="build/images/buildings.svg"
                 alt="">
@@ -134,7 +134,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+    <section  class="mt-[2px] edificios-wrap ">
+        <video id="edificios" muted class="w-full edificios">
+            <source src="build/images/edificios1.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </section>  
     <section >
         <div id="que-hacemosswsws" class=" flex flex-col maxsm:space-y-6 sm:flex-row justify-center experiencia px-[10px]">
             <!--  <div class="experiencia-item"><h3><strong> <span>+</span>18</strong>  años de <br> experiencia</h3></div> -->
@@ -163,12 +169,14 @@
                 </h2>
             </div>
             <div class="md:w-[60%] bg-primary-500 flex items-center ">
-                <video autoplay controls class="w-full h-full">
+              <!--   <video autoplay controls class="w-full h-full" id=""> -->
+                <video muted controls class="w-full h-full" id="publicidad">
                     <source src="https://tendenzeperu.com/videos/video/Tendenze/publicidad2.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
-    </section>
+    </section> 
+
 
     <section class="pt-[41px]" id="que-hacemos" >
         <div class="w-full max-w-[976px] xl:max-w-[1304px] mx-auto px-[10px]">
@@ -307,8 +315,7 @@
     <?php include './includes/footer.php';?>
     <!-- [ /GLOBAL FOOTER ] -->
 
-    <script src="<?=theDomainUrl();?>/build/js/app.js?v=<?=theVersion();?>"></script>
-
+    <script src="<?=theDomainUrl();?>/build/js/app.js?v=<?=theVersion();?>"></script> 
 </body>
 
 </html>
