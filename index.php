@@ -136,7 +136,7 @@
         </div>
     </section> -->
     <section  class="mt-[2px] edificios-wrap ">
-        <video id="edificios" autoplay muted class="w-full edificios">
+        <video id="edificios" autoplay controls muted class="w-full edificios">
             <source src="build/images/edificios1.mp4" type="video/mp4">
             Tu navegador no soporta la etiqueta de video.
         </video>
