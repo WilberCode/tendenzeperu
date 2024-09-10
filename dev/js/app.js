@@ -307,8 +307,8 @@ window.onload = () => {
   _openHideMenu(); 
 /*   _parallaxSlider(); */
   _openSubMenu(); 
-  _videoEdificios();
-  _videoTendenze();
+/*   _videoEdificios(); */
+/*   _videoTendenze(); */
 /*   _slider('.banner');
   _slider('.sliderInformacion'); */
   document.querySelectorAll('ul>li>a').forEach(anchor => {

@@ -136,7 +136,7 @@
         </div>
     </section> -->
     <section  class="mt-[2px] edificios-wrap ">
-        <video id="edificios" muted class="w-full edificios">
+        <video id="edificios" autoplay muted class="w-full edificios">
             <source src="build/images/edificios1.mp4" type="video/mp4">
             Tu navegador no soporta la etiqueta de video.
         </video>
@@ -169,8 +169,8 @@
                 </h2>
             </div>
             <div class="md:w-[60%] bg-primary-500 flex items-center ">
-              <!--   <video autoplay controls class="w-full h-full" id=""> -->
-                <video muted controls class="w-full h-full" id="publicidad">
+                <video autoplay controls class="w-full h-full"  >
+                <!-- <video muted controls class="w-full h-full" id="publicidad"> -->
                     <source src="https://tendenzeperu.com/videos/video/Tendenze/publicidad2.mp4" type="video/mp4">
                 </video>
             </div>
