@@ -140,7 +140,7 @@
             <source src="build/images/edificios1.mp4" type="video/mp4">
             Tu navegador no soporta la etiqueta de video.
         </video> -->
-        <video id="edificios" muted playsinline preload="none" data-src="build/images/edificios1.mp4" loop poster="build/images/poster.jpg" class="video w-full">
+        <video id="edificios" muted playsinline preload="none" autoplay src="build/images/edificios1.mp4"  poster="build/images/poster.jpg"  class="video w-full">
             Tu navegador no soporta la etiqueta de video. 
         </video>
     </section>  

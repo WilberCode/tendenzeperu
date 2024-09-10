@@ -296,20 +296,24 @@ const _videoTendenze = ()=>{
     video.pause(); // Pausar el video al final (el último cuadro se mantiene visible)
   });
 
+
+
   // Eventos para detectar scroll y resize
   window.addEventListener('scroll', playVideoOnScroll);
   window.addEventListener('resize', playVideoOnScroll);
+
 }
 
-_videoEdificiosSoport = ()=>{
-  var videos = document.querySelectorAll(".video");
+const _videoEdificiosSoport = ()=>{
+  var video = document.getElementById('edificios');
+  let videoHasPlayed = false; // Variable para rastrear si el video ya se ha reproducido
 
   function checkIfInView(video) {
     var rect = video.getBoundingClientRect();
     var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
     var inView = !(rect.bottom < 0 || rect.top - viewHeight >= 0);
 
-    if (inView) {
+    if (inView && !videoHasPlayed) {
       let dataSrc = video.dataset.src;
 
       // Cargar el video solo si no está cargado
@@ -317,31 +321,32 @@ _videoEdificiosSoport = ()=>{
         video.src = dataSrc;
       }
 
-      // Reproducir el video si está en la vista
-      video.play();
-    } else {
-      video.pause();
+      // Reproducir el video si está en la vista y aún no se ha reproducido
+      video.play().then(() => {
+        videoHasPlayed = true; // Marcar como reproducido
+      }).catch((error) => {
+        console.log("No se pudo reproducir el video:", error);
+      });
     }
   }
 
   // Verifica si el video está en la vista al cargar la página
   document.addEventListener('DOMContentLoaded', function() {
-    videos.forEach(function(video) {
-      checkIfInView(video);
-    });
+    checkIfInView(video);
   });
 
   // Verifica si el video está en la vista al hacer scroll o redimensionar
   window.addEventListener("scroll", function() {
-    videos.forEach(function(video) {
-      checkIfInView(video);
-    });
+    checkIfInView(video);
   });
 
   window.addEventListener("resize", function() {
-    videos.forEach(function(video) {
-      checkIfInView(video);
-    });
+    checkIfInView(video);
+  });
+
+  // Evento para pausar el video cuando termina
+  video.addEventListener('ended', () => {
+    video.pause(); // Pausar el video al final (el último cuadro se mantiene visible)
   });
  
 }
@@ -350,7 +355,7 @@ window.onload = () => {
   _openHideMenu(); 
 /*   _parallaxSlider(); */
   _openSubMenu(); 
-  _videoEdificiosSoport();
+/*   _videoEdificiosSoport(); */
 /*   _videoEdificios(); */
 /*   _videoTendenze(); */
 /*   _slider('.banner');
