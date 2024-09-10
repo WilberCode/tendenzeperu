@@ -225,31 +225,37 @@ const _slider = (wrapper) =>{
 } 
 
 const _videoEdificios = ()=>{
-  const video = document.getElementById('edificios'); 
+  const video = document.getElementById('edificios');
   let videoHasEnded = false; // Variable para rastrear si el video ya terminó
 
   // Función para reproducir y pausar el video según el scroll
   const playVideoOnScroll = () => {
-  const videoPosition = video.getBoundingClientRect().top;
-  const windowHeight = window.innerHeight;
+    const videoPosition = video.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
 
-  // Solo reproducir si el video no ha terminado
-  if (videoPosition < windowHeight && videoPosition > 0 && !videoHasEnded) {
-    video.play();
-  } else {
-    video.pause();
-  }
+    // Verifica si el video está en la vista
+    const isInView = videoPosition < windowHeight && videoPosition > 0;
+
+    // Solo reproducir si el video no ha terminado y está visible
+    if (isInView && !videoHasEnded) {
+      video.play();
+    } else {
+      video.pause();
+    }
   };
 
   // Evento para pausar el video cuando termina
   video.addEventListener('ended', () => {
-  videoHasEnded = true; // Marcamos que el video ya ha terminado
-  video.pause(); // Pausar el video al final (el último cuadro se mantiene visible)
+    videoHasEnded = true; // Marcamos que el video ya ha terminado
+    video.pause(); // Pausar el video al final (el último cuadro se mantiene visible)
   });
 
-  // Eventos para detectar scroll y resize
+  // Detecta el scroll y resize para verificar la visibilidad del video
   window.addEventListener('scroll', playVideoOnScroll);
   window.addEventListener('resize', playVideoOnScroll);
+  
+  // Verificar la visibilidad del video al cargar la página
+  document.addEventListener('DOMContentLoaded', playVideoOnScroll);
 }
 
 const _videoTendenze = ()=>{
