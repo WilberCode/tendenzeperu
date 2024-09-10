@@ -101,14 +101,14 @@
     <section class="bg-[#ffe900]  banner-single ">
         <div class="max-w-[820px] px-[10px] mx-auto">
             <div class=" flex flex-col md:flex-row sm:space-x-2 sm:px-5 xs:px-6 pt-6 ">
-                <div class=" flex-1 pt-[56px] pb-[52px] maxsm:px-6 ">
+                <div class=" flex-1 pt-[56px] pb-[40px] maxsm:px-6 ">
                     <svg class=" w-[60px] sm:w-[100px] lg:w-[124.3px] h-[60px] sm:h-[96px]  " xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 124.33 96.85" xmlns:v="https://vecta.io/nano">
                         <path
                             d="M0,64.14C0,37.84,17.8,10.26,53.4,0,39.82,12.83,34.69,23.09,32.58,35c9.66,0,26.55,9.62,26.55,31.11,0,17.31-13,30.78-29,30.78S0,85,0,64.14Zm65.2,0C65.2,37.84,83,10.26,118.6,0,105,12.83,99.89,23.09,97.78,35c9.65,0,26.55,9.62,26.55,31.11,0,17.31-13,30.78-29,30.78S65.2,85,65.2,64.14Z" />
                     </svg>
                     <h2
-                        class=" tracking-[0.14px] text-[32px] sm:text-[50px] lg:text-[70.02px]  mt-0 sm:mt-3 leading-[40px] sm:leading-[58px] lg:leading-[78.24px]  !font-librebodoni font-bold   ">
+                        class=" tracking-[0.08px] text-[32px] sm:text-[50px] lg:text-[70.02px]  mt-0 sm:mt-5 leading-[40px] sm:leading-[58px] lg:leading-[78.24px]  !font-librebodoni font-bold    ">
                         Por qué solo <br>
                         seguir las tendencias <br>
                         si además las <br>
@@ -125,11 +125,12 @@
             <div class="w-full left-0 right-0 top-0 absolute  ">
                 <div class="w-full max-w-[1103px] px-[10px] mx-auto mt-16 sm:mt-20 lg:mt-[113px]">
                     <p
-                        class=" text-[18px] sm:text-[25px] leading-tight max-w-[830px] tracking-[0.40px] maxl:ml-7 maxsm:mr-7  ">
-                        Más de 20 años aportando al crecimiento de muchas empresas.
-                        Gracias a nuestro proceso creativo creamos estrategias y campañas efectivas. Creemos en la
-                        creatividad como disciplina que conecta todo. Como fuente de cambio para crear tendencias y un
-                        mundo mejor.</p>
+                        class=" text-[18px] sm:text-[26px] font-light leading-[36.1px] max-w-[825px] tracking-[0.40px] maxl:ml-7 maxsm:mr-7  ">
+                        Más de 20 años aportando al crecimiento de muchas empresas. <br>
+                        Gracias a nuestro proceso creamos estrategias y campañas efectivas. <br>
+                         Creemos en la creatividad como disciplina que conecta todo. <br>
+                        Como fuente de cambio para crear tendencias y un mundo mejor.
+                       </p>
                 </div>
             </div>
         </div>
@@ -256,7 +257,7 @@
           Hemos trabajado <br>
           estas categorías
         </h2>
-          <p  class=" text-[30px] maxsm:pl-6 sm:text-[45.36px] leading-[40px] sm:leading-[56.43px] tracking-[0.40px] ml-[8px] font-light " >TURISMO <br>
+          <p  class=" text-[26px] maxsm:pl-6 sm:text-[34px] leading-[40px] sm:leading-[42.31px] tracking-[0.40px] ml-[8px] font-light " >TURISMO <br>
             HOTELERÍA <br>
             RETAIL <br>
             SKINCARE <br>
@@ -268,7 +269,7 @@
     </section>
 
  
-   <section class=" pt-[100px] sm:pt-[123px]">
+   <section class=" pt-[100px] sm:pt-[123px] pb-[123px]">
       <div class="max-w-[1131px] mx-auto px-[10px] text-center ">
           <div class="clientes flex flex-wrap   justify-center sm:justify-between items-center">  
                 <?php  
@@ -288,7 +289,7 @@
           <a class="inline-flex mt-[46px] px-8 py-[10px] sm:py-[15px] rounded-[18px] sm:rounded-[25px] border-[2px] border-solid  tracking-[0.20px]  border-[#231f00] text-[20px] sm:text-[31.83px] text-[#231f20] font-light" href="">CONVERSEMOS</a> 
       </div>
    </section>
-   <section  class="px-[10px] text-center py-[60px]" >
+ <!--   <section  class="px-[10px] text-center py-[60px]" >
         <h2 class=" px-[30px] sm:px-[45px] py-[15px] sm:py-[22px]  bg-black text-white font-librebodoni font-bold text-[20px] sm:text-[30px] lg:text-[38.25px] leading-normal sm:leading-[45.38px] inline-flex m-0">
         Aliados en medios de difusión | investigación 
        </h2>
@@ -301,7 +302,7 @@
           <figure><img src="/build/images/aliados/impronta.png"  alt="Impronta"></figure>
        </div>
    </section>
-
+ -->
     <!-- [ GLOBAL FOOTER ] -->
     <?php include './includes/footer.php';?>
     <!-- [ /GLOBAL FOOTER ] -->
