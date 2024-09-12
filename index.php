@@ -262,25 +262,38 @@
     </section>
 
  
-    <section class="pt-[37px]">
-      <div class="w-full max-w-[762px] mx-auto px-[10px]">
-        <h2 class=" subtitle  maxsm:text-center    mb-[34px] ">
+    <section class="pt-[37px] pb-[83px]">
+      <div class="w-full max-w-[1115px] mx-auto px-[10px] lg:pl-[22px]">
+        <h2 class=" subtitle      mb-[30px] sm:mb-[56px] ">
           Hemos trabajado <br>
           estas categorías
         </h2>
-          <p  class=" text-[26px] maxsm:pl-6 sm:text-[34px] leading-[40px] sm:leading-[42.31px] tracking-[0.40px] ml-[8px] font-light " >TURISMO <br>
-            HOTELERÍA <br>
-            RETAIL <br>
-            SKINCARE <br>
-            INMOBILIARIA <br>
-            BANCA <br>
-            CONSUMO MASIVO
-          </p>
+            <div class="flex maxsm:flex-col justify-start maxsm:space-y-[30px] sm:space-x-[50px] lg:space-x-[90px]  whitespace-nowrap">
+
+                <p  class=" text-[22px] maxmd:leading-[30px]  sm:text-[18px] md:text-[20px] lg:text-[23px] xl:text-[28.64px] leading-[40px] sm:leading-[36px] tracking-[0.40px]  font-light   " >
+                    TURISMO <br>
+                    HOTELERÍA <br>
+                    LINEAS AÉREAS <br>
+                    MARCA PAIS
+                </p>
+                <p  class=" text-[22px] maxlg:leading-[30px]  sm:text-[18px] md:text-[20px] lg:text-[23px] xl:text-[25.86px] leading-[40px] sm:leading-[32.17px] tracking-[0.40px]  font-light   " >
+                <span  class=" xl:text-[28.64px]" >RETAIL</span> <br>
+                <span  class=" xl:text-[28.64px]" >CENTROS COMERCIALES</span> <br>
+                TIENDAS ON LINE <br>
+                SKINCARE <br>
+                LACTANCIA
+                </p>
+                <p  class=" text-[22px] maxmd:leading-[30px]  sm:text-[18px] md:text-[20px] lg:text-[23px] xl:text-[25.86px] leading-[40px] sm:leading-[32.17px] tracking-[0.40px]  font-light   " >
+                INMOBILIARIA <br>
+                BANCA <br>
+                UNIVERSIDADES <br>
+                CONSUMO MASIVO
+                </p>
+            </div>
       </div>
     </section>
-
- 
-   <section class=" pt-[100px] sm:pt-[123px] pb-[123px]">
+    <div class="w-full max-w-[900px] h-[8px] bg-primary-500 mx-auto "></div>  
+   <section class=" pt-[100px] sm:pt-[100px] pb-[123px]">
       <div class="max-w-[1131px] mx-auto px-[10px] text-center ">
           <div class="clientes flex flex-wrap   justify-center sm:justify-between items-center">  
                 <?php  
