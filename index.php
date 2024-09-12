@@ -264,7 +264,7 @@
  
     <section class="pt-[37px] pb-[83px]">
       <div class="w-full max-w-[1115px] mx-auto px-[10px] lg:pl-[22px]">
-        <h2 class=" subtitle      mb-[30px] sm:mb-[56px] ">
+        <h2 class=" subtitle  xl:text-[79.52px]    mb-[30px] sm:mb-[56px] xl:leading-[88.85px] ">
           Hemos trabajado <br>
           estas categorías
         </h2>
