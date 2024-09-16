@@ -6,7 +6,7 @@
           <p>Miraflores</p>
           <p>+ (51) 998 315 039</p>
         </div>
-        <a href="mailto:contacto@tendenzeperu.com" class="buble ">Contacto</a>
+        <a href="https://api.whatsapp.com/send?phone=+51998315039&text=Hola%20Grupo%20Tendenze%20Comunicaciones%20%C2%A1Quisiera%20m%C3%A1s%20informaci%C3%B3n!" class="buble ">Contacto</a>
       </div>
       <div class="flex space-x-10 " >
         <a href=""><i class="fab fa-instagram text-[35px]"></i></a>
