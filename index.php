@@ -310,7 +310,7 @@
              
           </div> 
 
-          <a class="inline-flex mt-[46px] px-8 py-[10px] sm:py-[15px] rounded-[18px] sm:rounded-[25px] border-[2px] border-solid  tracking-[0.20px]  border-[#231f00] text-[20px] sm:text-[31.83px] text-[#231f20] font-light" href="">CONVERSEMOS</a> 
+          <a class="inline-flex mt-[46px] px-8 py-[10px] sm:py-[15px] rounded-[18px] sm:rounded-[25px] border-[2px] border-solid  tracking-[0.20px]  border-[#231f00] text-[20px] sm:text-[31.83px] text-[#231f20] font-light" href="https://api.whatsapp.com/send?phone=+51998315039&text=Hola%20Grupo%20Tendenze%20Comunicaciones%20%C2%A1Quisiera%20m%C3%A1s%20informaci%C3%B3n!">CONVERSEMOS</a> 
       </div>
    </section>
  <!--   <section  class="px-[10px] text-center py-[60px]" >
