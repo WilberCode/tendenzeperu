@@ -11,7 +11,7 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
 <!--   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZPR3GG" height="0" width="0"  style="display:none;visibility:hidden"></iframe></noscript>
  -->  <!-- End Google Tag Manager (noscript) -->
   <header id="header" class="flex items-center lg:items-end w-full">
-    <div class="flex w-full px-[10px] max-w-[1274px] mx-auto h-full"> 
+    <div class="flex w-full px-[10px] max-w-[1366px] mx-auto h-full"> 
       <a class="relative z-10 w-full  maxsm:ml-5 logo-wrap" href="/" target="_self" > 
         <img  class="absolute w-full max-w-[100px]  sm:max-w-[164px]  top-0"  src="<?=theDomainUrl()?>/build/images/logo.svg" alt="Logo Grupo Tendenze Comunicaciones"  title="Logo Grupo Tendenze Comunicaciones"   />
       </a> 
