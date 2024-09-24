@@ -171,10 +171,10 @@
                     afinidad.
                 </h2>
             </div>
-            <div class="md:w-[60%] bg-primary-500 flex items-center ">
+            <div class="md:w-[60%] bg-primary-500 flex items-center">
                 <video autoplay controls class="w-full h-full"  >
-                <!-- <video muted controls class="w-full h-full" id="publicidad"> -->
-                    <source src="https://tendenzeperu.com/videos/video/Tendenze/publicidad2.mp4" type="video/mp4">
+                    <!-- <video muted controls class="w-full h-full" id="publicidad"> -->
+                     <source src="https://tendenzeperu.com/videos/video/Tendenze/publicidad2.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
@@ -183,78 +183,76 @@
 
     <section class="pt-[41px]" id="que-hacemos" >
         <div class="w-full max-w-[976px] xl:max-w-[1304px] mx-auto px-[10px]">
-           <div class="max-w-[740px] mx-auto "> <h2 class=" text-[40px] sm:text-[60px] md:text-[88.09px] font-librebodoni font-bold maxsm:text-center  mb-[40px] sm:mb-[66px] ">Qué hacemos</h2></div>
+           <div class="max-w-[1282px] mx-auto flex justify-between items-center "> 
+                <div  class="pl-[30px] sm:pl-[104px]" >
+                    <h2 class=" text-[42px] sm:text-[55px] md:text-[50px] font-librebodoni font-bold  mb-1 ">Qué hacemos</h2>
+                    <p  class=" text-[20px] sm:text-[26px] sm:leading-[36.12px] tracking-[0.40px] font-light  mb-[40px] sm:mb-[66px]" >La creatividad es transversal a todos los servicios.</p>
+                </div>
+                <a class="mt-2 ml-2" href="https://wa.link/trikn5" target="_blank" ><img src="/build/svg/whatsapp.svg" class=" w-[60px] md:w-[80px] lg:w-[103px] h-[60px] md:h-[80px] lg:h-[103px] " alt=""></a>
+            </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-[18px]  ">
                 <div class="quehacemos">
                     <img class="w-full" src="/build/images/dots.svg" alt="puntos">
-                    <a class="quehacemos__calltoaction" href="">agenda una reunión</a>
+                    <a class="quehacemos__calltoaction" href="https://wa.link/trikn5" target="_blank" >conversemos</a>
                     <h2 class="quehacemos__title ">Asesoría <br>
                         Estrategia</h2>
                     <div class="quehacemos-body">
-                        <p>Estrategia de Marketing <br>
-                            Estrategia de Branding <br>
-                            Estrategia Creativa</p>
-                        <p class="mt-[27px]">Campañas de <br>
-                            lanzamiento, mantenimiento <br>
-                            o promocionales.</p>
+                        <p>Estrategia de Marketing <br> <br>
+                            Estrategia de Branding  <br><br>
+                            Estrategia Creativa <br><br>
+                            Estudios de Mercado</p> 
                     </div>
                 </div>
                 <div class="quehacemos">
                     <img class="w-full" src="/build/images/dots.svg" alt="puntos">
-                    <a class="quehacemos__calltoaction" href="">agenda una reunión</a>
+                    <a class="quehacemos__calltoaction" href="https://wa.link/trikn5" target="_blank" >conversemos</a>
                     <h2 class="quehacemos__title ">Servicios <br>
                     Digitales</h2>
                     <div class="quehacemos-body">
-                        <p>Gestión Redes Sociales </p>
-                        <p class="mt-[27px]">Desarrollo Web <br>
-                        Desarrollo Tienda Online</p>
-                        <p class="mt-[27px]">Creación y desarrollo de
-                          contenidos para webs, <br>
-                          blogs, e-newsletter, <br>
-                          magazines, catálogos.</p>
-                        <p class="mt-[27px]">Landing Page <br>
-                          Formularios
+                        <p> Estrategia Digital <br> <br>
+                            Gestión Redes Sociales   <br> <br>
+                            Creación y desarrollo de
+                            contenidos para
                           </p>
+                          <img src="/build/svg/serviciosdigitales.svg" class=" mt-[30px] w-full max-w-[162.62px] " alt="">
                     </div>
                 </div>
                 <div class="quehacemos">
                     <img class="w-full" src="/build/images/dots.svg" alt="puntos">
-                    <a class="quehacemos__calltoaction" href="">agenda una reunión</a>
-                    <h2 class="quehacemos__title ">Plan de
-                    Difusión</h2>
+                    <a class="quehacemos__calltoaction" href="https://wa.link/trikn5" target="_blank" >conversemos</a>
+                    <h2 class="quehacemos__title ">Servicios <br> 
+                    de Difusión</h2>
                     <div class="quehacemos-body">
-                        <p>Estrategia de Medios 360 <br>
-                          Estrategias Medios Digitales
-                          (CPC CPV. CPA. Leads) <br>
-                          Google Adwords <br>
-                          Paid Ads en RRSS <br>
-                          Programática <br>
-                          Marketing Afiliados <br>
-                          Campaña Influencers </p> 
+                        <p> Estrategia de Medios 360
+                            <br> <br>
+                            Negociación y optimización pautas multicanal 
+                             <br> <br>
+                            Medios Digitales y ATL
+                            Campañas cross media
+                               <br> <br>
+                            Campaña Programática
+                            Campaña Influencers  </p> 
                     </div>
                 </div>
                 <div class="quehacemos">
                     <img class="w-full" src="/build/images/dots.svg" alt="puntos">
-                    <a class="quehacemos__calltoaction" href="">agenda una reunión</a>
-                    <h2 class="quehacemos__title ">Producción
-                    Diseño</h2>
+                    <a class="quehacemos__calltoaction" href="https://wa.link/trikn5" target="_blank" >conversemos</a>
+                    <h2 class="quehacemos__title ">Servicios de
+                    Producción</h2>
                     <div class="quehacemos-body">
-                        <p>Creación naming + <br>
-                        diseño de logo</p>
-                        <p class="mt-[27px]">
-                          Diseño de Brochures <br>
-                          Memorias Anuales
-                        </p>
-                        <p class="mt-[27px]">
-                          Photo Shooting <br>
-                          Videos corporativos <br>
-                          Eventos corporativos, <br>
-                          lanzamientos, aniversarios. 
-                        </p>
-                        <p class="mt-[27px]">
-                          Activaciones en punto venta
-                          Merch creativo.
-                        </p>
+                       
+                        <p  >
+                            Diseños digital y print
+                                <br><br>
+                            Photo Shooting  <br>
+                            Videos
+                                <br> <br>
+                            Eventos <br>
+                            Activaciones
+                                <br> <br>
+                            Desarrollo Web  <br>
+                            y Tienda Online
+                        </p> 
                     </div>
                 </div>
             </div>
@@ -262,11 +260,26 @@
     </section>
 
  
-    <section class="pt-[37px] pb-[83px]">
-      <div class="w-full max-w-[1115px] mx-auto px-[10px] lg:pl-[22px]">
-        <h2 class=" subtitle  xl:text-[79.52px]    mb-[30px] sm:mb-[56px] xl:leading-[88.85px] ">
-          Hemos trabajado <br>
-          estas categorías
+    <section class="pt-[37px] pb-[68px]">
+      <div class="w-full max-w-[1095px] mx-auto px-[10px] lg:pl-[22px]">
+        <h2 class=" subtitle  maxsm:text-[30px]   mb-[30px] sm:mb-[28px] ">
+            “El tiempo promedio de asesoría <br  class="maxsm:hidden" >
+            que hemos dado a una marca es de 8 años...
+        </h2>
+        <p  class=" text-[22px] maxmd:leading-[30px]  sm:text-[18px] md:text-[20px] lg:text-[23px] xl:text-[28.64px] leading-[40px] sm:leading-[36px] tracking-[0.40px]  font-light mb-[80px]   " >
+            Y nos sentimos muy  orgullosos por ello. Es como un reconocimiento a lo
+            que hacemos. Con algunas marcas la relación continúa desde nuestros inicios.
+            Con las demás, hemos compartido historias de éxito, campañas o servicios
+            específicos. Y lo más importante, es el haber trabajado en equipo con ellas.
+            <br><br>
+            Siempre agradecidas por la confianza que nos han dado y siguen dándonos.
+            Y por supuesto, por recomendarnos con más empresas amigas.”
+        </p>
+        <div class="w-full max-w-[900px] h-[8px] bg-primary-500 mx-auto "></div>  
+
+        <h2 class=" subtitle  mb-[30px] sm:mb-[25px]  mt-[68px] ">
+        Nuestra experiencia <br>
+        es en estas categorías
         </h2>
             <div class="flex maxsm:flex-col justify-start maxsm:space-y-[30px] sm:space-x-[50px] lg:space-x-[90px]  whitespace-nowrap">
 
@@ -310,7 +323,7 @@
              
           </div> 
 
-          <a class="inline-flex mt-[46px] px-8 py-[10px] sm:py-[15px] rounded-[18px] sm:rounded-[25px] border-[2px] border-solid  tracking-[0.20px]  border-[#231f00] text-[20px] sm:text-[31.83px] text-[#231f20] font-light" href="https://api.whatsapp.com/send?phone=+51998315039&text=Hola%20Grupo%20Tendenze%20Comunicaciones%20%C2%A1Quisiera%20m%C3%A1s%20informaci%C3%B3n!">CONVERSEMOS</a> 
+          <a class="inline-flex mt-[46px] px-8 py-[10px] sm:py-[15px] rounded-[18px] sm:rounded-[25px] border-[2px] border-solid  tracking-[0.20px]  border-[#231f00] text-[20px] sm:text-[31.83px] text-[#231f20] font-light" href="https://wa.link/trikn5" target="_blank" >CONVERSEMOS</a> 
       </div>
    </section>
  <!--   <section  class="px-[10px] text-center py-[60px]" >
