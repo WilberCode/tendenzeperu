@@ -1,6 +1,6 @@
 module.exports = {
   mode:'jit',
-  purge: [ './*.php','./includes/*.php', './videos/index.php','./promociones/index.php'],
+  purge: [ './*.php','./includes/*.php', './videos/index.php','./promociones/index.php','./contacto/index.php'],
 /*   safelist:['clientes'], */
   darkMode: false, // or 'media' or 'class'
   theme: {
