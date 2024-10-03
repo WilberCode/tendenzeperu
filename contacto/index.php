@@ -86,7 +86,7 @@
             
             <form id="envioContacto" class="contact-form " data-nombre="envioContacto" data-destino="/contacto/envioContacto.php"  action="/contacto/envioContacto.php" > 
                     <div class="w-full max-w-[726px] grid grid-cols-1 md:grid-cols-2 gap-x-0 gap-y-[18px]" id="temas">
-                      <div class="contact-tema-wrap"><label class="contact-tema-label" for="contact-tema-1"><input id="contact-tema-1" type="checkbox" name="tema[]" value="Nombre y Apellido" class="required" /> <span>Nombre y Apellido</span> </label></div>  
+                      <div class="contact-tema-wrap"><label class="contact-tema-label" for="contact-tema-1"><input id="contact-tema-1" type="checkbox" name="tema[]" value="Asesoría Estrategia" class="required" /> <span>Asesoría Estrategia</span> </label></div>  
                       <div class="contact-tema-wrap"><label class="contact-tema-label" for="contact-tema-2"><input id="contact-tema-2" type="checkbox" name="tema[]" value="Servicios de Difusión" class="required" /> <span>Servicios de Difusión</span> </label></div>  
                       <div class="contact-tema-wrap"><label class="contact-tema-label" for="contact-tema-3"><input id="contact-tema-3" type="checkbox" name="tema[]" value="Servicios Digitales" class="required" /> <span>Servicios Digitales</span> </label></div>  
                       <div class="contact-tema-wrap"><label class="contact-tema-label" for="contact-tema-4"><input id="contact-tema-4" type="checkbox" name="tema[]" value="Servicios de Producción" class="required" /> <span>Servicios de Producción</span> </label></div>   
@@ -94,7 +94,7 @@
                     </div>
                     <div class="w-full  mt-[64px] mb-[66px]  grid grid-cols-1 md:grid-cols-2 gap-x-[54px] gap-y-[39px]">
                       <label class="contact-form-control" > 
-                        <input id="fullname" type="text" name="fullname" class="texto required " placeholder="Nombre completo" autofocus />
+                        <input id="fullname" type="text" name="fullname" class="texto required " placeholder="Nombre y Apellido" autofocus />
                       </label>
                       <label class="contact-form-control" > 
                         <input id="email" type="email" name="email" class="email required" placeholder="Email" />  
