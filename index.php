@@ -174,7 +174,7 @@
             <div class="md:w-[60%] bg-primary-500 flex items-center">
                 <video autoplay controls class="w-full h-full"  >
                     <!-- <video muted controls class="w-full h-full" id="publicidad"> -->
-                     <source src="https://tendenzeperu.com/videos/video/Tendenze/publicidad2.mp4" type="video/mp4">
+                     <source src="https://tendenzeperu.com/videos/video/Tendenze/publicidad3.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
