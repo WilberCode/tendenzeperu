@@ -1,6 +1,6 @@
 module.exports = {
   mode:'jit',
-  purge: [ './*.php','./includes/*.php', './videos/index.php','./promociones/index.php','./contacto/index.php'],
+  purge: [ './*.php','./includes/*.php', './videos/index.php','./promociones/index.php','./contacto/index.php','./martinaanfossi/index.php','./karinahigashi/index.php'],
 /*   safelist:['clientes'], */
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -81,6 +81,7 @@ module.exports = {
         times: 'times',
         librebodoni: 'librebodoni',
         robotofont: 'robotofont',
+        akrobat: 'akrobat',
       },
       screens: {
         xs: '383px',
