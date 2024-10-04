@@ -68,7 +68,7 @@
 </script> -->
 
 </head>
-<body class="sm:h-screen ">  
+<body class="h-screen bg-primary-500 ">  
   <header>
      <div class="w-full max-w-[661px] px-[15px]  mx-auto">
       <a class="relative z-10 w-full    " href="/" target="_self" > 
