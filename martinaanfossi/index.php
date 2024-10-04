@@ -80,18 +80,20 @@
       <div class="w-full max-w-[661px] px-[15px]  mx-auto pt-[55px] sm:pt-[115px] pb-[20px] ">
         <div class="text-center">
           <div class="flex justify-center space-x-[10px] sm:space-x-[20px] ">
-            <a href="https://wa.link/trikn5" target="_blank" > 
+            <a href="https://api.whatsapp.com/send?phone=51998315039" target="_blank" > 
               <img  class=" w-[40px] sm:w-[58px] h-[40px] sm:h-[58px] block"  src="<?=theDomainUrl()?>/build/images/redes/whatsapp.svg" alt="Whatsapp"  title="Whatsapp"   />
             </a> 
             <a href="mailto:martina.anfossi@tendenzeperu.com" target="_blank" > 
               <img  class=" w-[40px] sm:w-[58px] h-[40px] sm:h-[58px] block"  src="<?=theDomainUrl()?>/build/images/redes/correo.svg" alt="Whatsapp"  title="Whatsapp"   />
             </a> 
-            <a href="#" target="_blank" > 
+            <a href="#" > 
               <img  class=" w-[40px] sm:w-[58px] h-[40px] sm:h-[58px] block"  src="<?=theDomainUrl()?>/build/images/redes/linkedin.svg" alt="Whatsapp"  title="Whatsapp"   />
             </a> 
           </div>
           <h1  class="font-akrobat font-bold text-[20px] sm:text-[26px] leading-[28.01px] tracking-[0.60px] mt-[10px] sm:mt-[33px] mb-[20px] sm:mb-[47px] " >Martina Anfossi  |  CEO & Founder</h1>
-          <img class="w-full max-w-[631px]" src="<?=theDomainUrl()?>/build/images/redes/video.png" alt="">
+          <video autoplay controls class="w-full h-full"> 
+                <source src="https://tendenzeperu.com/videos/video/Tendenze/publicidad3.mp4" type="video/mp4">
+          </video>
         </div>
         <div class="flex flex-col  items-end mt-[18px] sm:mt-[43px]  "> 
           <div>
