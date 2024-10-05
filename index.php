@@ -151,9 +151,9 @@
                 </h2>
             </div>
             <div class="md:w-[60%] bg-primary-500 flex items-center">
-               <!--  <video autoplay controls class="w-full h-full"  > 
+                <video autoplay controls class="w-full h-full"  > 
                      <source src="https://tendenzeperu.com/videos/video/Tendenze/publicidad3.mp4" type="video/mp4">
-                </video> -->
+                </video>
             </div>
         </div>
     </section> 
