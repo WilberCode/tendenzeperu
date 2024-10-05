@@ -1,7 +1,7 @@
-<?php include './includes/config.php';?>
+<?php include '../includes/config.php';?>
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -51,8 +51,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="shortcut icon" type="image/png" href="./build/images/icono.png">
-    <link rel="apple-touch-icon" href="build/images/icono.png">
-    <link rel="apple-touch-startup-image" href="build/images/icono.png">
+    <link rel="apple-touch-icon" href="../build/images/icono.png">
+    <link rel="apple-touch-startup-image" href="../build/images/icono.png">
     <link rel="manifest" href="manifest.json">
 
 
@@ -95,7 +95,7 @@
 
 <body>
     <!-- [ GLOBAL HEADER ] -->
-    <?php include './includes/header.php';?>
+    <?php include '../includes/header_en.php';?>
     <!-- [ /GLOBAL HEADER ] --> 
     
     <section class="bg-[#ffe900]  banner-single ">
@@ -109,34 +109,35 @@
                     </svg>
                     <h2
                         class=" tracking-[0.08px] text-[32px] sm:text-[50px] lg:text-[70.02px]  mt-0 sm:mt-5 leading-[40px] sm:leading-[58px] lg:leading-[78.24px]  !font-librebodoni font-bold    ">
-                        Por qué solo <br>
-                        seguir las tendencias <br>
-                        si además las <br>
-                        podemos crear
+                        Why only follow <br>
+                        trends <br>
+                        if we can also <br>
+                        create them <br>
+
                     </h2>
                 </div>
             </div>
         </div>
     </section> 
-    <section  class="mt-[2px] edificios-wrap " id="experiencia"> 
-        <video id="edificios" muted playsinline preload="none" autoplay src="build/images/edificios1.mp4"  poster="build/images/poster.jpg"  class="video w-full">
+    <section  class="mt-[2px] edificios-wrap " id="experience" > 
+        <video id="edificios" muted playsinline preload="none" autoplay src="../build/images/edificios1.mp4"  poster="../build/images/poster.jpg"  class="video w-full">
             Tu navegador no soporta la etiqueta de video. 
         </video>
     </section>  
     <section >
-        <div id="que-hacemosswsws" class=" flex flex-col maxsm:space-y-6 sm:flex-row justify-center experiencia px-[10px]">
+        <div id="" class=" flex flex-col maxsm:space-y-6 sm:flex-row justify-center experiencia px-[10px]">
             <!--  <div class="experiencia-item"><h3><strong> <span>+</span>18</strong>  años de <br> experiencia</h3></div> -->
             <div class="experiencia-item">
                 <h3><strong> <span>+</span>10 </strong></h3>
-                <p>categorías trabajadas </p>
+                <p>categories worked</p>
             </div>
             <div class="experiencia-item">
                 <h3><strong> <span>+</span>40 </strong> </h3>
-                <p>clientes cumpliendo objetivos</p>
+                <p>clients meeting objectives  </p>
             </div>
             <div class="experiencia-item">
                 <h3><strong> <span>+</span>1000 </strong> </h3>
-                <p>campañas realizadas</p>
+                <p>campaigns carried out</p>
             </div>
         </div>
     </section>
@@ -144,92 +145,92 @@
         <div class="w-full mx-auto md:flex ">
             <div class="md:w-[40%] bg-black py-[6px] px-[15px] flex justify-center items-center ">
                 <h2 class="text-[40px] md:text-[38px] lg:text-[54.15px] font-librebodoni font-bold text-white ">
-                    No vendemos. <br>
-                    Construímos <br>
-                    empatía, <br>
-                    afinidad.
+                    We do not sell. <br>
+                    We build <br>
+                    empathy, <br>
+                    affinity. 
+
                 </h2>
             </div>
             <div class="md:w-[60%] bg-primary-500 flex items-center">
-               <!--  <video autoplay controls class="w-full h-full"  > 
+                <video autoplay controls class="w-full h-full"  > 
                      <source src="https://tendenzeperu.com/videos/video/Tendenze/publicidad3.mp4" type="video/mp4">
-                </video> -->
+                </video>
             </div>
         </div>
     </section> 
 
 
-    <section class="pt-[41px]" id="que-hacemos" >
+    <section class="pt-[41px]" id="what-we-do" >
         <div class="w-full max-w-[976px] xl:max-w-[1304px] mx-auto px-[10px]">
            <div class="max-w-[1282px] mx-auto flex justify-between items-center "> 
                 <div  class="pl-[30px] sm:pl-[104px]" >
-                    <h2 class=" text-[42px] sm:text-[55px] md:text-[50px] font-librebodoni font-bold  mb-1 ">Qué hacemos</h2>
-                    <p  class=" text-[20px] sm:text-[26px] sm:leading-[36.12px] tracking-[0.40px] font-light  mb-[40px] sm:mb-[66px]" >La creatividad es transversal a todos los servicios.</p>
+                    <h2 class=" text-[42px] sm:text-[55px] md:text-[50px] font-librebodoni font-bold  mb-1 ">What we do</h2>
+                    <p  class=" text-[20px] sm:text-[26px] sm:leading-[36.12px] tracking-[0.40px] font-light  mb-[40px] sm:mb-[66px]" >Creativity is transversal to all services.</p>
                 </div>
                 <a class="mt-2 ml-2" href="https://wa.link/trikn5" target="_blank" ><img src="/build/svg/whatsapp.svg" class=" w-[60px] md:w-[80px] lg:w-[103px] h-[60px] md:h-[80px] lg:h-[103px] " alt=""></a>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-[18px]  ">
                 <div class="quehacemos">
                     <img class="w-full" src="/build/images/dots.svg" alt="puntos">
-                    <a class="quehacemos__calltoaction" href="https://wa.link/trikn5" target="_blank" >conversemos</a>
-                    <h2 class="quehacemos__title ">Asesoría <br>
-                        Estrategia</h2>
+                    <a class="quehacemos__calltoaction" href="https://wa.link/trikn5" target="_blank" >let's talk</a>
+                    <h2 class="quehacemos__title ">Consulting <br>
+                    Strategy</h2>
                     <div class="quehacemos-body">
-                        <p>Estrategia de Marketing <br> <br>
-                            Estrategia de Branding  <br><br>
-                            Estrategia Creativa <br><br>
-                            Estudios de Mercado</p> 
+                        <p>Marketing Strategy<br><br>
+                        Branding Strategy<br><br>
+                        Creative Strategy<br><br>
+                        Market Research
+                        </p> 
                     </div>
                 </div>
                 <div class="quehacemos">
                     <img class="w-full" src="/build/images/dots.svg" alt="puntos">
-                    <a class="quehacemos__calltoaction" href="https://wa.link/trikn5" target="_blank" >conversemos</a>
-                    <h2 class="quehacemos__title ">Servicios <br>
-                    Digitales</h2>
+                    <a class="quehacemos__calltoaction" href="https://wa.link/trikn5" target="_blank" >let's talk</a>
+                    <h2 class="quehacemos__title ">Digital <br>
+                    Services</h2>
                     <div class="quehacemos-body">
-                        <p> Estrategia Digital <br> <br>
-                            Gestión Redes Sociales   <br> <br>
-                            Creación y desarrollo de
-                            contenidos para
+                        <p> Digital Strategy<br> <br>
+                        Social Media <br> Management    <br> <br>
+                        Creation and <br> development  of <br> content for
+
                           </p>
                           <img src="/build/svg/serviciosdigitales.svg" class=" mt-[30px] w-full max-w-[162.62px] " alt="">
                     </div>
                 </div>
                 <div class="quehacemos">
                     <img class="w-full" src="/build/images/dots.svg" alt="puntos">
-                    <a class="quehacemos__calltoaction" href="https://wa.link/trikn5" target="_blank" >conversemos</a>
-                    <h2 class="quehacemos__title ">Servicios <br> 
-                    de Difusión</h2>
+                    <a class="quehacemos__calltoaction" href="https://wa.link/trikn5" target="_blank" >let's talk</a>
+                    <h2 class="quehacemos__title ">Diffusion <br> 
+                    Services</h2>
                     <div class="quehacemos-body">
-                        <p> Estrategia de Medios 360
+                        <p> 360º Media Strategy
                             <br> <br>
-                            Negociación y optimización pautas multicanal 
+                            Negotiation and <br> optimization of <br> multichannel guidelines 
                              <br> <br>
-                            Medios Digitales y ATL
-                            Campañas cross media
+                            Digital and ATL <br> Cross media 
                                <br> <br>
-                            Campaña Programática
-                            Campaña Influencers  </p> 
+                            Programmatic Campaign Influencers Campaign 
+                        </p> 
                     </div>
                 </div>
                 <div class="quehacemos">
                     <img class="w-full" src="/build/images/dots.svg" alt="puntos">
-                    <a class="quehacemos__calltoaction" href="https://wa.link/trikn5" target="_blank" >conversemos</a>
-                    <h2 class="quehacemos__title ">Servicios de
-                    Producción</h2>
+                    <a class="quehacemos__calltoaction" href="https://wa.link/trikn5" target="_blank" >let's talk</a>
+                    <h2 class="quehacemos__title ">Production</h2>
                     <div class="quehacemos-body">
                        
                         <p  >
-                            Diseños digital y print
-                                <br><br>
-                            Photo Shooting  <br>
-                            Videos
-                                <br> <br>
-                            Eventos <br>
-                            Activaciones
-                                <br> <br>
-                            Desarrollo Web  <br>
-                            y Tienda Online
+                            Digital and print <br> design 
+                            <br><br>
+                            Photo Shooting <br> Videos 
+                            <br> <br>
+                            Events  <br>
+                            Activations 
+                           <br> <br> 
+                            Web Development <br>
+                            and Online Store
+
                         </p> 
                     </div>
                 </div>
@@ -241,44 +242,45 @@
     <section class="pt-[37px] pb-[68px]">
       <div class="w-full max-w-[1095px] mx-auto px-[10px] lg:pl-[22px]">
         <h2 class=" subtitle  maxsm:text-[30px]   mb-[30px] sm:mb-[28px] ">
-            “El tiempo promedio de asesoría <br  class="maxsm:hidden" >
-            que hemos dado a una marca es de 8 años...
+            “The average consulting time <br  class="maxsm:hidden" >
+            we've given to a brand is 8 years...
         </h2>
         <p  class=" text-[22px] maxmd:leading-[30px]  sm:text-[18px] md:text-[20px] lg:text-[23px] xl:text-[28.64px] leading-[40px] sm:leading-[36px] tracking-[0.40px]  font-light mb-[80px]   " >
-            Y nos sentimos muy  orgullosos por ello. Es como un reconocimiento a lo
-            que hacemos. Con algunas marcas la relación continúa desde nuestros inicios.
-            Con las demás, hemos compartido historias de éxito, campañas o servicios
-            específicos. Y lo más importante, es el haber trabajado en equipo con ellas.
+            And we are very proud of that. It's like a recognition of what we do.
+            With some brands, the relationship continues from our beginnings.
+            With others, we have shared success stories, campaigns or specific services.
+            And the most important thing is to have worked as a team with them. 
             <br><br>
-            Siempre agradecidas por la confianza que nos han dado y siguen dándonos.
-            Y por supuesto, por recomendarnos con más empresas amigas.”
+            We are always grateful for the trust they have given us and continue to give us.
+            And of course, for recommending us.” 
         </p>
         <div class="w-full max-w-[900px] h-[8px] bg-primary-500 mx-auto "></div>  
 
         <h2 class=" subtitle  mb-[30px] sm:mb-[25px]  mt-[68px] ">
-        Nuestra experiencia <br>
-        es en estas categorías
+        Our experience <br>
+        is in these categories
+
         </h2>
             <div class="flex maxsm:flex-col justify-start maxsm:space-y-[30px] sm:space-x-[50px] lg:space-x-[90px]  whitespace-nowrap">
 
                 <p  class=" text-[22px] maxmd:leading-[30px]  sm:text-[18px] md:text-[20px] lg:text-[23px] xl:text-[28.64px] leading-[40px] sm:leading-[36px] tracking-[0.40px]  font-light   " >
-                    TURISMO <br>
-                    HOTELERÍA <br>
-                    LINEAS AÉREAS <br>
-                    MARCA PAIS
+                    TOURISM <br>
+                    HOTELS <br>
+                    AIRLINES <br>
+                    COUNTRY BRAND 
                 </p>
                 <p  class=" text-[22px] maxlg:leading-[30px]  sm:text-[18px] md:text-[20px] lg:text-[23px] xl:text-[25.86px] leading-[40px] sm:leading-[32.17px] tracking-[0.40px]  font-light   " >
-                <span  class=" xl:text-[28.64px]" >RETAIL</span> <br>
-                <span  class=" xl:text-[28.64px]" >CENTROS COMERCIALES</span> <br>
-                TIENDAS ON LINE <br>
-                SKINCARE <br>
-                LACTANCIA
+                    <span  class=" xl:text-[28.64px]" >RETAIL</span> <br>
+                    <span  class=" xl:text-[28.64px]" >SHOPPING MALLS</span> <br>
+                    ONLINE STORES <br>
+                    SKINCARE <br>
+                    BREASTFEEDING
                 </p>
                 <p  class=" text-[22px] maxmd:leading-[30px]  sm:text-[18px] md:text-[20px] lg:text-[23px] xl:text-[25.86px] leading-[40px] sm:leading-[32.17px] tracking-[0.40px]  font-light   " >
-                INMOBILIARIA <br>
-                BANCA <br>
-                UNIVERSIDADES <br>
-                CONSUMO MASIVO
+                    REAL ESTATE<br>
+                    BANKING <br>
+                    UNIVERSITIES <br>
+                    MASS CONSUMER
                 </p>
             </div>
       </div>
@@ -288,7 +290,7 @@
       <div class="max-w-[1131px] mx-auto px-[10px] text-center ">
           <div class="clientes flex flex-wrap   justify-center sm:justify-between items-center">  
                 <?php  
-                  $archivo_json = './build/json/clients.json'; 
+                  $archivo_json = '../build/json/clients.json'; 
                   $json = file_get_contents($archivo_json); 
                   $clients = json_decode($json, true); 
                 ?> 
@@ -301,12 +303,12 @@
              
           </div> 
 
-          <a class="inline-flex mt-[46px] px-8 py-[10px] sm:py-[15px] rounded-[18px] sm:rounded-[25px] border-[2px] border-solid  tracking-[0.20px]  border-[#231f00] text-[20px] sm:text-[31.83px] text-[#231f20] font-light" href="https://wa.link/trikn5" target="_blank" >CONVERSEMOS</a> 
+          <a class="inline-flex mt-[46px] px-8 py-[10px] sm:py-[15px] rounded-[18px] sm:rounded-[25px] border-[2px] border-solid  tracking-[0.20px]  border-[#231f00] text-[20px] sm:text-[31.83px] text-[#231f20] font-light" href="https://wa.link/trikn5" target="_blank" >LET'S TALK</a> 
       </div>
    </section>
   
     <!-- [ GLOBAL FOOTER ] -->
-    <?php include './includes/footer.php';?>
+    <?php include '../includes/footer_en.php';?>
     <!-- [ /GLOBAL FOOTER ] -->
 
     <script src="<?=theDomainUrl();?>/build/js/app.js?v=<?=theVersion();?>"></script> 

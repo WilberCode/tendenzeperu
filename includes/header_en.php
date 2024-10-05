@@ -12,12 +12,14 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
  -->  <!-- End Google Tag Manager (noscript) -->
   <header id="header" class="flex items-center lg:items-end w-full">
     <div class="flex w-full px-[10px] max-w-[1366px] mx-auto h-full"> 
-      <a class="relative z-10 w-full  maxsm:ml-5 logo-wrap" href="/" target="_self" > 
+      <a class="relative z-10 w-full  maxsm:ml-5 logo-wrap" href="<?=theDomainUrl()?>/en" target="_self" > 
         <img  class="absolute w-full max-w-[100px]  sm:max-w-[164px]  top-0"  src="<?=theDomainUrl()?>/build/images/logo.svg" alt="Logo Grupo Tendenze Comunicaciones"  title="Logo Grupo Tendenze Comunicaciones"   />
       </a> 
       <nav class=" w_100 h-full flex  justify-end items-center lg:items-end py-[25px] " itemscope itemtype="http://schema.org/SiteNavigationElement" >
+        
         <!-- <button id="hb" class="hamburger section_middle_center"><i class="fas fa-bars"></i></button> -->
-        <a class="anchor idioma lg:hidden " href="<?=theDomainUrl()?>/en" itemprop="url"  itemprop="name" > <img src="/build/svg/english.svg" alt="Idioma inglés"> </a> 
+        <a class="anchor idioma lg:hidden" href="<?=theDomainUrl()?>" itemprop="url"  itemprop="name" > <img src="/build/svg/spanish.svg" alt="Spanish"> </a> 
+
         <div class="nav-toggle-wrap  mr-8 ">
               <button  id="nav-toggle" class="nav-toggle">  
                   <div  class="nav-toggle-icons" >
@@ -31,25 +33,21 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
               </button>
            </div> 
         <ul class="w_100 section_middle_right justify-start lg:ml-[43px] menu" id="menu">
-          <li><a class="anchor" href="<?=theDomainUrl()?>/#que-hacemos" itemprop="url"  itemprop="name" >Qué hacemos</a></li> 
-          <li><a class="anchor" href="<?=theDomainUrl()?>/#experiencia" itemprop="url"  itemprop="name" >Experiencia</a></li>
-          <li><a class="anchor" href="<?=theDomainUrl()?>/promociones" itemprop="url"  itemprop="name" >Promociones</a></li>
+          <li><a class="anchor" href="<?=theDomainUrl()?>/en/#what-we-do" itemprop="url"  itemprop="name" >What We Do</a></li> 
+          <li><a class="anchor" href="<?=theDomainUrl()?>/en/#experience" itemprop="url"  itemprop="name" >Experience</a></li>
+          <li><a class="anchor" href="<?=theDomainUrl()?>/promociones" itemprop="url"  itemprop="name" >Promotions</a></li>
           <li><a class="anchor" href="<?=theDomainUrl()?>/videos" itemprop="url"  itemprop="name" >Videos</a></li>
-          <li  class="item-has-submenu" ><a class="anchor <?php  if( $currentpage == '/iniciativas/' ){ echo 'active'; } ?>" href="<?=theDomainUrl()?>/iniciativas" itemprop="url"  itemprop="name" >Iniciativas <span  class="dropdown" style="display:inline-flex;"> <img src="<?=theDomainUrl()?>/build/images/down.svg" alt="down"> </span> </a> 
+          <li  class="item-has-submenu" ><a class="anchor <?php  if( $currentpage == '/iniciativas/' ){ echo 'active'; } ?>" href="<?=theDomainUrl()?>/iniciativas" itemprop="url"  itemprop="name" >Initiatives <span  class="dropdown" style="display:inline-flex;"> <img src="<?=theDomainUrl()?>/build/images/down.svg" alt="down"> </span> </a> 
             <ul class="submenu">
               <li><a class="anchor"  href="https://feriasdigitales.pe/" itemprop="url"  target="_blank" itemprop="name" >Web Ferias Digitales  </a></li>
               <li><a class="anchor"  href="https://feriasdigitales.pe/blog/" itemprop="url"  target="_blank" itemprop="name" >Blog Ferias Digitales </a></li> 
               <li><a class="anchor"  href="https://www.instagram.com/feriasdigitales/" itemprop="url"  target="_blank" itemprop="name" >Instagram </a></li> 
             </ul>
-          </li>
+          </li> 
+          <li><a class="anchor descarga mark"   href="/presentacion/" itemprop="url"  itemprop="name"  >Presentation</a></li> 
+          <li><a class="anchor" href="<?=theDomainUrl()?>/en/contact" itemprop="url"  itemprop="name" >Contact</a></li>
+          <li><a class="anchor idioma  maxlg:hidden " href="<?=theDomainUrl()?>" itemprop="url"  itemprop="name" > <img src="/build/svg/spanish.svg" alt="Spanish"> </a></li>
 
-
-
-         <!--  <li><a class="anchor" href="#contacto" itemprop="url"  itemprop="name" >Contacto</a></li>  -->
-          <li><a class="anchor descarga mark"   href="/presentacion/" itemprop="url"  itemprop="name"  >Presentación</a></li>
-        
-          <li><a class="anchor" href="<?=theDomainUrl()?>/contacto" itemprop="url"  itemprop="name" >Contacto</a></li>
-          <li><a class="anchor idioma  maxlg:hidden" href="<?=theDomainUrl()?>/en" itemprop="url"  itemprop="name" > <img src="/build/svg/english.svg" alt="Idioma inglés"> </a></li>
 
         </ul>
       </nav>
