@@ -168,12 +168,12 @@
                     <h2 class=" text-[42px] sm:text-[55px] md:text-[50px] font-librebodoni font-bold  mb-1 ">What we do</h2>
                     <p  class=" text-[20px] sm:text-[26px] sm:leading-[36.12px] tracking-[0.40px] font-light  mb-[40px] sm:mb-[66px]" >Creativity is transversal to all services.</p>
                 </div>
-                <a class="mt-2 ml-2" href="https://wa.link/trikn5" target="_blank" ><img src="/build/svg/whatsapp.svg" class=" w-[60px] md:w-[80px] lg:w-[103px] h-[60px] md:h-[80px] lg:h-[103px] " alt=""></a>
+                <a class="mt-2 ml-2" href="https://api.whatsapp.com/send?phone=998315039" target="_blank" ><img src="/build/svg/whatsapp.svg" class=" w-[60px] md:w-[80px] lg:w-[103px] h-[60px] md:h-[80px] lg:h-[103px] " alt=""></a>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-[18px]  ">
                 <div class="quehacemos">
                     <img class="w-full" src="/build/images/dots.svg" alt="puntos">
-                    <a class="quehacemos__calltoaction" href="https://wa.link/trikn5" target="_blank" >let's talk</a>
+                    <a class="quehacemos__calltoaction" href="https://api.whatsapp.com/send?phone=998315039" target="_blank" >let's talk</a>
                     <h2 class="quehacemos__title ">Consulting <br>
                     Strategy</h2>
                     <div class="quehacemos-body">
@@ -186,7 +186,7 @@
                 </div>
                 <div class="quehacemos">
                     <img class="w-full" src="/build/images/dots.svg" alt="puntos">
-                    <a class="quehacemos__calltoaction" href="https://wa.link/trikn5" target="_blank" >let's talk</a>
+                    <a class="quehacemos__calltoaction" href="https://api.whatsapp.com/send?phone=998315039" target="_blank" >let's talk</a>
                     <h2 class="quehacemos__title ">Digital <br>
                     Services</h2>
                     <div class="quehacemos-body">
@@ -200,7 +200,7 @@
                 </div>
                 <div class="quehacemos">
                     <img class="w-full" src="/build/images/dots.svg" alt="puntos">
-                    <a class="quehacemos__calltoaction" href="https://wa.link/trikn5" target="_blank" >let's talk</a>
+                    <a class="quehacemos__calltoaction" href="https://api.whatsapp.com/send?phone=998315039" target="_blank" >let's talk</a>
                     <h2 class="quehacemos__title ">Diffusion <br> 
                     Services</h2>
                     <div class="quehacemos-body">
@@ -216,7 +216,7 @@
                 </div>
                 <div class="quehacemos">
                     <img class="w-full" src="/build/images/dots.svg" alt="puntos">
-                    <a class="quehacemos__calltoaction" href="https://wa.link/trikn5" target="_blank" >let's talk</a>
+                    <a class="quehacemos__calltoaction" href="https://api.whatsapp.com/send?phone=998315039" target="_blank" >let's talk</a>
                     <h2 class="quehacemos__title ">Production</h2>
                     <div class="quehacemos-body">
                        
@@ -303,7 +303,7 @@
              
           </div> 
 
-          <a class="inline-flex mt-[46px] px-8 py-[10px] sm:py-[15px] rounded-[18px] sm:rounded-[25px] border-[2px] border-solid  tracking-[0.20px]  border-[#231f00] text-[20px] sm:text-[31.83px] text-[#231f20] font-light" href="https://wa.link/trikn5" target="_blank" >LET'S TALK</a> 
+          <a class="inline-flex mt-[46px] px-8 py-[10px] sm:py-[15px] rounded-[18px] sm:rounded-[25px] border-[2px] border-solid  tracking-[0.20px]  border-[#231f00] text-[20px] sm:text-[31.83px] text-[#231f20] font-light" href="https://api.whatsapp.com/send?phone=998315039" target="_blank" >LET'S TALK</a> 
       </div>
    </section>
   
