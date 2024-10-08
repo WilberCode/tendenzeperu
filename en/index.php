@@ -120,7 +120,7 @@
         </div>
     </section> 
     <section  class="mt-[2px] edificios-wrap " id="experience" > 
-        <video id="edificios" muted playsinline preload="none" autoplay src="../build/images/edificios1.mp4"  poster="../build/images/poster.jpg"  class="video w-full">
+        <video id="edificios" muted playsinline preload="none" autoplay src="https://tendenzeperu.com/videos/video/Tendenze/edificios1_en.mp4"  poster="../build/images/poster.jpg"  class="video w-full">
             Tu navegador no soporta la etiqueta de video. 
         </video>
     </section>  
@@ -153,9 +153,27 @@
                 </h2>
             </div>
             <div class="md:w-[60%] bg-primary-500 flex items-center">
-                <video autoplay controls class="w-full h-full"  > 
-                     <source src="https://tendenzeperu.com/videos/video/Tendenze/publicidad3.mp4" type="video/mp4">
-                </video>
+            <video id="publicidad" autoplay controls class="w-full h-full" data-next="https://tendenzeperu.com/videos/video/Tendenze/publicidad3.mp4">
+               <source src="https://tendenzeperu.com/videos/video/Tendenze/general3.mp4" type="video/mp4">
+           </video>
+           
+           <script>
+               document.addEventListener('DOMContentLoaded', () => {
+                   const video = document.getElementById('publicidad');
+           
+                   video.addEventListener('ended', () => {
+                       console.log("El primer video ha terminado.");  // Mensaje para confirmar que el evento se ejecuta
+           
+                       const nextVideoSrc = video.getAttribute('data-next');
+                       
+                       if (nextVideoSrc) {
+                           video.src = nextVideoSrc;  // Cambia el src al próximo video
+                           video.load();               // Carga el nuevo video
+                           video.play();               // Reproduce el nuevo video
+                       }
+                   });
+               });
+           </script>
             </div>
         </div>
     </section> 
