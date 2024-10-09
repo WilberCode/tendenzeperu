@@ -63,7 +63,7 @@
     <meta http-equiv="pragma" content="no-cache" />
 
     <!-- Google Analytics -->
-    <?php //include './includes/analytics.php';?>
+    <?php include './includes/analytics.php';?>
 
 
     <script type="application/ld+json">

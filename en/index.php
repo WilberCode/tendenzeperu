@@ -16,7 +16,7 @@
     <link rel="canonical" href="<?=theDomainUrl()?>">
     <meta name="title" content="Grupo tendenze comunicaciones">
     <meta name="description"
-        content="Trabajamos campañas integrales o parciales. Omnicanal o solo digital. Hacemos Estrategia publicitaria, planificación de Medios, Marketing Digital y Diseño gráfico.">
+        content="We work on comprehensive or partial campaigns. Omnichannel or digital only. We do advertising strategy, media planning, digital marketing and graphic design.">
 
     <!-- Open Graph -->
     <meta property="og:title" content="Grupo tendenze comunicaciones">
@@ -26,7 +26,7 @@
     <meta property="og:image" content="<?=theDomainUrl()?>/build/images/oficina-tendenze-peru-adretail.jpg">
     <meta property="og:site_name" content="Grupo tendenze comunicaciones">
     <meta property="og:description"
-        content="Trabajamos campañas integrales o parciales. Omnicanal o solo digital. Hacemos Estrategia publicitaria, planificación de Medios, Marketing Digital y Diseño gráfico.">
+        content="We work on comprehensive or partial campaigns. Omnichannel or digital only. We do advertising strategy, media planning, digital marketing and graphic design.">
     <!-- <meta property="og:image:secure_url" content=""/build/images/oficina-tendenze-peru-adretail.jpg"> -->
     <!-- <meta property="og:image:width" content="800"> 
   <meta property="og:image:height" content="562">  -->
@@ -34,13 +34,13 @@
     <!-- twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:description"
-        content="Trabajamos campañas integrales o parciales. Omnicanal o solo digital. Hacemos Estrategia publicitaria, planificación de Medios, Marketing Digital y Diseño gráfico.">
+        content="We work on comprehensive or partial campaigns. Omnichannel or digital only. We do advertising strategy, media planning, digital marketing and graphic design.">
     <meta name="twitter:title" content="Grupo tendenze comunicaciones">
     <meta name="twitter:site" content="@tendenzeperu">
     <meta name="twitter:image" content="<?=theDomainUrl()?>/build/images/oficina-tendenze-peru-adretail.jpg">
     <meta name="twitter:creator" content="@tendenzeperu">
     <meta name="keywords"
-        content="tendenze peru, campañas, campaña publicitaria, estrategia publicitaria, medios, planificación de medios digitales, marketing digital, agencia de marketing digital, agencia digital, plan de marketing digital, marketing de contenidos, servicios digitales, seo, sem, diseño, newsletters, programacion, diseño gráfico, diseño publicitario, edicion de videos">
+        content="tendenze peru, campaigns, advertising campaign, advertising strategy, media, digital media planning, digital marketing, digital marketing agency, digital agency, digital marketing plan, content marketing, digital services, seo, sem, design, newsletters, programming, graphic design, advertising design, video editing">
     <meta name="google-site-verification" content="WjoRRgtwp-V5es5QJFHbaoWJJPv029kpZmPKWyhSvgs" />
 
 
@@ -63,7 +63,7 @@
     <meta http-equiv="pragma" content="no-cache" />
 
     <!-- Google Analytics -->
-    <?php //include './includes/analytics.php';?>
+    <?php include '../includes/analytics.php';?>
 
 
     <script type="application/ld+json">
