@@ -7,4 +7,6 @@ yarn.lock
 dev/
 mix-manifest.json
 videos/video
-about copy.json
+about copy.json 
+contacto/envioContacto.php
+en/contact/

@@ -1,6 +1,7 @@
 module.exports = {
   mode:'jit',
-  purge: [ './videos/index.php','./promociones/index.php'],
+  purge: [ './*.php','./includes/*.php', './videos/index.php','./promociones/index.php','./contacto/index.php','./martinaanfossi/index.php','./karinahigashi/index.php'],
+/*   safelist:['clientes'], */
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: { 
@@ -77,7 +78,22 @@ module.exports = {
       },
       fontFamily: { 
         prelo: 'Prelo',
-        times: 'times'
+        times: 'times',
+        librebodoni: 'librebodoni',
+        robotofont: 'robotofont',
+        akrobat: 'akrobat',
+      },
+      screens: {
+        xs: '383px',
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        maxsm: {'max': '640px'},
+        maxmd: { 'max': '768px'},
+        maxlg: {'max': '1023px'},
+        maxl: {'max': '1280px'},
+        maxxl: {'max': '1340px'}
       }
     }, 
    

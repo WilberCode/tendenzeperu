@@ -23,7 +23,7 @@ let _callServices = () => {
   });
 }
 
-let _callClients = () => {
+/* let _callClients = () => {
   fetch('build/json/clients.json?v=2')
     .then(response => response.json())
     .then(data => {
@@ -39,7 +39,7 @@ let _callClients = () => {
         clientes[0].appendChild(imgWrapp).src = val.img
       });
     });
-}
+} */
 
 let _callGallery = () => {
   fetch('build/json/gallery.json')
@@ -68,10 +68,34 @@ let _fixedHeader = () => {
   sticky = parseInt(header.offsetTop) + 300;
 
   if (window.pageYOffset > sticky) {
-    header.classList.add("fixedHeader");
+    header.classList.add("fixedHeader"); 
+      if (window.innerWidth <= 768) { // Umbral para móviles (puedes ajustar el valor)
+        document.documentElement.style.setProperty('--header-height',`70px`);
+        document.documentElement.style.setProperty('--logo-width',`70px`);
+      } else {
+        document.documentElement.style.setProperty('--header-height',`90px`);
+        document.documentElement.style.setProperty('--logo-width',`100px`);
+      } 
+  
+    
   } else {
-    header.classList.remove("fixedHeader");
+    header.classList.remove("fixedHeader"); 
+    if (window.innerWidth <= 768) { // Umbral para móviles (puedes ajustar el valor)
+      document.documentElement.style.setProperty('--header-height',`70px`);
+    document.documentElement.style.setProperty('--logo-width',`80px`);
+    } else {
+      document.documentElement.style.setProperty('--header-height',`120px`);
+    document.documentElement.style.setProperty('--logo-width',`164px`);
+    } 
   }
+ 
+
+  // Llamar la función al cargar la página
+
+
+  // Escuchar el cambio de tamaño de la ventana
+/*   window.addEventListener('resize', updateHeaderHeight); */
+// Función para actualizar la altura del header
 }
 
 let _parallaxSlider = () => {
@@ -101,19 +125,19 @@ let _parallaxCategorias = () => {
  
 
 /*Ready functions */
-_callGallery();
-_callServices();
-_callClients();  
+/* _callGallery();
+_callServices(); */
+/* _callClients();   */
  
 let _clickAnchorLink = () =>{
   document.querySelectorAll('.anchor[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e){
+    anchor.addEventListener('click', function(e){ 
       e.preventDefault();
       let header = document.getElementById('header').offsetHeight;
       let attribute = document.querySelector(this.getAttribute('href'));
       let position = parseInt(attribute.offsetTop) - (parseInt(header) + 20);
 
-      document.getElementById('hb').classList.remove('activeHamburguer');
+      document.getElementById('nav-toggle').classList.remove('nav-toggle-active');
       document.querySelector('nav > ul').classList.remove('activeMenu');
 
       window.scrollTo({
@@ -200,22 +224,158 @@ const _slider = (wrapper) =>{
     } 
 } 
 
+const _videoEdificios = ()=>{
+  const video = document.getElementById('edificios');
+  let videoHasEnded = false; // Variable para rastrear si el video ya terminó
+
+  // Función para reproducir y pausar el video según el scroll
+  const playVideoOnScroll = () => {
+    const videoPosition = video.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+
+    // Verifica si el video está en la vista
+    const isInView = videoPosition < windowHeight && videoPosition > 0;
+
+    // Solo reproducir si el video no ha terminado y está visible
+    if (isInView && !videoHasEnded) {
+      video.play();
+    } else {
+      video.pause();
+    }
+  };
+
+  // Evento para pausar el video cuando termina
+  video.addEventListener('ended', () => {
+    videoHasEnded = true; // Marcamos que el video ya ha terminado
+    video.pause(); // Pausar el video al final (el último cuadro se mantiene visible)
+  });
+
+  // Detecta el scroll y resize para verificar la visibilidad del video
+  window.addEventListener('scroll', playVideoOnScroll);
+  window.addEventListener('resize', playVideoOnScroll);
+  
+  // Verificar la visibilidad del video al cargar la página
+  document.addEventListener('DOMContentLoaded', playVideoOnScroll);
+}
+
+const _videoTendenze = ()=>{
+  const video = document.getElementById('publicidad'); 
+  let videoHasEnded = false; // Variable para rastrear si el video ya terminó
+  let audioActivated = false; // Variable para evitar activar el audio más de una vez
+
+  // Función para reproducir y pausar el video según el scroll
+  const playVideoOnScroll = () => {
+    const videoPosition = video.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+
+    // Solo reproducir si el video no ha terminado
+    if (videoPosition < windowHeight && videoPosition > 0 && !videoHasEnded) {
+      video.play();
+
+      // Activar el audio después de 1 segundo si aún no está activado
+      if (!audioActivated) {
+        setTimeout(() => {
+          video.muted = false; // Activar el audio
+
+          // Forzar la reproducción de nuevo para evitar que se pause
+          video.play().catch((error) => {
+            console.log("El video no pudo continuar la reproducción:", error);
+          });
+
+          audioActivated = true; // Marcar que ya se activó el audio
+        }, 1000); // Espera 1 segundo
+      }
+    } else {
+      video.pause();
+    }
+  };
+
+  // Evento para pausar el video cuando termina
+  video.addEventListener('ended', () => {
+    videoHasEnded = true; // Marcamos que el video ya ha terminado
+    video.pause(); // Pausar el video al final (el último cuadro se mantiene visible)
+  });
+
+
+
+  // Eventos para detectar scroll y resize
+  window.addEventListener('scroll', playVideoOnScroll);
+  window.addEventListener('resize', playVideoOnScroll);
+
+}
+
+const _videoEdificiosSoport = ()=>{
+  var video = document.getElementById('edificios');
+  let videoHasPlayed = false; // Variable para rastrear si el video ya se ha reproducido
+
+  function checkIfInView(video) {
+    var rect = video.getBoundingClientRect();
+    var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+    var inView = !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+
+    if (inView && !videoHasPlayed) {
+      let dataSrc = video.dataset.src;
+
+      // Cargar el video solo si no está cargado
+      if (video.src === '') {
+        video.src = dataSrc;
+      }
+
+      // Reproducir el video si está en la vista y aún no se ha reproducido
+      video.play().then(() => {
+        videoHasPlayed = true; // Marcar como reproducido
+      }).catch((error) => {
+        console.log("No se pudo reproducir el video:", error);
+      });
+    }
+  }
+
+  // Verifica si el video está en la vista al cargar la página
+  document.addEventListener('DOMContentLoaded', function() {
+    checkIfInView(video);
+  });
+
+  // Verifica si el video está en la vista al hacer scroll o redimensionar
+  window.addEventListener("scroll", function() {
+    checkIfInView(video);
+  });
+
+  window.addEventListener("resize", function() {
+    checkIfInView(video);
+  });
+
+  // Evento para pausar el video cuando termina
+  video.addEventListener('ended', () => {
+    video.pause(); // Pausar el video al final (el último cuadro se mantiene visible)
+  });
  
- 
+}
 window.onload = () => {  
   _clickAnchorLink();
   _openHideMenu(); 
-  _parallaxSlider();
+/*   _parallaxSlider(); */
   _openSubMenu(); 
-  _slider('.banner');
-  _slider('.sliderInformacion');
+/*   _videoEdificiosSoport(); */
+/*   _videoEdificios(); */
+/*   _videoTendenze(); */
+/*   _slider('.banner');
+  _slider('.sliderInformacion'); */
+  document.querySelectorAll('ul>li>a').forEach(anchor => {
+    anchor.addEventListener('click', function(e){
+      document.getElementById('nav-toggle').classList.remove('nav-toggle-active');
+      document.querySelector('nav > ul').classList.remove('activeMenu');
+   
+      
+    });
+  });
 
+ 
   
 
   window.onscroll = () => {
-    _parallaxSlider();
+ /*    _parallaxSlider(); */
     _fixedHeader();
-    _parallaxCategorias();
+   /*  _parallaxCategorias(); */
   }
  
 
