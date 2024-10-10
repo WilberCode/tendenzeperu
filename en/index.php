@@ -50,7 +50,7 @@
     <meta name="HandheldFriendly" content="true">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="shortcut icon" type="image/png" href="/build/images/icono.png">
+    <link rel="shortcut icon" type="image/png" href="../build/images/icono.png">
     <link rel="apple-touch-icon" href="../build/images/icono.png">
     <link rel="apple-touch-startup-image" href="../build/images/icono.png">
     <link rel="manifest" href="manifest.json">
