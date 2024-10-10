@@ -12,25 +12,25 @@
   <title>Contacto - Grupo Tendenze Comunicaciones</title>
   <link rel="canonical" href="<?=theCurrentUrl()?>"> 
   <meta name="title" content="Contacto - Grupo tendenze comunicaciones"> 
-  <meta name="description" content="Nuestro propósito de marca es ayudar a que tu negocio crezca.">
-  <meta name="keywords"  content="promociones, marca, proposito de marca, negocio, crecimiento, conectar, consultoria de marca, investigacion de mercado, competencia, consumidor, relaciones autenticas, emprendimiento, logotipo, diseno de logotipo, manual de uso, web corporativa, diseno web, seo organico, google analytics, campanas adwords, diagnostico seo, seo on page, gestion sem, palabras claves, busquedas de categoria, visitas a la web, optimizacion, avance, compromiso">
+  <meta name="description" content="¿Buscas asesoría en estrategias, servicios de difusión, soluciones digitales o producción? Contáctanos para obtener apoyo personalizado en todos tus proyectos. ¡Estamos aquí para ayudarte!">
+  <meta name="keywords"  content="asesoría en estrategias, servicios de difusión, soluciones digitales, producción de contenido, consultoría digital, marketing estratégico, servicios de marketing digital, producción audiovisual, estrategias de difusión, asesoría empresarial, comunicación digital, proyectos de producción, servicios creativos, marketing de contenidos, consultoría en medios digitales">
 
 <!-- Open Graph -->
-  <meta property="og:title" content="Promociones - Grupo tendenze comunicaciones">
+  <meta property="og:title" content="Contacto - Grupo tendenze comunicaciones">
   <meta property="og:locale" content="es_ES">
   <meta property="og:type" content="website">
   <meta property="og:url" content="<?=theDomainUrl()?>/promociones"> 
-  <meta property="og:image" content="<?=theDomainUrl()?>/promociones/img/lookingfor.jpg">
-  <meta property="og:site_name" content="Promociones">
-  <meta property="og:description" content="Nuestro propósito de marca es ayudar a que tu negocio crezca. ">
+  <meta property="og:image" content="<?=theDomainUrl()?>/build/images/logo.svg">
+  <meta property="og:site_name" content="Contacto">
+  <meta property="og:description" content="¿Buscas asesoría en estrategias, servicios de difusión, soluciones digitales o producción? Contáctanos para obtener apoyo personalizado en todos tus proyectos. ¡Estamos aquí para ayudarte! ">
  
 
   <!-- twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:description"content="Nuestro propósito de marca es ayudar a que tu negocio crezca. ">
-  <meta name="twitter:title" content="Promociones - Grupo tendenze comunicaciones">
+  <meta name="twitter:description"content="¿Buscas asesoría en estrategias, servicios de difusión, soluciones digitales o producción? Contáctanos para obtener apoyo personalizado en todos tus proyectos. ¡Estamos aquí para ayudarte! ">
+  <meta name="twitter:title" content="Contacto - Grupo tendenze comunicaciones">
   <meta name="twitter:site" content="@tendenzeperu">
-  <meta name="twitter:image" content="<?=theDomainUrl()?>/promociones/promociones/img/lookingfor.jpg">
+  <meta name="twitter:image" content="<?=theDomainUrl()?>/build/images/logo.svg">
   <meta name="twitter:creator" content="@tendenzeperu"> 
 
  
@@ -39,34 +39,8 @@
   <meta http-equiv="expires" content="-1" />
   <meta http-equiv="expires" content="Sun May 23 2021 02:00:50 GMT-0500" />
   <meta http-equiv="pragma" content="no-cache" />
-<!-- Google Tag Manager -->
-<!-- <script> 
-  setTimeout(function(){ 
-    (function (w, d, s, l, i) {
-    w[l] = w[l] || []; w[l].push({
-      'gtm.start':
-        new Date().getTime(), event: 'gtm.js'
-    }); var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-PZPR3GG');
-  },3000);  
-  </script> -->
-<!-- End Google Tag Manager -->
-
+  <?php include '../includes/analytics.php';?>
  
-
-<!-- Google tag (gtag.js) -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-LKGQELEQS2"></script>
-<script>
-     setTimeout(function(){ 
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-LKGQELEQS2');
-     },3000);  
-</script> -->
 
 </head>
 <body class="">
