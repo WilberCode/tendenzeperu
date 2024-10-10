@@ -6,16 +6,12 @@
           <p>Miraflores</p>
           <p>+ (51) 998 315 039</p>
         </div>
-<<<<<<< HEAD
-        <a href="https://api.whatsapp.com/send?phone=+51998315039&text=Hola%20Grupo%20Tendenze%20Comunicaciones%20%C2%A1Quisiera%20m%C3%A1s%20informaci%C3%B3n!" class="buble">Contacto</a>
-=======
         <a href="https://api.whatsapp.com/send?phone=+51998315039&text=Hola%20Grupo%20Tendenze%20Comunicaciones%20%C2%A1Quisiera%20m%C3%A1s%20informaci%C3%B3n!" class="buble ">Contacto</a>
       </div>
       <div class="flex space-x-10 " >
         <a href=""><i class="fab fa-instagram text-[35px]"></i></a>
         <a href=""><i class="fab fa-linkedin-in text-[35px]"></i></a>
         <a href="https://api.whatsapp.com/send?phone=+51998315039&text=Hola%20Tendenze%20Perú.%20Necesito%20m%C3%A1s%20informaci%C3%B3n" target="_blank"><i class="fab fa-whatsapp text-[35px]"></i></a>
->>>>>>> version2
       </div>
     </div>
   </footer>
