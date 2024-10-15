@@ -11,7 +11,7 @@
       <div class="flex space-x-10 " >
         <a href=""><i class="fab fa-instagram text-[35px]"></i></a>
         <a href=""><i class="fab fa-linkedin-in text-[35px]"></i></a>
-        <a href="https://api.whatsapp.com/send?phone=998315039" target="_blank"><i class="fab fa-whatsapp text-[35px]"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=+51998315039&text=Hello%20Tendenze%20Communications%20Group%20I%20would%20like%20more%20information!" target="_blank"><i class="fab fa-whatsapp text-[35px]"></i></a>
       </div>
     </div>
   </footer>
