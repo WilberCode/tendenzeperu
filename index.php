@@ -315,7 +315,7 @@
                   <?php  
                   foreach($clients['clientes'] as $client){   ?>
                     <figure class="<?=$client['tipo'] ?>">  
-                      <img  src="/<?=$client['img'] ?>" alt="">
+                        <img  src="/<?=$client['img'] ?>" alt="<?=$client['title'] ?>">
                    </figure>  
                  <?php  }  ?>
              
