@@ -25,22 +25,19 @@
     <meta property="og:url" content="<?=theDomainUrl()?>">
     <meta property="og:image" content="<?=theDomainUrl()?>/build/images/oficina-tendenze-peru-adretail.jpg">
     <meta property="og:site_name" content="Grupo tendenze comunicaciones">
-    <meta property="og:description"
-        content="We work on comprehensive or partial campaigns. Omnichannel or digital only. We do advertising strategy, media planning, digital marketing and graphic design.">
+    <meta property="og:description" content="We work on comprehensive or partial campaigns. Omnichannel or digital only. We do advertising strategy, media planning, digital marketing and graphic design.">
     <!-- <meta property="og:image:secure_url" content=""/build/images/oficina-tendenze-peru-adretail.jpg"> -->
     <!-- <meta property="og:image:width" content="800"> 
   <meta property="og:image:height" content="562">  -->
 
     <!-- twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:description"
-        content="We work on comprehensive or partial campaigns. Omnichannel or digital only. We do advertising strategy, media planning, digital marketing and graphic design.">
+    <meta name="twitter:description" content="We work on comprehensive or partial campaigns. Omnichannel or digital only. We do advertising strategy, media planning, digital marketing and graphic design.">
     <meta name="twitter:title" content="Grupo tendenze comunicaciones">
     <meta name="twitter:site" content="@tendenzeperu">
     <meta name="twitter:image" content="<?=theDomainUrl()?>/build/images/oficina-tendenze-peru-adretail.jpg">
     <meta name="twitter:creator" content="@tendenzeperu">
-    <meta name="keywords"
-        content="tendenze peru, campaigns, advertising campaign, advertising strategy, media, digital media planning, digital marketing, digital marketing agency, digital agency, digital marketing plan, content marketing, digital services, seo, sem, design, newsletters, programming, graphic design, advertising design, video editing">
+    <meta name="keywords" content="tendenze peru, campaigns, advertising campaign, advertising strategy, media, digital media planning, digital marketing, digital marketing agency, digital agency, digital marketing plan, content marketing, digital services, seo, sem, design, newsletters, programming, graphic design, advertising design, video editing">
     <meta name="google-site-verification" content="WjoRRgtwp-V5es5QJFHbaoWJJPv029kpZmPKWyhSvgs" />
 
 
@@ -70,7 +67,7 @@
     {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "url": "https://tendenzeperu.com",
+        "url": "https://tendenzeperu.com/en",
         "name": "Grupo Tendenze Comunicaciones",
         "contactPoint": {
             "@type": "ContactPoint",
