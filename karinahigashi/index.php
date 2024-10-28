@@ -39,7 +39,7 @@
   <meta http-equiv="expires" content="Sun May 23 2021 02:00:50 GMT-0500" />
   <meta http-equiv="pragma" content="no-cache" />
 <!-- Google Tag Manager -->
-<!-- <script> 
+<script> 
   setTimeout(function(){ 
     (function (w, d, s, l, i) {
     w[l] = w[l] || []; w[l].push({
@@ -50,13 +50,13 @@
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-PZPR3GG');
   },3000);  
-  </script> -->
+  </script>  
 <!-- End Google Tag Manager -->
 
  
 
 <!-- Google tag (gtag.js) -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-LKGQELEQS2"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LKGQELEQS2"></script>
 <script>
      setTimeout(function(){ 
         window.dataLayer = window.dataLayer || [];
@@ -65,7 +65,7 @@
 
         gtag('config', 'G-LKGQELEQS2');
      },3000);  
-</script> -->
+</script>
 
 </head>
 <body class="h-screen bg-primary-500 ">  
@@ -86,7 +86,7 @@
             <a href="mailto:karinahigashi@tendenzeperu.com" target="_blank" > 
               <img  class=" w-[40px] sm:w-[58px] h-[40px] sm:h-[58px] block"  src="<?=theDomainUrl()?>/build/images/redes/correo.svg" alt="Whatsapp"  title="Whatsapp"   />
             </a> 
-            <a href="#"  > 
+            <a href="https://www.linkedin.com/company/grupo-tendenze-comunicaciones/"  > 
               <img  class=" w-[40px] sm:w-[58px] h-[40px] sm:h-[58px] block"  src="<?=theDomainUrl()?>/build/images/redes/linkedin.svg" alt="Whatsapp"  title="Whatsapp"   />
             </a> 
           </div>

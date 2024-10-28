@@ -10,7 +10,7 @@
       </div>
       <div class="flex space-x-10 " >
         <a href=""><i class="fab fa-instagram text-[35px]"></i></a>
-        <a href=""><i class="fab fa-linkedin-in text-[35px]"></i></a>
+        <a href="https://www.linkedin.com/company/grupo-tendenze-comunicaciones/"><i class="fab fa-linkedin-in text-[35px]"></i></a>
         <a href="https://api.whatsapp.com/send?phone=+51998315039&text=Hola%20Tendenze%20Perú.%20Necesito%20m%C3%A1s%20informaci%C3%B3n" target="_blank"><i class="fab fa-whatsapp text-[35px]"></i></a>
       </div>
     </div>
