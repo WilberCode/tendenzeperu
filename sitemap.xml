@@ -23,6 +23,12 @@
   <changefreq>always</changefreq>
   <priority>0.5</priority>
 </url>
+<url>
+  <loc>https://tendenzeperu.com/blog</loc>
+  <lastmod>2024-17-11</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.5</priority>
+</url>   
 <url> 
   <loc>https://tendenzeperu.com/en</loc>
   <lastmod>2024-10-09</lastmod>

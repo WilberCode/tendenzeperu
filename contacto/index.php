@@ -83,6 +83,7 @@
                         <input id="mensaje" type="text" name="mensaje" class="texto required" placeholder="Mensaje" />  
                       </label>
                     </div> 
+                    <div class="g-recaptcha" data-sitekey="6LcBdXkqAAAAACnH1UTXJ2HiKKFnTSd8Bn66ey_x"></div> 
                     <button type="submit" id=""  class="submit">enviar</button>
                    
                     <div  id="contacto-message" class=" hidden px-12 py-12 text-[25px] absolute top-[50%] left-[50%] transform translate-x-[-50%] bg-black text-white "></div>
