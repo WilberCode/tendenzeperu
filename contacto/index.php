@@ -38,10 +38,17 @@
   <meta http-equiv="cache-control" content="no-cache" />
   <meta http-equiv="expires" content="-1" />
   <meta http-equiv="expires" content="Sun May 23 2021 02:00:50 GMT-0500" />
-  <meta http-equiv="pragma" content="no-cache" />
-  <?php include '../includes/analytics.php';?>
- 
+  <meta http-equiv="pragma" content="no-cache" /> 
 
+  <?php include '../includes/analytics.php';?> 
+   <style>
+     @media (max-width:760px){
+         .g-recaptcha{
+           margin-bottom:15px;
+          }
+     }
+ </style>
+   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body class="">
   <!-- [ GLOBAL HEADER ] -->
@@ -83,7 +90,7 @@
                         <input id="mensaje" type="text" name="mensaje" class="texto required" placeholder="Mensaje" />  
                       </label>
                     </div> 
-                    <div class="g-recaptcha" data-sitekey="6LcBdXkqAAAAACnH1UTXJ2HiKKFnTSd8Bn66ey_x"></div> 
+                     <div class="g-recaptcha" data-sitekey="6LcBdXkqAAAAACnH1UTXJ2HiKKFnTSd8Bn66ey_x"></div>  
                     <button type="submit" id=""  class="submit">enviar</button>
                    
                     <div  id="contacto-message" class=" hidden px-12 py-12 text-[25px] absolute top-[50%] left-[50%] transform translate-x-[-50%] bg-black text-white "></div>
