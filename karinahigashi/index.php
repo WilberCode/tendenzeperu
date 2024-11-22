@@ -76,57 +76,31 @@
         </a> 
      </div>
   </header>
-  <div  class="bg-primary-500 h-full ">
+  <div  class="bg-primary-500 h-full px-[15px] "> 
+       <br>
       <div class="w-full max-w-[661px] px-[15px]  mx-auto pt-[55px] sm:pt-[115px] pb-[20px] ">
-        <div class="text-center">
-          <div class="flex justify-center space-x-[10px] sm:space-x-[20px] ">
-            <a href="https://api.whatsapp.com/send?phone=51989900443" target="_blank" > 
-              <img  class=" w-[40px] sm:w-[58px] h-[40px] sm:h-[58px] block"  src="<?=theDomainUrl()?>/build/images/redes/whatsapp.svg" alt="Whatsapp"  title="Whatsapp"   />
-            </a> 
-            <a href="mailto:karinahigashi@tendenzeperu.com" target="_blank" > 
-              <img  class=" w-[40px] sm:w-[58px] h-[40px] sm:h-[58px] block"  src="<?=theDomainUrl()?>/build/images/redes/correo.svg" alt="Whatsapp"  title="Whatsapp"   />
-            </a> 
-            <a href="https://www.linkedin.com/company/grupo-tendenze-comunicaciones/"  > 
-              <img  class=" w-[40px] sm:w-[58px] h-[40px] sm:h-[58px] block"  src="<?=theDomainUrl()?>/build/images/redes/linkedin.svg" alt="Whatsapp"  title="Whatsapp"   />
-            </a> 
-          </div>
-          <h1  class="font-akrobat font-bold text-[20px] sm:text-[26px] leading-[28.01px] tracking-[0.60px] mt-[10px] sm:mt-[33px] mb-[20px] sm:mb-[47px] " >Karina Higashi  |  CCO & Founder</h1>
-      
-          <video id="publicidad" autoplay controls class="w-full h-full" data-next="https://tendenzeperu.com/videos/video/Tendenze/publicidad3.mp4">
-               <source src="https://tendenzeperu.com/videos/video/Tendenze/general3.mp4" type="video/mp4">
-           </video>
-           
-          <script>
-               document.addEventListener('DOMContentLoaded', () => {
-                   const video = document.getElementById('publicidad');
-           
-                   video.addEventListener('ended', () => {
-                       console.log("El primer video ha terminado.");  // Mensaje para confirmar que el evento se ejecuta
-           
-                       const nextVideoSrc = video.getAttribute('data-next');
-                       
-                       if (nextVideoSrc) {
-                           video.src = nextVideoSrc;  // Cambia el src al próximo video
-                           video.load();               // Carga el nuevo video
-                           video.play();               // Reproduce el nuevo video
-                       }
-                   });
-               });
-           </script>
-        </div>
-        <div class="flex flex-col  items-end mt-[18px] sm:mt-[43px]  "> 
+        <div > 
+          <h1  class="font-akrobat font-bold text-[20px] sm:text-[26px] leading-[28.01px] tracking-[0.60px] mt-[10px] sm:mt-[33px] mb-[20px] sm:mb-[47px] "> &nbsp; Karina Higashi  |  CCO & Founder</h1>
+       
+        </div> 
+
+        <div class="flex flex-col  mt-[18px] sm:mt-[43px]  "> 
           <div>
-            <a href="/" target="_self" class="text-black flex items-center  space-x-[10px] sm:space-x-[18px] text-[15px] sm:text-[20px] font-akrobat font-bold tracking-[0.60px]" > 
+          <a href="https://api.whatsapp.com/send?phone=51989900443" target="_blank"   class="text-black flex items-center  space-x-[10px] sm:space-x-[18px] text-[15px] sm:text-[20px] font-akrobat font-bold tracking-[0.60px] mt-[8px] sm:mt-[13px]" > 
+              <img  class=" w-[33px] sm:w-[47px]  h-[33px] sm:h-[47px]"  src="<?=theDomainUrl()?>/build/images/redes/whatsapp.svg" alt="Whatsapp"  title="Whatsapp"   />
+              <span>+51 989 900 443</span>
+            </a> 
+            <a href="mailto:karinahigashi.tendenzeperu.com" target="_blank"  class="text-black flex items-center  space-x-[10px] sm:space-x-[18px] text-[15px] sm:text-[20px] font-akrobat font-bold tracking-[0.60px] mt-[8px] sm:mt-[13px]" > 
+              <img  class=" w-[33px] sm:w-[47px]  h-[33px] sm:h-[47px]"  src="<?=theDomainUrl()?>/build/images/redes/correo.svg" alt="Whatsapp"  title="Whatsapp"   />
+              <span>karinahigashi.tendenzeperu.com</span>
+            </a> 
+            <a href="/" target="_self" class="text-black flex items-center  space-x-[10px] sm:space-x-[18px] text-[15px] sm:text-[20px] font-akrobat font-bold tracking-[0.60px] mt-[8px] sm:mt-[13px]" > 
                 <img  class=" w-[33px] sm:w-[47px]  h-[33px] sm:h-[47px]"  src="<?=theDomainUrl()?>/build/images/redes/flecha.svg" alt="Whatsapp"  title="Whatsapp"   />
                 <span>www.tendenzeperu.com</span>
               </a> 
-            <a href="#"   class="text-black flex items-center  space-x-[10px] sm:space-x-[18px] text-[15px] sm:text-[20px] font-akrobat font-bold tracking-[0.60px] mt-[8px] sm:mt-[13px]" > 
-              <img  class=" w-[33px] sm:w-[47px]  h-[33px] sm:h-[47px]"  src="<?=theDomainUrl()?>/build/images/redes/ubicacion.svg" alt="Whatsapp"  title="Whatsapp"   />
-              <span>Miraflores Lima, Perú</span>
-              </a> 
           </div>
-        </div>
-        <div class=" mt-[27px] mb-3 ">
+
+        <div class=" pt-[55px] sm:pt-[115px] mb-3 ">
               <svg class=" w-[38px] sm:w-[51px] h-[28px] sm:h-[41px] lg:w-[61px] lg:h-[48px]  " xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 124.33 96.85" xmlns:v="https://vecta.io/nano">
                 <path
@@ -138,6 +112,12 @@
                 si además las <br>
                 podemos crear
             </h2>
+        </div>
+        <br> 
+        <div class="flex flex-col  items-end mt-[8px]      "> 
+          <div>
+          <span class="text-[15px] sm:text-[20px] font-akrobat">Miraflores Lima, Perú</span>
+          </div>
         </div>
             
       </div>
