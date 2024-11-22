@@ -76,10 +76,11 @@
         </a> 
      </div>
   </header>
-  <div  class="bg-primary-500 h-full ">
+  <div  class="bg-primary-500 h-full px-[15px]">
+    <br>
       <div class="w-full max-w-[661px] px-[15px]  mx-auto pt-[55px] sm:pt-[115px] pb-[20px] ">
         <div  > 
-          <h1  class="font-akrobat font-bold text-[20px] sm:text-[26px] leading-[28.01px] tracking-[0.60px] mt-[10px] sm:mt-[33px] mb-[20px] sm:mb-[47px] " >Martina Anfossi  |  CEO & Founder</h1>
+          <h1  class="font-akrobat font-bold text-[20px] sm:text-[26px] leading-[28.01px] tracking-[0.60px] mt-[10px] sm:mt-[33px] mb-[20px] sm:mb-[47px] " > &nbsp; Martina Anfossi  |  CEO & Founder</h1>
   
         </div>
         <div class="flex flex-col  mt-[18px] sm:mt-[43px]  "> 
@@ -111,7 +112,8 @@
                 podemos crear
             </h2>
         </div>
-        <div class="flex flex-col  items-end   mt-[27px]   "> 
+        <br> 
+        <div class="flex flex-col  items-end mt-[8px]      "> 
           <div>
           <span class="text-[15px] sm:text-[20px] font-akrobat">Miraflores Lima, Perú</span>
           </div>
