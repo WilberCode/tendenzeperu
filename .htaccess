@@ -2,7 +2,7 @@
 
 
 RewriteEngine On
-RewriteRule ^iniciativas/?$ /proyectos/ [R=301,L]
+RewriteRule ^iniciativas/?$ / [R=301,L] 
 
 # BEGIN  
     <IfModule mod_rewrite.c>
