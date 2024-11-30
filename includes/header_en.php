@@ -17,9 +17,18 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
       </a> 
       <nav class=" w_100 h-full flex  justify-end items-center lg:items-end py-[25px] " itemscope itemtype="http://schema.org/SiteNavigationElement" >
         
-        <!-- <button id="hb" class="hamburger section_middle_center"><i class="fas fa-bars"></i></button> -->
-        <a class="anchor idioma lg:hidden" href="<?=theDomainUrl()?>" itemprop="url"  itemprop="name" > <img src="/build/svg/spanish.svg" alt="Spanish"> </a> 
-
+        <!-- <button id="hb" class="hamburger section_middle_center"><i class="fas fa-bars"></i></button> --> 
+        <div  class="language lg:hidden">
+              <a class="anchor idioma current-language" href="javascript:void(0);" itemprop="url">
+                  <img src="/build/svg/english.svg" alt="Idioma Inglés">
+              </a> 
+              <!-- Bandera oculta (aparece al hacer clic en la actual) -->
+              <div class="dropdown-language hidden">
+                  <a class="anchor idioma " href="<?=theDomainUrl()?>/" itemprop="url">
+                      <img src="/build/svg/spanish.svg" alt="Idioma Español">
+                  </a> 
+              </div> 
+            </div> 
         <div class="nav-toggle-wrap  mr-8 ">
               <button  id="nav-toggle" class="nav-toggle">  
                   <div  class="nav-toggle-icons" >
@@ -37,7 +46,7 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
           <li><a class="anchor" href="<?=theDomainUrl()?>/en/#experience" itemprop="url"  itemprop="name" >Experience</a></li>
           <li><a class="anchor" href="<?=theDomainUrl()?>/promociones" itemprop="url"  itemprop="name" >Promotions</a></li>
           <li><a class="anchor" href="<?=theDomainUrl()?>/videos" itemprop="url"  itemprop="name" >Videos</a></li>
-          <li  class="item-has-submenu" ><a class="anchor <?php  if( $currentpage == '/iniciativas/' ){ echo 'active'; } ?>" href="<?=theDomainUrl()?>/iniciativas" itemprop="url"  itemprop="name" >Initiatives <span  class="dropdown" style="display:inline-flex;"> <img src="<?=theDomainUrl()?>/build/images/down.svg" alt="down"> </span> </a> 
+          <li  class="item-has-submenu" ><a class="anchor <?php  if( $currentpage == '/proyectos/' ){ echo 'active'; } ?>" href="<?=theDomainUrl()?>/proyectos" itemprop="url"  itemprop="name" >Projects <span  class="dropdown" style="display:inline-flex;"> <img src="<?=theDomainUrl()?>/build/images/down.svg" alt="down"> </span> </a> 
             <ul class="submenu">
               <li><a class="anchor"  href="https://feriasdigitales.pe/" itemprop="url"  target="_blank" itemprop="name" >Web Ferias Digitales  </a></li>
               <li><a class="anchor"  href="https://feriasdigitales.pe/blog/" itemprop="url"  target="_blank" itemprop="name" >Blog Ferias Digitales </a></li> 
@@ -45,10 +54,21 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
             </ul>
           </li> 
           <li><a class="anchor descarga mark"   href="/presentacion/" itemprop="url"  itemprop="name"  >Presentation</a></li> 
-          <li><a class="anchor" href="<?=theDomainUrl()?>/en/contact" itemprop="url"  itemprop="name" >Contact</a></li>
-          <li><a class="anchor idioma  maxlg:hidden " href="<?=theDomainUrl()?>" itemprop="url"  itemprop="name" > <img src="/build/svg/spanish.svg" alt="Spanish"> </a></li>
-
-
+          <li><a class="anchor" href="<?=theDomainUrl()?>/en/contact" itemprop="url"  itemprop="name" >Contact</a></li> 
+ 
+          <li>
+            <div  class="language maxlg:hidden">
+              <a class="anchor idioma current-language" href="javascript:void(0);" itemprop="url">
+                  <img src="/build/svg/english.svg" alt="Idioma Inglés">
+              </a> 
+              <!-- Bandera oculta (aparece al hacer clic en la actual) -->
+              <div class="dropdown-language hidden">
+                  <a class="anchor idioma " href="<?=theDomainUrl()?>/" itemprop="url">
+                      <img src="/build/svg/spanish.svg" alt="Idioma Español">
+                  </a> 
+              </div> 
+            </div> 
+          </li>
         </ul>
       </nav>
     </div>

@@ -350,11 +350,41 @@ const _videoEdificiosSoport = ()=>{
   });
  
 }
+
+
+const _languageMenuBtn = ()=>{
+   // Seleccionar todas las instancias del menú de idiomas
+   const languageMenus = document.querySelectorAll('.language');
+
+   // Iterar sobre cada menú y añadir funcionalidad independiente
+   languageMenus.forEach(languageMenu => {
+       const currentLanguage = languageMenu.querySelector('.current-language');
+       const dropdown = languageMenu.querySelector('.dropdown-language');
+ 
+       // Mostrar/ocultar el dropdown al hacer clic en la bandera actual
+       currentLanguage.addEventListener('click', (event) => {
+           event.stopPropagation(); // Evitar cierre inmediato
+           dropdown.classList.toggle('hidden');
+       });
+ 
+       // Cerrar el menú si se hace clic fuera
+       document.addEventListener('click', (event) => {
+           if (!languageMenu.contains(event.target)) {
+               dropdown.classList.add('hidden');
+           }
+       });
+   });
+}
+
+
+
+
 window.onload = () => {  
   _clickAnchorLink();
   _openHideMenu(); 
 /*   _parallaxSlider(); */
   _openSubMenu(); 
+  _languageMenuBtn();
 /*   _videoEdificiosSoport(); */
 /*   _videoEdificios(); */
 /*   _videoTendenze(); */
@@ -379,7 +409,7 @@ window.onload = () => {
   }
  
 
- 
+
 
 }
   
@@ -388,4 +418,4 @@ if ('serviceWorker' in navigator) {
     .then(reg => console.log('Registro de SW exitoso', reg))
     .catch(err => console.warn('Error al tratar de registrar el sw', err))
 } 
-
+ 

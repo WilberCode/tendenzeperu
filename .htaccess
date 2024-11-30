@@ -1,5 +1,9 @@
  RewriteOptions inherit
 
+
+RewriteEngine On
+RewriteRule ^iniciativas/?$ /proyectos/ [R=301,L]
+
 # BEGIN  
     <IfModule mod_rewrite.c>
     ErrorDocument 404 /404/index.php
