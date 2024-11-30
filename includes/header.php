@@ -17,7 +17,19 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
       </a> 
       <nav class=" w_100 h-full flex  justify-end items-center lg:items-end py-[25px] " itemscope itemtype="http://schema.org/SiteNavigationElement" >
         <!-- <button id="hb" class="hamburger section_middle_center"><i class="fas fa-bars"></i></button> -->
-        <a class="anchor idioma lg:hidden " href="<?=theDomainUrl()?>/en" itemprop="url"  itemprop="name" > <img src="/build/svg/english.svg" alt="Idioma inglés"> </a> 
+   
+      <!--   <a class="anchor idioma lg:hidden " href="<?=theDomainUrl()?>/en" itemprop="url"  itemprop="name" > <img src="/build/svg/english.svg" alt="Idioma inglés"> </a>  -->
+      <div  class="language lg:hidden">
+          <a class="anchor idioma current-language" href="javascript:void(0);" itemprop="url">
+              <img src="/build/svg/spanish.svg" alt="Idioma español">
+          </a> 
+          <!-- Bandera oculta (aparece al hacer clic en la actual) -->
+          <div class="dropdown-language hidden">
+              <a class="anchor idioma language-en" href="<?=theDomainUrl()?>/en" itemprop="url">
+                  <img src="/build/svg/english.svg" alt="Idioma inglés">
+              </a> 
+          </div> 
+        </div> 
         <div class="nav-toggle-wrap  mr-8 ">
               <button  id="nav-toggle" class="nav-toggle">  
                   <div  class="nav-toggle-icons" >
@@ -49,9 +61,23 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
           <li><a class="anchor descarga mark"   href="/presentacion/" itemprop="url"  itemprop="name"  >Presentación</a></li>
         
           <li><a class="anchor" href="<?=theDomainUrl()?>/contacto" itemprop="url"  itemprop="name" >Contacto</a></li>
-          <li><a class="anchor idioma  maxlg:hidden" href="<?=theDomainUrl()?>/en" itemprop="url"  itemprop="name" > <img src="/build/svg/english.svg" alt="Idioma inglés"> </a></li>
+        
+          <li>
+            <div  class="language maxlg:hidden">
+              <a class="anchor idioma current-language" href="javascript:void(0);" itemprop="url">
+                  <img src="/build/svg/spanish.svg" alt="Idioma español">
+              </a> 
+              <!-- Bandera oculta (aparece al hacer clic en la actual) -->
+              <div class="dropdown-language hidden">
+                  <a class="anchor idioma language-en" href="<?=theDomainUrl()?>/en" itemprop="url">
+                      <img src="/build/svg/english.svg" alt="Idioma inglés">
+                  </a> 
+              </div> 
+            </div> 
+          </li>
 
-        </ul>
+
+                </ul>
       </nav>
     </div>
  
