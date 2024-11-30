@@ -47,7 +47,7 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
           <li><a class="anchor" href="<?=theDomainUrl()?>/#experiencia" itemprop="url"  itemprop="name" >Experiencia</a></li>
           <li><a class="anchor" href="<?=theDomainUrl()?>/promociones" itemprop="url"  itemprop="name" >Promociones</a></li>
           <li><a class="anchor" href="<?=theDomainUrl()?>/videos" itemprop="url"  itemprop="name" >Videos</a></li>
-          <li  class="item-has-submenu" ><a class="anchor <?php  if( $currentpage == '/proyectos/' ){ echo 'active'; } ?>" href="<?=theDomainUrl()?>/proyectos" itemprop="url"  itemprop="name" >Proyectos <span  class="dropdown" style="display:inline-flex;"> <img src="<?=theDomainUrl()?>/build/images/down.svg" alt="down"> </span> </a> 
+          <li  class="item-has-submenu" ><a class="anchor <?php  if( $currentpage == '/proyectos/' ){ echo 'active'; } ?>" href="#" itemprop="url"  itemprop="name" >Proyectos <span  class="dropdown" style="display:inline-flex;"> <img src="<?=theDomainUrl()?>/build/images/down.svg" alt="down"> </span> </a> 
             <ul class="submenu">
               <li><a class="anchor"  href="https://feriasdigitales.pe/" itemprop="url"  target="_blank" itemprop="name" > Video Resumen  </a></li>
               <li><a class="anchor"  href="https://feriasdigitales.pe/blog/" itemprop="url"  target="_blank" itemprop="name" >Web </a></li> 
