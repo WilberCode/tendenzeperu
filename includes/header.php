@@ -58,7 +58,7 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
 
 
          <!--  <li><a class="anchor" href="#contacto" itemprop="url"  itemprop="name" >Contacto</a></li>  -->
-          <li><a class="anchor descarga mark"   href="/presentacion/" itemprop="url"  itemprop="name"  >Presentación</a></li>
+          <!-- <li><a class="anchor descarga mark"   href="/presentacion/" itemprop="url"  itemprop="name"  >Presentación</a></li> -->
         
           <li><a class="anchor" href="<?=theDomainUrl()?>/contacto" itemprop="url"  itemprop="name" >Contacto</a></li>
         

@@ -53,7 +53,7 @@ $isHome = !($currentpage == $homepage or $currentpage == 'index.php');
               <li><a class="anchor"  href="https://www.instagram.com/feriasdigitales/" itemprop="url"  target="_blank" itemprop="name" >Instagram </a></li> 
             </ul>
           </li> 
-          <li><a class="anchor descarga mark"   href="/presentacion/" itemprop="url"  itemprop="name"  >Presentation</a></li> 
+          <!-- <li><a class="anchor descarga mark"   href="/presentacion/" itemprop="url"  itemprop="name"  >Presentation</a></li>  -->
           <li><a class="anchor" href="<?=theDomainUrl()?>/en/contact" itemprop="url"  itemprop="name" >Contact</a></li> 
  
           <li>
