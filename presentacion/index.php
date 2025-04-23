@@ -1,5 +1,9 @@
 <?php include '../includes/config.php';?>
-
+<?php
+// Redirige a la página de inicio
+header("Location: /");
+exit;
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
