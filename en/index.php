@@ -150,7 +150,7 @@
                 </h2>
             </div>
             <div class="md:w-[60%] bg-primary-500 flex items-center">
-            <video id="publicidad" autoplay controls class="w-full h-full" data-next="https://tendenzeperu.com/videos/video/Tendenze/publicidad3.mp4">
+            <video id="publicidad"  controls class="w-full h-full" data-next="https://tendenzeperu.com/videos/video/Tendenze/publicidad3.mp4">
                <source src="https://tendenzeperu.com/videos/video/Tendenze/general3.mp4" type="video/mp4">
            </video>
            
@@ -166,7 +166,7 @@
                        if (nextVideoSrc) {
                            video.src = nextVideoSrc;  // Cambia el src al próximo video
                            video.load();               // Carga el nuevo video
-                           video.play();               // Reproduce el nuevo video
+                           video.pause();               // Reproduce el nuevo video
                        }
                    });
                });
