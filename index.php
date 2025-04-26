@@ -119,7 +119,7 @@
         </div>
     </section> 
     <section  class="mt-[2px] edificios-wrap " id="experiencia">
-        <video id="edificios" muted playsinline preload="none" autoplay src="https://tendenzeperu.com/videos/video/Tendenze/edificios1.mp4"  poster="build/images/poster.jpg"  class="video w-full">
+        <video id="edificios" muted playsinline preload="none" autoplay src="https://tendenzeperu.com/contenidos/video/Tendenze/edificios1.mp4"  poster="build/images/poster.jpg"  class="video w-full">
             Tu navegador no soporta la etiqueta de video.
         </video> 
     </section>  
