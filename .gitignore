@@ -6,7 +6,7 @@ webpack.mix.js
 yarn.lock
 dev/
 mix-manifest.json
-videos/video
+contenidos/video
 about copy.json 
 contacto/envioContacto.php
 en/contact/
