@@ -151,8 +151,8 @@
                 </h2>
             </div>
             <div class="md:w-[60%] bg-primary-500 flex items-center">
-            <video id="publicidad"  controls class="w-full h-full"  data-next="https://tendenzeperu.com/videos/video/Tendenze/video-general-web.mp4">
-               <source src="https://tendenzeperu.com/videos/video/Tendenze/video-general-web.mp4" type="video/mp4">
+            <video id="publicidad"  controls class="w-full h-full"  data-next="https://tendenzeperu.com/contenidos/video/Tendenze/video-general-web.mp4">
+               <source src="https://tendenzeperu.com/contenidos/video/Tendenze/video-general-web.mp4" type="video/mp4">
            </video>
            
            <script>
